@@ -1,3 +1,3 @@
 # Dashboard
 
-{% page-ref page=dashboard.md %}
+{% page-ref page="dashboard.md" %}

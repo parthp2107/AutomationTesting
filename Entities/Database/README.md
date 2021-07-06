@@ -1,3 +1,3 @@
 # Database
 
-{% page-ref page=database.md %}
+{% page-ref page="database.md" %}

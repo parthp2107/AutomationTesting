@@ -1,3 +1,3 @@
 # Collection-Descriptor
 
-{% page-ref page=collectiondescriptor.md %}
+{% page-ref page="collectiondescriptor.md" %}

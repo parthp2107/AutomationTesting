@@ -1,3 +1,3 @@
 # Entity-Usage
 
-{% page-ref page=entityusage.md %}
+{% page-ref page="entityusage.md" %}

@@ -1,3 +1,3 @@
 # Daily-Count
 
-{% page-ref page=dailycount.md %}
+{% page-ref page="dailycount.md" %}

@@ -1,3 +1,3 @@
 # Classification
 
-{% page-ref page=classification.md %}
+{% page-ref page="classification.md" %}

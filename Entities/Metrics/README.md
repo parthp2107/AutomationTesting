@@ -1,3 +1,3 @@
 # Metrics
 
-{% page-ref page=metrics.md %}
+{% page-ref page="metrics.md" %}

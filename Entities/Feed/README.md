@@ -1,3 +1,3 @@
 # Feed
 
-{% page-ref page=thread.md %}
+{% page-ref page="thread.md" %}

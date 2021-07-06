@@ -1,3 +1,3 @@
 # User
 
-{% page-ref page=user.md %}
+{% page-ref page="user.md" %}

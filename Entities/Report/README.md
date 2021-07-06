@@ -1,3 +1,3 @@
 # Report
 
-{% page-ref page=report.md %}
+{% page-ref page="report.md" %}

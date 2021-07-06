@@ -1,3 +1,3 @@
 # Team
 
-{% page-ref page=team.md %}
+{% page-ref page="team.md" %}

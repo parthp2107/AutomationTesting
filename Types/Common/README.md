@@ -1,3 +1,3 @@
 # Common
 
-{% page-ref page=common.md %}
+{% page-ref page="common.md" %}

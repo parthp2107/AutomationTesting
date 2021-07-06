@@ -1,3 +1,3 @@
 # Category-Usage
 
-{% page-ref page=categoryusage.md %}
+{% page-ref page="categoryusage.md" %}

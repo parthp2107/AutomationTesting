@@ -1,3 +1,3 @@
 # Table
 
-{% page-ref page=table.md %}
+{% page-ref page="table.md" %}

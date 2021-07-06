@@ -1,3 +1,3 @@
 # Pipeline
 
-{% page-ref page=pipeline.md %}
+{% page-ref page="pipeline.md" %}

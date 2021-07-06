@@ -1,3 +1,3 @@
 # Bots
 
-{% page-ref page=bots.md %}
+{% page-ref page="bots.md" %}
