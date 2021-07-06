@@ -1,15 +1,15 @@
 # Types
 
-{% page-ref page="category-usage" %}
+{% page-ref page="Category-Usage/" %}
 
-{% page-ref page="classification" %}
+{% page-ref page="Classification/" %}
 
-{% page-ref page="collection-descriptor" %}
+{% page-ref page="Collection-Descriptor/" %}
 
-{% page-ref page="common" %}
+{% page-ref page="Common/" %}
 
-{% page-ref page="daily-count" %}
+{% page-ref page="Daily-count/" %}
 
-{% page-ref page="entity-usage" %}
+{% page-ref page="Entity-Usage/" %}
 
-{% page-ref page="jdbc-connection" %}
+{% page-ref page="Jdbc-Connection/" %}
