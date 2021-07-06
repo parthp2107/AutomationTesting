@@ -8,7 +8,7 @@ Bot entity to capture the details of a bot
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                  |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [bots.json](../out/entity/bots.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [bots.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json "open original schema") |
 
 ## Bot entity Type
 
@@ -18,11 +18,11 @@ Bot entity to capture the details of a bot
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                        |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string` | Optional | cannot be null | [Bot entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")              |
+| [id](#id)                   | `string` | Optional | cannot be null | [Bot entity](../../Types/Common/../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")              |
 | [name](#name)               | `string` | Optional | cannot be null | [Bot entity](bots-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")               |
 | [displayName](#displayname) | `string` | Optional | cannot be null | [Bot entity](bots-properties-displayname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName") |
 | [description](#description) | `string` | Optional | cannot be null | [Bot entity](bots-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description") |
-| [href](#href)               | `string` | Optional | cannot be null | [Bot entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")            |
+| [href](#href)               | `string` | Optional | cannot be null | [Bot entity](../../Types/Common/../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")            |
 
 ## id
 
@@ -36,7 +36,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Bot entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")
+*   defined in: [Bot entity](../../Types/Common/../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")
 
 ### id Type
 
@@ -120,7 +120,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Bot entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")
+*   defined in: [Bot entity](../../Types/Common/../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")
 
 ### href Type
 

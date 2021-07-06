@@ -8,7 +8,7 @@ Type used for capturing usage details of an entity class
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [categoryUsage.json](../out/type/categoryUsage.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [categoryUsage.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json "open original schema") |
 
 ## Usage details for an entity class Type
 
@@ -47,7 +47,7 @@ List usage details per day
 
 *   is required
 
-*   Type: `object[]` ([Details](common-definitions-usagedetails.md))
+*   Type: `object[]` ([Details](../../Types/Common/common-definitions-usagedetails.md))
 
 *   cannot be null
 
@@ -55,4 +55,4 @@ List usage details per day
 
 ### usage Type
 
-`object[]` ([Details](common-definitions-usagedetails.md))
+`object[]` ([Details](../../Types/Common/common-definitions-usagedetails.md))

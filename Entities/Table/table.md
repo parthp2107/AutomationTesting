@@ -8,7 +8,7 @@ Schema corresponding to a table that belongs to a database
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json](../out/entity/data/table.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
 ## Table entity Type
 
@@ -18,18 +18,18 @@ Schema corresponding to a table that belongs to a database
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")                             |
+| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")                             |
 | [name](#name)                             | `string` | Required | cannot be null | [Table entity](table-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name")                             |
 | [description](#description)               | `string` | Optional | cannot be null | [Table entity](table-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")                           |
+| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")                           |
 | [tableType](#tabletype)                   | `string` | Optional | cannot be null | [Table entity](table-properties-tabletype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType")                   |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Table entity](table-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName") |
 | [columns](#columns)                       | `array`  | Required | cannot be null | [Table entity](table-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns")                       |
 | [tableConstraints](#tableconstraints)     | `array`  | Optional | cannot be null | [Table entity](table-properties-tableconstraints.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints")     |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Table entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")           |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")               |
-| [followers](#followers)                   | `array`  | Optional | cannot be null | [Table entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")       |
-| [database](#database)                     | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")            |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")           |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")               |
+| [followers](#followers)                   | `array`  | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")       |
+| [database](#database)                     | `object` | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")            |
 | [tags](#tags)                             | `array`  | Optional | cannot be null | [Table entity](table-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags")                             |
 | [joins](#joins)                           | `object` | Optional | cannot be null | [Table entity](table-definitions-tablejoins.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/joins")                     |
 | [sampleData](#sampledata)                 | `object` | Optional | cannot be null | [Table entity](table-definitions-tabledata.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/sampleData")                 |
@@ -46,7 +46,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")
+*   defined in: [Table entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")
 
 ### id Type
 
@@ -120,7 +120,7 @@ Link to this table resource
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")
+*   defined in: [Table entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")
 
 ### href Type
 
@@ -224,15 +224,15 @@ Latest usage information for this table
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-usagedetails.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-usagedetails.md))
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")
+*   defined in: [Table entity](../../Types/Common/common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")
 
 ### usageSummary Type
 
-`object` ([Details](common-definitions-usagedetails.md))
+`object` ([Details](../../Types/Common/common-definitions-usagedetails.md))
 
 ## owner
 
@@ -244,15 +244,15 @@ Owner of this table
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-entityreference.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")
+*   defined in: [Table entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")
 
 ### owner Type
 
-`object` ([Details](common-definitions-entityreference.md))
+`object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## followers
 
@@ -262,15 +262,15 @@ Followers of this table
 
 *   is optional
 
-*   Type: `object[]` ([Details](common-definitions-entityreference.md))
+*   Type: `object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")
+*   defined in: [Table entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")
 
 ### followers Type
 
-`object[]` ([Details](common-definitions-entityreference.md))
+`object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## database
 
@@ -282,15 +282,15 @@ Reference to Database that contains this table
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-entityreference.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")
+*   defined in: [Table entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")
 
 ### database Type
 
-`object` ([Details](common-definitions-entityreference.md))
+`object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## tags
 
@@ -769,7 +769,7 @@ Reference this group by using
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
 | :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [startDate](#startdate)     | `string`  | Optional | cannot be null | [Table entity](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")                               |
+| [startDate](#startdate)     | `string`  | Optional | cannot be null | [Table entity](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")                               |
 | [dayCount](#daycount)       | `integer` | Optional | cannot be null | [Table entity](table-definitions-tablejoins-properties-daycount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/dayCount")       |
 | [columnJoins](#columnjoins) | `array`   | Optional | cannot be null | [Table entity](table-definitions-tablejoins-properties-columnjoins.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins") |
 
@@ -785,7 +785,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")
+*   defined in: [Table entity](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")
 
 #### startDate Type
 

@@ -8,7 +8,7 @@ Entity that represents a feed
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                           |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [thread.json](../out/entity/feed/thread.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [thread.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json "open original schema") |
 
 ## Feed entity Type
 
@@ -18,10 +18,10 @@ Entity that represents a feed
 
 | Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                    |
 | :-------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)             | `string`      | Required | cannot be null | [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")                  |
-| [href](#href)         | `string`      | Optional | cannot be null | [Feed entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")                |
+| [id](#id)             | `string`      | Required | cannot be null | [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")                  |
+| [href](#href)         | `string`      | Optional | cannot be null | [Feed entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")                |
 | [threadTs](#threadts) | Not specified | Optional | cannot be null | [Feed entity](thread-properties-threadts.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/threadTs")         |
-| [toEntity](#toentity) | `object`      | Required | cannot be null | [Feed entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity") |
+| [toEntity](#toentity) | `object`      | Required | cannot be null | [Feed entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity") |
 | [posts](#posts)       | `array`       | Required | cannot be null | [Feed entity](thread-properties-posts.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts")               |
 
 ## id
@@ -36,7 +36,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")
+*   defined in: [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")
 
 ### id Type
 
@@ -60,7 +60,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Feed entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")
+*   defined in: [Feed entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")
 
 ### href Type
 
@@ -102,15 +102,15 @@ Entity for which this thread is created
 
 *   is required
 
-*   Type: `object` ([Details](common-definitions-entityreference.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Feed entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity")
+*   defined in: [Feed entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity")
 
 ### toEntity Type
 
-`object` ([Details](common-definitions-entityreference.md))
+`object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## posts
 
@@ -144,7 +144,7 @@ Reference this group by using
 | :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [message](#message) | `string` | Required | cannot be null | [Feed entity](thread-definitions-post-properties-message.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
 | [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](thread-definitions-post-properties-postts.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
-| [from](#from)       | `string` | Required | cannot be null | [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
+| [from](#from)       | `string` | Required | cannot be null | [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
 
 ### message
 
@@ -198,7 +198,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")
+*   defined in: [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")
 
 #### from Type
 

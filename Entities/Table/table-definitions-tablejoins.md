@@ -8,7 +8,7 @@ Details of other tables this table is frequently joined with
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                          |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [table.json*](../out/entity/data/table.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
 ## joins Type
 
@@ -18,7 +18,7 @@ Details of other tables this table is frequently joined with
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
 | :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [startDate](#startdate)     | `string`  | Optional | cannot be null | [Table entity](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")                               |
+| [startDate](#startdate)     | `string`  | Optional | cannot be null | [Table entity](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")                               |
 | [dayCount](#daycount)       | `integer` | Optional | cannot be null | [Table entity](table-definitions-tablejoins-properties-daycount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/dayCount")       |
 | [columnJoins](#columnjoins) | `array`   | Optional | cannot be null | [Table entity](table-definitions-tablejoins-properties-columnjoins.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins") |
 
@@ -34,7 +34,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")
+*   defined in: [Table entity](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")
 
 ### startDate Type
 

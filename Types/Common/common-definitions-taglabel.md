@@ -8,7 +8,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                          |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json*](../out/entity/data/table.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
 ## items Type
 
@@ -21,7 +21,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 | [tagFQN](#tagfqn)       | `string` | Optional | cannot be null | [Common types](common-definitions-taglabel-properties-tagfqn.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")       |
 | [labelType](#labeltype) | `string` | Optional | cannot be null | [Common types](common-definitions-taglabel-properties-labeltype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType") |
 | [state](#state)         | `string` | Optional | cannot be null | [Common types](common-definitions-taglabel-properties-state.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")         |
-| [href](#href)           | `string` | Optional | cannot be null | [Common types](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")                               |
+| [href](#href)           | `string` | Optional | cannot be null | [Common types](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")                               |
 
 ## tagFQN
 
@@ -131,7 +131,7 @@ Link to the tag resource
 
 *   cannot be null
 
-*   defined in: [Common types](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")
+*   defined in: [Common types](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")
 
 ### href Type
 

@@ -8,7 +8,7 @@ Team entity
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [team.json](../out/entity/teams/team.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [team.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json "open original schema") |
 
 ## Team entity Type
 
@@ -18,15 +18,15 @@ Team entity
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
 | :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string`  | Required | cannot be null | [Team entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")                   |
+| [id](#id)                   | `string`  | Required | cannot be null | [Team entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")                   |
 | [name](#name)               | `string`  | Required | cannot be null | [Team entity](team-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name")                    |
 | [displayName](#displayname) | `string`  | Optional | cannot be null | [Team entity](team-properties-displayname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName")      |
 | [description](#description) | `string`  | Optional | cannot be null | [Team entity](team-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description")      |
-| [href](#href)               | `string`  | Required | cannot be null | [Team entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")                 |
-| [profile](#profile)         | `object`  | Optional | cannot be null | [Team entity](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")           |
+| [href](#href)               | `string`  | Required | cannot be null | [Team entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")                 |
+| [profile](#profile)         | `object`  | Optional | cannot be null | [Team entity](../../Types/Common/common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")           |
 | [deleted](#deleted)         | `boolean` | Optional | cannot be null | [Team entity](team-properties-deleted.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted")              |
-| [users](#users)             | `array`   | Optional | cannot be null | [Team entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users") |
-| [owns](#owns)               | `array`   | Optional | cannot be null | [Team entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")  |
+| [users](#users)             | `array`   | Optional | cannot be null | [Team entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users") |
+| [owns](#owns)               | `array`   | Optional | cannot be null | [Team entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")  |
 
 ## id
 
@@ -40,7 +40,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Team entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")
+*   defined in: [Team entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")
 
 ### id Type
 
@@ -124,7 +124,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Team entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")
+*   defined in: [Team entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")
 
 ### href Type
 
@@ -144,15 +144,15 @@ Team profile information
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-profile.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-profile.md))
 
 *   cannot be null
 
-*   defined in: [Team entity](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")
+*   defined in: [Team entity](../../Types/Common/common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")
 
 ### profile Type
 
-`object` ([Details](common-definitions-profile.md))
+`object` ([Details](../../Types/Common/common-definitions-profile.md))
 
 ## deleted
 
@@ -180,15 +180,15 @@ Users that are part of the team
 
 *   is optional
 
-*   Type: `object[]` ([Details](common-definitions-entityreference.md))
+*   Type: `object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Team entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users")
+*   defined in: [Team entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users")
 
 ### users Type
 
-`object[]` ([Details](common-definitions-entityreference.md))
+`object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## owns
 
@@ -198,12 +198,12 @@ Entities owned by the team
 
 *   is optional
 
-*   Type: `object[]` ([Details](common-definitions-entityreference.md))
+*   Type: `object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Team entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")
+*   defined in: [Team entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")
 
 ### owns Type
 
-`object[]` ([Details](common-definitions-entityreference.md))
+`object[]` ([Details](../../Types/Common/common-definitions-entityreference.md))

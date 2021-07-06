@@ -8,7 +8,7 @@ Entity that represents a Report
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                           |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [report.json](../out/entity/data/report.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [report.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json "open original schema") |
 
 ## Report entity Type
 
@@ -18,14 +18,14 @@ Entity that represents a Report
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Required | cannot be null | [Report entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")                              |
+| [id](#id)                                 | `string` | Required | cannot be null | [Report entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")                              |
 | [name](#name)                             | `string` | Required | cannot be null | [Report entity](report-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name")                             |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Report entity](report-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName") |
 | [description](#description)               | `string` | Optional | cannot be null | [Report entity](report-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Report entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")                            |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Report entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")                |
-| [service](#service)                       | `object` | Required | cannot be null | [Report entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")              |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Report entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")            |
+| [href](#href)                             | `string` | Optional | cannot be null | [Report entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")                            |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Report entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")                |
+| [service](#service)                       | `object` | Required | cannot be null | [Report entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")              |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Report entity](../../Types/Common/common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")            |
 
 ## id
 
@@ -39,7 +39,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Report entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")
+*   defined in: [Report entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")
 
 ### id Type
 
@@ -129,7 +129,7 @@ Link to the resource corresponding to this report
 
 *   cannot be null
 
-*   defined in: [Report entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")
+*   defined in: [Report entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")
 
 ### href Type
 
@@ -149,15 +149,15 @@ Owner of this pipeline
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-entityreference.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Report entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")
+*   defined in: [Report entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")
 
 ### owner Type
 
-`object` ([Details](common-definitions-entityreference.md))
+`object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## service
 
@@ -169,15 +169,15 @@ Link to service where this report is hosted in
 
 *   is required
 
-*   Type: `object` ([Details](common-definitions-entityreference.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 *   cannot be null
 
-*   defined in: [Report entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")
+*   defined in: [Report entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")
 
 ### service Type
 
-`object` ([Details](common-definitions-entityreference.md))
+`object` ([Details](../../Types/Common/common-definitions-entityreference.md))
 
 ## usageSummary
 
@@ -189,12 +189,12 @@ Latest usage information for this database
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-usagedetails.md))
+*   Type: `object` ([Details](../../Types/Common/common-definitions-usagedetails.md))
 
 *   cannot be null
 
-*   defined in: [Report entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")
+*   defined in: [Report entity](../../Types/Common/common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")
 
 ### usageSummary Type
 
-`object` ([Details](common-definitions-usagedetails.md))
+`object` ([Details](../../Types/Common/common-definitions-usagedetails.md))

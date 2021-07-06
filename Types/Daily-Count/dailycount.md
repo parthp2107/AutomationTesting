@@ -8,7 +8,7 @@ Type used for capturing and reporting daily count of some measurement, such as u
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dailyCount.json](../out/type/dailyCount.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dailyCount.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json "open original schema") |
 
 ## Daily count of some measurement Type
 
@@ -19,7 +19,7 @@ Type used for capturing and reporting daily count of some measurement, such as u
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                           |
 | :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [count](#count) | `integer` | Required | cannot be null | [Daily count of some measurement](dailycount-properties-count.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/count") |
-| [date](#date)   | `string`  | Required | cannot be null | [Daily count of some measurement](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")      |
+| [date](#date)   | `string`  | Required | cannot be null | [Daily count of some measurement](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")      |
 
 ## count
 
@@ -55,7 +55,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 
 *   cannot be null
 
-*   defined in: [Daily count of some measurement](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")
+*   defined in: [Daily count of some measurement](../Common/common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")
 
 ### date Type
 

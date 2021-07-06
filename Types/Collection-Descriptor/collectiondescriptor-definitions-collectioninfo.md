@@ -8,7 +8,7 @@ Collection Info
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                 |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [collectionDescriptor.json*](../out/type/collectionDescriptor.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [collectionDescriptor.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json "open original schema") |
 
 ## collection Type
 
@@ -21,7 +21,7 @@ Collection Info
 | [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](collectiondescriptor-definitions-collectioninfo-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
 | [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](collectiondescriptor-definitions-collectioninfo-properties-documentation.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
 | [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](collectiondescriptor-definitions-collectioninfo-properties-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
-| [images](#images)               | `object` | Optional | cannot be null | [Schema for collection descriptor](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")                                                    |
+| [images](#images)               | `object` | Optional | cannot be null | [Schema for collection descriptor](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")                                                    |
 
 ## name
 
@@ -91,12 +91,12 @@ URL of the API endpoint where given collections are available
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-imagelist.md))
+*   Type: `object` ([Details](../Common/common-definitions-imagelist.md))
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")
+*   defined in: [Schema for collection descriptor](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")
 
 ### images Type
 
-`object` ([Details](common-definitions-imagelist.md))
+`object` ([Details](../Common/common-definitions-imagelist.md))

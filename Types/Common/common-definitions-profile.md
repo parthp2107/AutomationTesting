@@ -10,18 +10,18 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [user.json*](../out/entity/teams/user.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [user.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json "open original schema") |
 
 ## profile Type
 
-`object` ([Details](common-definitions-profile.md))
+`object` ([Details](../../Types/Common/common-definitions-profile.md))
 
 # profile Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [email](#email)   | `string` | Optional | cannot be null | [Common types](common-definitions-profile-properties-email.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/email") |
-| [images](#images) | `object` | Optional | cannot be null | [Common types](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")               |
+| [images](#images) | `object` | Optional | cannot be null | [Common types](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")               |
 
 ## email
 
@@ -55,12 +55,12 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-imagelist.md))
+*   Type: `object` ([Details](../Common/common-definitions-imagelist.md))
 
 *   cannot be null
 
-*   defined in: [Common types](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
+*   defined in: [Common types](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
 
 ### images Type
 
-`object` ([Details](common-definitions-imagelist.md))
+`object` ([Details](../Common/common-definitions-imagelist.md))

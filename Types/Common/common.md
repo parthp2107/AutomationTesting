@@ -8,7 +8,7 @@ Common reusable types
 
 | Abstract               | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                    |
 | :--------------------- | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------ |
-| Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json](../out/type/common.json "open original schema") |
+| Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
 
 ## Common types Type
 
@@ -491,7 +491,7 @@ Reference this group by using
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [email](#email)   | `string` | Optional | cannot be null | [Common types](common-definitions-profile-properties-email.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/email") |
-| [images](#images) | `object` | Optional | cannot be null | [Common types](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")               |
+| [images](#images) | `object` | Optional | cannot be null | [Common types](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")               |
 
 ### email
 
@@ -525,15 +525,15 @@ Reference this group by using
 
 *   is optional
 
-*   Type: `object` ([Details](common-definitions-imagelist.md))
+*   Type: `object` ([Details](../Common/common-definitions-imagelist.md))
 
 *   cannot be null
 
-*   defined in: [Common types](common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
+*   defined in: [Common types](../Common/common-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
 
 #### images Type
 
-`object` ([Details](common-definitions-imagelist.md))
+`object` ([Details](../Common/common-definitions-imagelist.md))
 
 ## Definitions group imageList
 
