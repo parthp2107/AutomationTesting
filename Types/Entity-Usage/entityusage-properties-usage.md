@@ -1,4 +1,4 @@
-# Untitled array in Usage details of an entity Schema
+# Entityusage-properties-usage
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#/properties/usage

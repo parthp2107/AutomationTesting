@@ -1,4 +1,4 @@
-# Untitled object in Feed entity Schema
+# Thread-Definitions-Post
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts/items
@@ -20,7 +20,7 @@ Post within a feed
 | :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [message](#message) | `string` | Required | cannot be null | [Feed entity](thread-definitions-post-properties-message.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
 | [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](thread-definitions-post-properties-postts.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
-| [from](#from)       | `string` | Required | cannot be null | [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
+| [from](#from)       | `string` | Required | cannot be null | [Feed entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
 
 ## message
 
@@ -74,7 +74,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Feed entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")
+*   defined in: [Feed entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")
 
 ### from Type
 

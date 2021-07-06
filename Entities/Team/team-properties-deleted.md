@@ -1,4 +1,4 @@
-# Untitled boolean in Team entity Schema
+# Team-properties-deleted
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted

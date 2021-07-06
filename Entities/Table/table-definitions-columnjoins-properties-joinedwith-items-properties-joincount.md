@@ -1,4 +1,4 @@
-# Untitled integer in Table entity Schema
+# Table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount

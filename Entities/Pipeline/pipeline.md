@@ -18,11 +18,11 @@ Entity that represents a Pipeline
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Required | cannot be null | [Pipeline entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")                                |
+| [id](#id)                                 | `string` | Required | cannot be null | [Pipeline entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")                                |
 | [name](#name)                             | `string` | Required | cannot be null | [Pipeline entity](pipeline-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")                             |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Pipeline entity](pipeline-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName") |
 | [description](#description)               | `string` | Optional | cannot be null | [Pipeline entity](pipeline-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Pipeline entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")                              |
+| [href](#href)                             | `string` | Optional | cannot be null | [Pipeline entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")                              |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Pipeline entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/owner")                  |
 | [service](#service)                       | `object` | Required | cannot be null | [Pipeline entity](../../Types/Common/common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/service")                |
 
@@ -38,7 +38,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Pipeline entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")
+*   defined in: [Pipeline entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")
 
 ### id Type
 
@@ -128,7 +128,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Pipeline entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")
+*   defined in: [Pipeline entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")
 
 ### href Type
 

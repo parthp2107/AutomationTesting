@@ -18,13 +18,14 @@ User entity that is part of an organization
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                      |
 | :-------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                   | `string`  | Required | cannot be null | [User entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")                     |
+| [id](#id)                   | `string`  | Required | cannot be null | [User entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")                     |
 | [name](#name)               | `string`  | Required | cannot be null | [User entity](user-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name")                      |
 | [displayName](#displayname) | `string`  | Optional | cannot be null | [User entity](user-properties-displayname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName")        |
-| [href](#href)               | `string`  | Required | cannot be null | [User entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")                   |
+| [href](#href)               | `string`  | Required | cannot be null | [User entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")                   |
 | [timezone](#timezone)       | `string`  | Optional | cannot be null | [User entity](user-properties-timezone.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone")              |
 | [deactivated](#deactivated) | `boolean` | Optional | cannot be null | [User entity](user-properties-deactivated.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated")        |
 | [isBot](#isbot)             | `boolean` | Optional | cannot be null | [User entity](user-properties-isbot.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot")                    |
+| [isAdmin](#isadmin)         | `boolean` | Optional | cannot be null | [User entity](user-properties-isadmin.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin")                |
 | [profile](#profile)         | `object`  | Optional | cannot be null | [User entity](../../Types/Common/common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")             |
 | [teams](#teams)             | `array`   | Optional | cannot be null | [User entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/teams")   |
 | [owns](#owns)               | `array`   | Optional | cannot be null | [User entity](../../Types/Common/common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/owns")    |
@@ -42,7 +43,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [User entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")
+*   defined in: [User entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")
 
 ### id Type
 
@@ -108,7 +109,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [User entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")
+*   defined in: [User entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")
 
 ### href Type
 
@@ -173,6 +174,24 @@ Timezone of the user
 *   defined in: [User entity](user-properties-isbot.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot")
 
 ### isBot Type
+
+`boolean`
+
+## isAdmin
+
+When true indicates user is an adiministrator for the sytem with superuser privileges
+
+`isAdmin`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [User entity](user-properties-isadmin.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin")
+
+### isAdmin Type
 
 `boolean`
 

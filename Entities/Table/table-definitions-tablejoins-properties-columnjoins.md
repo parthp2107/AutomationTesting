@@ -1,4 +1,4 @@
-# Untitled array in Table entity Schema
+# Table-definitions-tablejoins-properties-columnjoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins

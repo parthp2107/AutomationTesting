@@ -1,4 +1,4 @@
-# Untitled array in Types related to tag category Schema
+# Tagcategory-definitions-tag-properties-children
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children

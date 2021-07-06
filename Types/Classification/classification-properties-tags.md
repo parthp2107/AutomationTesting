@@ -1,4 +1,4 @@
-# Untitled array in Data classification related types Schema
+# Classification-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags

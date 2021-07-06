@@ -1,4 +1,4 @@
-# Untitled string in Schema for collection descriptor Schema
+# Collectiondescriptor-definitions-collectioninfo-properties-documentation
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation

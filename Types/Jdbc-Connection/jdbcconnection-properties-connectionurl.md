@@ -1,4 +1,4 @@
-# Untitled string in JDBC connection Schema
+# Jdbcconnection-properties-connectionurl
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl

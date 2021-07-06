@@ -1,4 +1,4 @@
-# Untitled string in User entity Schema
+# User-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName

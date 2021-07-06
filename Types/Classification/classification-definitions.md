@@ -1,4 +1,4 @@
-# Untitled undefined type in Data classification related types Schema
+# Classification-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions

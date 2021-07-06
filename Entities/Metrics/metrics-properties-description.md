@@ -1,4 +1,4 @@
-# Untitled string in Metrics entity Schema
+# Metrics-Properties-Description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description

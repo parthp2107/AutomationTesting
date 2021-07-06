@@ -1,4 +1,4 @@
-# Untitled object in Table entity Schema
+# Table-definitions-tableconstraint
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints/items

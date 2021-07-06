@@ -1,4 +1,4 @@
-# Untitled object in Database service entity Schema
+# Common-definitions-schedule
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule

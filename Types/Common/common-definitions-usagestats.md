@@ -1,4 +1,4 @@
-# Untitled object in Common types Schema
+# Common-definitions-usagestats
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats

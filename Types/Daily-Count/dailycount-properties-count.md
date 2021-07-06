@@ -1,4 +1,4 @@
-# Untitled integer in Daily count of some measurement Schema
+# Dailycount-properties-count
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/count

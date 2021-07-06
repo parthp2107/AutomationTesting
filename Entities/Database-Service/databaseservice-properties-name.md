@@ -1,4 +1,4 @@
-# Untitled string in Database service entity Schema
+# Databaseservice-Properties-Name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name

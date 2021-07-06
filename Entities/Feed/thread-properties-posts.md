@@ -1,4 +1,4 @@
-# Untitled array in Feed entity Schema
+# Thread-Properties-Posts
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts

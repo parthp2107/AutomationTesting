@@ -18,10 +18,10 @@ Schema corresponding to a table that belongs to a database
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")                             |
+| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")                             |
 | [name](#name)                             | `string` | Required | cannot be null | [Table entity](table-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name")                             |
 | [description](#description)               | `string` | Optional | cannot be null | [Table entity](table-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")                           |
+| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")                           |
 | [tableType](#tabletype)                   | `string` | Optional | cannot be null | [Table entity](table-properties-tabletype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType")                   |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Table entity](table-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName") |
 | [columns](#columns)                       | `array`  | Required | cannot be null | [Table entity](table-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns")                       |
@@ -46,7 +46,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Table entity](../../Types/Common/../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")
+*   defined in: [Table entity](../../Types/Common/common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")
 
 ### id Type
 
@@ -120,7 +120,7 @@ Link to this table resource
 
 *   cannot be null
 
-*   defined in: [Table entity](../../Types/Common/../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")
+*   defined in: [Table entity](../../Types/Common/common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")
 
 ### href Type
 

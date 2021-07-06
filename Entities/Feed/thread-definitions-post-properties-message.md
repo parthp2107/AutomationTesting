@@ -1,4 +1,4 @@
-# Untitled string in Feed entity Schema
+# Thread-Definitions-Post-Properties-Message
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message

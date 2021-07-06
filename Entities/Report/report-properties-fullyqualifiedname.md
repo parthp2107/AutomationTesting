@@ -1,4 +1,4 @@
-# Untitled string in Report entity Schema
+# Report-Properties-Fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName

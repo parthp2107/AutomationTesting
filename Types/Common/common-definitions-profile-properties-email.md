@@ -1,4 +1,4 @@
-# Untitled string in Common types Schema
+# Common-definitions-profile-properties-email
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/email

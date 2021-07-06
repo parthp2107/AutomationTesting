@@ -1,4 +1,4 @@
-# Untitled string in Database entity Schema
+# Database-Definitions-Databasename
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/definitions/databaseName

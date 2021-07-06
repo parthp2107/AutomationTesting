@@ -1,4 +1,4 @@
-# Untitled undefined type in Feed entity Schema
+# Thread-Properties-Threads.md
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/threadTs

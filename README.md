@@ -34,7 +34,7 @@
 
 *   [Types related to tag category](Entities/Tag-Category/tagcategory.md "Types related to tag category") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json`
 
-*   [Usage details for an entity class](Types/Category-Usage/categoryusage.md "Type used for capturing usage details of an entity class") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json`
+*   [Usage details for an entity class](Types/Category-Usage/categoryusage.md "Type used for capturing usage details of an entity class") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json`
 
 *   [Usage details of an entity](Types/Entity-Usage/entityusage.md "Type used for capturing usage details of an entity") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json`
 

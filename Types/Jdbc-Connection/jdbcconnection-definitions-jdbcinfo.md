@@ -1,4 +1,4 @@
-# Untitled object in Database service entity Schema
+# Jdbcconnection-definitions-jdbcinfo
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc

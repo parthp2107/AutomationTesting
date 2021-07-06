@@ -1,4 +1,4 @@
-# Untitled object in Data classification related types Schema
+# Classification-definitions-personaldata
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags/items

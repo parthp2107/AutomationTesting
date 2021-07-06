@@ -1,4 +1,4 @@
-# Untitled string in Bot entity Schema
+# Bots-Properties-Description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description

@@ -1,4 +1,4 @@
-# Untitled string in Common types Schema
+# Common-definitions-taglabel-properties-state
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state

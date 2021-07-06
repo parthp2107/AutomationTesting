@@ -1,4 +1,4 @@
-# Untitled string in Table entity Schema
+# Table-Definitions-Columndatatype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnDataType
