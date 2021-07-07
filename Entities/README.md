@@ -1,26 +1,25 @@
 # Entities
 
-{% page-ref page="Bots/" %}
+{% page-ref page=bots.md/ %}
 
-{% page-ref page="Dashboard/" %}
+{% page-ref page=dashboard.md/ %}
 
-{% page-ref page="Database/" %}
+{% page-ref page=database.md/ %}
 
-{% page-ref page="Database-Service/" %}
+{% page-ref page=databaseservice.md/ %}
 
-{% page-ref page="Feed/" %}
+{% page-ref page=thread.md/ %}
 
-{% page-ref page="Metrics/" %}
+{% page-ref page=metrics.md/ %}
 
-{% page-ref page="Pipeline/" %}
+{% page-ref page=pipeline.md/ %}
 
-{% page-ref page="Report/" %}
+{% page-ref page=report.md/ %}
 
-{% page-ref page="Table/" %}
+{% page-ref page=table.md/ %}
 
-{% page-ref page="Tag-Category/" %}
+{% page-ref page=tagcategory.md/ %}
 
-{% page-ref page="Team/" %}
+{% page-ref page=team.md/ %}
 
-{% page-ref page="User/" %}
-
+{% page-ref page=user.md/ %}
