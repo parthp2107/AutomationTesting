@@ -18,11 +18,11 @@ Bot entity to capture the details of a bot
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                        |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string` | Optional | cannot be null | [Common Type](../../Types/Common/common.md#Common-definitions-uuid)              |
+| [id](#id)                   | `string` | Optional | cannot be null | [Common Type](../Types/common.md#common-definitions-uuid)              |
 | [name](#name)               | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")               |
 | [displayName](#displayname) | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName") |
 | [description](#description) | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description") |
-| [href](#href)               | `string` | Optional | cannot be null | [Common Type](../../Types/Common/common.md#Common-definitions-href)            |
+| [href](#href)               | `string` | Optional | cannot be null | [Common Type](../Types/common.md#common-definitions-href)            |
 
 ## id
 
@@ -36,7 +36,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common Type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common Type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -120,7 +120,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common Type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common Type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -129,7 +129,7 @@ Link to the resource corresponding to this entity
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# Bots-Properties-Description
+# bots-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description
@@ -144,7 +144,7 @@ Description of entity instance.
 ## description Type
 
 `string`
-# Bots-Properties-Displayname
+# bots-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName
@@ -159,7 +159,7 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
-# Bots-Properties-Name
+# bots-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name

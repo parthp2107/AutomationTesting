@@ -18,14 +18,14 @@ Entity that represents a Dashboard
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                           |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Required | cannot be null | [Common Type](../../Types/Common/common.md#Common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/uuid")                                 |
+| [id](#id)                                 | `string` | Required | cannot be null | [Common Type](../Types/common.md#common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/uuid")                                 |
 | [name](#name)                             | `string` | Required | cannot be null | [Dashboard entity](#Dashboard-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/name")                             |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Dashboard entity](#Dashboard-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/fullyQualifiedName") |
 | [description](#description)               | `string` | Optional | cannot be null | [Dashboard entity](#Dashboard-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Common Type](../../Types/Common/common.md#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/href")                               |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)                   |
-| [service](#service)                       | `object` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)                 |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-usagedetails)               |
+| [href](#href)                             | `string` | Optional | cannot be null | [Common Type](../Types/common.md#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/href")                               |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                   |
+| [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                 |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-usagedetails)               |
 
 ## id
 
@@ -39,7 +39,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common Type](../../Types/Common/common.md#Common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/uuid")
+*   defined in: [Common Type](../Types/common.md#common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/uuid")
 
 ### id Type
 
@@ -129,7 +129,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common Type](../../Types/Common/common.md#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/href")
+*   defined in: [Common Type](../Types/common.md#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/href")
 
 ### href Type
 
@@ -153,7 +153,7 @@ Owner of this dashboard
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### owner Type
 
@@ -173,7 +173,7 @@ Link to service where this dashboard is hosted in
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### service Type
 
@@ -193,12 +193,12 @@ Latest usage information for this database
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-usagedetails)
+*   defined in: [Common type](../Types/common.md#common-definitions-usagedetails)
 
 ### usageSummary Type
 
 `object` ([Details](common-definitions-usagedetails.md))
-# Dashboard-Properties-Description
+# dashboard-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/description
@@ -213,7 +213,7 @@ Description of dashboard, what it is and how to use it.
 ## description Type
 
 `string`
-# Dashboard-Properties-Fullyqualifiedname
+# dashboard-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/fullyQualifiedName
@@ -234,7 +234,7 @@ Unique name that identifies a dashboard in the format 'ServiceName.DashboardName
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Dashboard-Properties-Name
+# dashboard-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/name

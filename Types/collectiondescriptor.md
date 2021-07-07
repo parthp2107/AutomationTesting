@@ -53,7 +53,7 @@ Reference this group by using
 | [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
 | [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
 | [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
-| [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/Common/common.md#Common-definitions-imagelist)                                                    |
+| [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-imagelist)                                                    |
 
 ### name
 
@@ -127,12 +127,12 @@ URL of the API endpoint where given collections are available
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Common/common.md#Common-definitions-imagelist)
+*   defined in: [Common type](../Types/common.md#common-definitions-imagelist)
 
 #### images Type
 
 `object` ([Details](common-definitions-imagelist.md))
-# Collectiondescriptor-definitions
+# collectiondescriptor-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions
@@ -147,7 +147,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# Collectiondescriptor-definitions-collectioninfo
+# collectiondescriptor-definitions-collectioninfo
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection
@@ -170,7 +170,7 @@ Collection Info
 | [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
 | [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
 | [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
-| [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/Common/common.md#Common-definitions-imagelist)                                                    |
+| [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-imagelist)                                                    |
 
 ## name
 
@@ -244,12 +244,12 @@ URL of the API endpoint where given collections are available
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Common/common.md#Common-definitions-imagelist)
+*   defined in: [Common type](../Types/common.md#common-definitions-imagelist)
 
 ### images Type
 
 `object` ([Details](common-definitions-imagelist.md))
-# Collectiondescriptor-definitions-collectioninfo-properties-documentation
+# collectiondescriptor-definitions-collectioninfo-properties-documentation
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation
@@ -264,7 +264,7 @@ Description of collection
 ## documentation Type
 
 `string`
-# Collectiondescriptor-definitions-collectioninfo-properties-href
+# collectiondescriptor-definitions-collectioninfo-properties-href
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href
@@ -283,7 +283,7 @@ URL of the API endpoint where given collections are available
 ## href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# Collectiondescriptor-definitions-collectioninfo-properties-name
+# collectiondescriptor-definitions-collectioninfo-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name

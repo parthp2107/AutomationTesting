@@ -18,10 +18,10 @@ Entity that represents a feed
 
 | Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                    |
 | :-------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)             | `string`      | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-uuid)                  |
-| [href](#href)         | `string`      | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-href)                |
+| [id](#id)             | `string`      | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                  |
+| [href](#href)         | `string`      | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                |
 | [threadTs](#threadts) | Not specified | Optional | cannot be null | [Feed entity](#Thread-Properties-Threads "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/threadTs")         |
-| [toEntity](#toentity) | `object`      | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference) |
+| [toEntity](#toentity) | `object`      | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference) |
 | [posts](#posts)       | `array`       | Required | cannot be null | [Feed entity](#Thread-Properties-Posts "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts")               |
 
 ## id
@@ -36,7 +36,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -60,7 +60,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -106,7 +106,7 @@ Entity for which this thread is created
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### toEntity Type
 
@@ -207,7 +207,7 @@ Unique id used to identify an entity
 #### from Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
-# Thread-Definitions
+# thread-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions
@@ -222,7 +222,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# Thread-Definitions-Post
+# thread-definitions-post
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts/items
@@ -307,7 +307,7 @@ Unique id used to identify an entity
 ### from Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
-# Thread-Definitions-Post-Properties-Message
+# thread-definitions-post-properties-message
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message
@@ -322,7 +322,7 @@ Message in the post
 ## message Type
 
 `string`
-# Thread-Definitions-Post-Properties-Posts
+# thread-definitions-post-properties-posts
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs
@@ -341,7 +341,7 @@ Timestamp of the post
 ## postTs Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# Thread-Properties-Posts
+# thread-properties-posts
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts
@@ -356,7 +356,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## posts Type
 
 `object[]` ([Details](thread-definitions-post.md))
-# Thread-Properties-Threads.md
+# thread-properties-threads.md
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/threadTs

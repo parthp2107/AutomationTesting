@@ -56,7 +56,7 @@ List usage details per day
 ### usage Type
 
 `object[]` ([Details](common-definitions-usagedetails.md))
-# Categoryusage-properties-entity
+# categoryusage-properties-entity
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/entity
@@ -71,7 +71,7 @@ Name of the entity class for which usage is returned
 ## entity Type
 
 `string`
-# Categoryusage-properties-usage
+# categoryusage-properties-usage
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/usage

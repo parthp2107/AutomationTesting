@@ -18,14 +18,14 @@ Entity that represents a Metrics
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                     |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-uuid)                               |
+| [id](#id)                                 | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                               |
 | [name](#name)                             | `string` | Required | cannot be null | [Metrics entity](#Metrics-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name")                             |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Metrics entity](#Metrics-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName") |
 | [description](#description)               | `string` | Optional | cannot be null | [Metrics entity](#Metrics-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-href)                             |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)                 |
-| [service](#service)                       | `object` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)               |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-usagedetails)             |
+| [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                             |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                 |
+| [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)               |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-usagedetails)             |
 
 ## id
 
@@ -39,7 +39,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -129,7 +129,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -153,7 +153,7 @@ Owner of this metrics
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### owner Type
 
@@ -173,7 +173,7 @@ Link to service where this metrics is hosted in
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### service Type
 
@@ -193,12 +193,12 @@ Latest usage information for this database
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-usagedetails)
+*   defined in: [Common type](../Types/common.md#common-definitions-usagedetails)
 
 ### usageSummary Type
 
 `object` ([Details](common-definitions-usagedetails.md))
-# Metrics-Properties-Description
+# metrics-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description
@@ -213,7 +213,7 @@ Description of metrics instance. What is has and how to use it
 ## description Type
 
 `string`
-# Metrics-Properties-Fullyqualifiedname
+# metrics-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName
@@ -234,7 +234,7 @@ Unique name that identifies a metric in the format 'ServiceName.MetricName'
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Metrics-Properties-Name
+# metrics-properties-Name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name

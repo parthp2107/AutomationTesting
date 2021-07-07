@@ -18,13 +18,13 @@ Entity that represents a Pipeline
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-uuid)                                |
+| [id](#id)                                 | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                                |
 | [name](#name)                             | `string` | Required | cannot be null | [Pipeline entity](#Pipeline-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")                             |
 | [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Pipeline entity](#Pipeline-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName") |
 | [description](#description)               | `string` | Optional | cannot be null | [Pipeline entity](#Pipeline-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-href)                              |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)                  |
-| [service](#service)                       | `object` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreference)                |
+| [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                              |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                  |
+| [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                |
 
 ## id
 
@@ -38,7 +38,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -128,7 +128,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -152,7 +152,7 @@ Owner of this pipeline
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### owner Type
 
@@ -172,12 +172,12 @@ Link to service where this pipeline is hosted in
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### service Type
 
 `object` ([Details](common-definitions-entityreference.md))
-# Pipeline-Properties-Description
+# pipeline-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description
@@ -192,7 +192,7 @@ Description of this pipeline.
 ## description Type
 
 `string`
-# Pipeline-Properties-Fullyqualifiedname
+# pipeline-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName
@@ -213,7 +213,7 @@ Unique name that identifies a pipeline in the format 'ServiceName.PipelineName'
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Pipeline-Properties-Name
+# pipeline-properties-Name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name

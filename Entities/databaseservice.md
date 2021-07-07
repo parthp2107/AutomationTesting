@@ -18,13 +18,13 @@ Database service entity that reference services such as MySQL, BigQuery, Redshif
 
 | Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                    |
 | :-------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                               | `string` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-uuid)                         |
+| [id](#id)                               | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                         |
 | [name](#name)                           | `string` | Required | cannot be null | [Database service entity](#Databaseservice-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name")               |
 | [serviceType](#servicetype)             | `string` | Required | cannot be null | [Database service entity](#Databaseservice-Properties-Servicetype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType") |
 | [description](#description)             | `string` | Optional | cannot be null | [Database service entity](#Databaseservice-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description") |
-| [href](#href)                           | `string` | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-href)                       |
-| [jdbc](#jdbc)                           | `object` | Required | cannot be null | [Common type](../../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)           |
-| [ingestionSchedule](#ingestionschedule) | `object` | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-schedule)      |
+| [href](#href)                           | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-href)                       |
+| [jdbc](#jdbc)                           | `object` | Required | cannot be null | [Common type](../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)           |
+| [ingestionSchedule](#ingestionschedule) | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-schedule)      |
 
 ## id
 
@@ -38,7 +38,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -136,7 +136,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -160,7 +160,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)
+*   defined in: [Common type](../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)
 
 ### jdbc Type
 
@@ -178,7 +178,7 @@ Schedule for running metadata ingestion jobs
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-schedule)
+*   defined in: [Common type](../Types/common.md#common-definitions-schedule)
 
 ### ingestionSchedule Type
 
@@ -196,7 +196,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# Databaseservice-Definitions
+# databaseservice-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions
@@ -211,7 +211,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# Databaseservice-Definitions-Databaseservicetype
+# databaseservice-definitions-databaseservicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions/databaseServiceType
@@ -240,7 +240,7 @@ Type of database service such as MySQL, BigQuery, Snowflake, Redshift, Postgres.
 | `"POSTGRES"`  |             |
 | `"MSSQL"`     |             |
 | `"HIVE"`      |             |
-# Databaseservice-Properties-Description
+# databaseservice-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description
@@ -255,7 +255,7 @@ Description of database service instance.
 ## description Type
 
 `string`
-# Databaseservice-Properties-Name
+# databaseservice-properties-Name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name
@@ -276,7 +276,7 @@ Name that identifies the this entity instance uniquely. Same as id if when name 
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Databaseservice-Properties-Servicetype
+# databaseservice-properties-Servicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType

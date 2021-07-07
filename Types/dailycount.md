@@ -19,7 +19,7 @@ Type used for capturing and reporting daily count of some measurement, such as u
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                           |
 | :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [count](#count) | `integer` | Required | cannot be null | [Daily count of some measurement](#Dailycount-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/count") |
-| [date](#date)   | `string`  | Required | cannot be null | [Common type](../Types/Common/common.md#Common-definitions-date)      |
+| [date](#date)   | `string`  | Required | cannot be null | [Common type](../Types/common.md#common-definitions-date)      |
 
 ## count
 
@@ -55,7 +55,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Common/common.md#Common-definitions-date)
+*   defined in: [Common type](../Types/common.md#common-definitions-date)
 
 ### date Type
 
@@ -64,7 +64,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ### date Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# Dailycount-properties-count
+# dailycount-properties-count
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/count

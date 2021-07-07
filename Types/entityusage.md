@@ -18,7 +18,7 @@ Type used for capturing usage details of an entity
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :---------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [entity](#entity) | `object` | Required | cannot be null | [Common type](../Types/Common/common.md#Common-definitions-entityreference) |
+| [entity](#entity) | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference) |
 | [usage](#usage)   | `array`  | Required | cannot be null | [Usage details of an entity](#Entityusage-properties-usage "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#/properties/usage")        |
 
 ## entity
@@ -35,7 +35,7 @@ Entity for which usage is returned
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Common/common.md#Common-definitions-entityreference)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### entity Type
 
@@ -58,7 +58,7 @@ List usage details per day
 ### usage Type
 
 `object[]` ([Details](common-definitions-usagedetails.md))
-# Entityusage-properties-usage
+# entityusage-properties-usage
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#/properties/usage

@@ -145,7 +145,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
-# Classification-definitions
+# classification-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions
@@ -160,7 +160,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# Classification-definitions-personaldata
+# classification-definitions-personaldata
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags/items
@@ -275,7 +275,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
-# Classification-definitions-personaldata-properties-documentation
+# classification-definitions-personaldata-properties-documentation
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation
@@ -290,7 +290,7 @@ Name of PII tag
 ## documentation Type
 
 `string`
-# Classification-definitions-personaldata-properties-name
+# classification-definitions-personaldata-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name
@@ -305,7 +305,7 @@ Name of PII tag
 ## name Type
 
 `string`
-# Classification-definitions-personaldata-properties-personaldatatype
+# classification-definitions-personaldata-properties-personaldatatype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType
@@ -329,7 +329,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
-# Classification-definitions-personaldata-properties-piitype
+# classification-definitions-personaldata-properties-piitype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType
@@ -354,7 +354,7 @@ PII tag type
 | `"NONE"`          |             |
 | `"NON_SENSITIVE"` |             |
 | `"SENSITIVE"`     |             |
-# Classification-properties-tags
+# classification-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags

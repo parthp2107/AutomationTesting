@@ -18,19 +18,19 @@ User entity that is part of an organization
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                      |
 | :-------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                   | `string`  | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-uuid)                     |
+| [id](#id)                   | `string`  | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                     |
 | [name](#name)               | `string`  | Required | cannot be null | [User entity](#User-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name")                      |
 | [displayName](#displayname) | `string`  | Optional | cannot be null | [User entity](#User-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName")        |
 | [email](#email)             | `string`  | Required | cannot be null | [User entity](common-definitions-email.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/email")                 |
-| [href](#href)               | `string`  | Required | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-href)                   |
+| [href](#href)               | `string`  | Required | cannot be null | [Common type](../Types/common.md#common-definitions-href)                   |
 | [timezone](#timezone)       | `string`  | Optional | cannot be null | [User entity](#User-properties-timezone "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone")              |
 | [deactivated](#deactivated) | `boolean` | Optional | cannot be null | [User entity](#User-properties-deactivated "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated")        |
 | [isBot](#isbot)             | `boolean` | Optional | cannot be null | [User entity](#User-properties-isbot "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot")                    |
 | [isAdmin](#isadmin)         | `boolean` | Optional | cannot be null | [User entity](#User-properties-isAdmin "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin")                |
-| [profile](#profile)         | `object`  | Optional | cannot be null | [Common type](../../Types/Common/common-definitions-profile.md#Common-definitions-profile)             |
-| [teams](#teams)             | `array`   | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist)   |
-| [owns](#owns)               | `array`   | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist)    |
-| [follows](#follows)         | `array`   | Optional | cannot be null | [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist) |
+| [profile](#profile)         | `object`  | Optional | cannot be null | [Common type](../Types/Common/common-definitions-profile.md#Common-definitions-profile)             |
+| [teams](#teams)             | `array`   | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist)   |
+| [owns](#owns)               | `array`   | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist)    |
+| [follows](#follows)         | `array`   | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist) |
 
 ## id
 
@@ -44,7 +44,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-uuid)
+*   defined in: [Common type](../Types/common.md#common-definitions-uuid)
 
 ### id Type
 
@@ -144,7 +144,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-href)
+*   defined in: [Common type](../Types/common.md#common-definitions-href)
 
 ### href Type
 
@@ -244,7 +244,7 @@ When true indicates user is an adiministrator for the sytem with superuser privi
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common-definitions-profile.md#Common-definitions-profile)
+*   defined in: [Common type](../Types/Common/common-definitions-profile.md#Common-definitions-profile)
 
 ### profile Type
 
@@ -262,7 +262,7 @@ Teams that the user belongs to
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreferencelist)
 
 ### teams Type
 
@@ -280,7 +280,7 @@ Entities owned by the user
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreferencelist)
 
 ### owns Type
 
@@ -298,7 +298,7 @@ Entities followed by the user
 
 *   cannot be null
 
-*   defined in: [Common type](../../Types/Common/common.md#Common-definitions-entityreferencelist)
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreferencelist)
 
 ### follows Type
 
@@ -316,7 +316,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# User-properties-deactivated
+# user-properties-deactivated
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated
@@ -331,7 +331,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## deactivated Type
 
 `boolean`
-# User-properties-displayname
+# user-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName
@@ -346,7 +346,7 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
-# User-properties-isAdmin
+# user-properties-isAdmin
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin
@@ -361,7 +361,7 @@ When true indicates user is an adiministrator for the sytem with superuser privi
 ## isAdmin Type
 
 `boolean`
-# User-properties-isbot
+# user-properties-isbot
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot
@@ -376,7 +376,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## isBot Type
 
 `boolean`
-# User-properties-name
+# user-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name
@@ -397,7 +397,7 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# User-properties-timezone
+# user-properties-timezone
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone
