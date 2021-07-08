@@ -25,25 +25,25 @@ sed -i '43,306d' $path
 
 echo "----------------------Changing paths----------------------"
 path=docs/*/*.md
-sed -i -e 's#.. /out/entity/bots.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
--e 's#../out/entity/data/dashboard.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#g' \
--e 's#../out/entity/data/database.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#g' \
--e 's#../out/entity/services/databaseService.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#g' \
--e 's#../out/entity/feed/thread.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#g' \
--e 's#../out/entity/data/metrics.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#g' \
--e 's#../out/entity/data/pipeline.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#g' \
--e 's#../out/entity/data/report.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#g' \
--e 's#../out/entity/data/table.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#g' \
--e 's#../out/entity/tags/tagCategory.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#g' \
--e 's#../out/entity/teams/team.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#g' \
--e 's#../out/entity/teams/user.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#g' \
--e 's#../out/type/categoryUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#g' \
--e 's#../out/type/classification.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#g' \
--e 's#../out/type/collectionDescriptor.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#g' \
--e 's#../out/type/common.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#g' \
--e 's#../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
--e 's#../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
--e 's#../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' $path
+sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
+-e 's#../../out/entity/data/dashboard.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#g' \
+-e 's#../../out/entity/data/database.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#g' \
+-e 's#../../out/entity/services/databaseService.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#g' \
+-e 's#../../out/entity/feed/thread.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#g' \
+-e 's#../../out/entity/data/metrics.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#g' \
+-e 's#../../out/entity/data/pipeline.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#g' \
+-e 's#../../out/entity/data/report.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#g' \
+-e 's#../../out/entity/data/table.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#g' \
+-e 's#../../out/entity/tags/tagCategory.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#g' \
+-e 's#../../out/entity/teams/team.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#g' \
+-e 's#../../out/entity/teams/user.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#g' \
+-e 's#../../out/type/categoryUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#g' \
+-e 's#../../out/type/classification.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#g' \
+-e 's#../../out/type/collectionDescriptor.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#g' \
+-e 's#../../out/type/common.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#g' \
+-e 's#../../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
+-e 's#../../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
+-e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' $path
 
 echo "----------------------Changing bots paths----------------------"
 path=docs/Entities/bots.md

@@ -17,9 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: create dir
-        run: mkdir demoFolder
-
       - name: Install schema2md
         run: sudo npm install -g @adobe/jsonschema2md
 
