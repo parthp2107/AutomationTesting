@@ -58,7 +58,7 @@
           "description": "Tags under this tag group or empty for tags at leaf level",
           "type" : "array",
           "items" : {
-            "$ref": "#/properties/children"
+            "$ref": "#"
           }
         }
       },
