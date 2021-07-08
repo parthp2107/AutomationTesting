@@ -1,0 +1,27 @@
+name: Schema Script
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install schema2md
+        run: npm install -g @adobe/jsonschema2md
+
+      - name: Json schema to markdown
+        run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
+
+      - name: Running header script
+        run: /scripts/header.sh
+
+      - name: Generating directories
+        run: /scripts/demo.sh
+
+      - name: Configuring paths
+        run: /scripts/editContent.sh

@@ -1,0 +1,43 @@
+{
+  "$id": "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pipeline entity",
+  "description": "Entity that represents a Pipeline",
+  "type": "object",
+
+  "properties" : {
+    "id": {
+      "description": "Unique identifier that identifies a pipeline instance",
+      "$ref": "../../type/common.json#/definitions/uuid"
+    },
+    "name": {
+      "description": "Name that identifies the this pipeline instance uniquely.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "fullyQualifiedName": {
+      "description": "Unique name that identifies a pipeline in the format 'ServiceName.PipelineName'",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "description": {
+      "description": "Description of this pipeline.",
+      "type": "string"
+    },
+    "href": {
+      "description": "Link to the resource corresponding to this entity",
+      "$ref": "../../type/common.json#/definitions/href"
+    },
+    "owner": {
+      "description": "Owner of this pipeline",
+      "$ref": "../../type/common.json#/definitions/entityReference"
+    },
+    "service" : {
+      "description": "Link to service where this pipeline is hosted in",
+      "$ref" : "../../type/common.json#/definitions/entityReference"
+    }
+  },
+  "required": ["id", "name", "service"]
+}
