@@ -25,7 +25,7 @@ sed -i '43,306d' $path
 
 echo "----------------------Changing paths----------------------"
 path=docs/*/*.md
-sed -i -e 's#..../out/entity/bots.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
+sed -i -e 's#.. /out/entity/bots.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
 -e 's#../out/entity/data/dashboard.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#g' \
 -e 's#../out/entity/data/database.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#g' \
 -e 's#../out/entity/services/databaseService.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#g' \
