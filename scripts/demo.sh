@@ -1,3 +1,14 @@
+filename="docs"
+path=$filename
+if [ ! -d $path ]
+then
+
+    mkdir $path
+    echo "File not found. File created $filename"
+else
+    echo "File exists $filename"
+fi
+
 filename="Entities"
 path=docs/$filename
 if [ ! -d $path ]
