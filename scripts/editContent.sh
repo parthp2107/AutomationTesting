@@ -1,4 +1,3 @@
-#!/bin/bash
 echo "----------------------Changing file content----------------------"
 
 path=docs/README.md
