@@ -25,9 +25,6 @@ jobs:
 
       - name: Running header script
         run: scripts/header.sh
-        with:
-          name: surefire-reports
-          path: docs/SchemaMarkdown
 
       - name: Generating directories
         run: scripts/demo.sh
