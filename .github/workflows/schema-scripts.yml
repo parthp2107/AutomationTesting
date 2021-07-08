@@ -18,10 +18,10 @@ jobs:
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
 
       - name: Running header script
-        run: /scripts/header.sh
+        run: scripts/header.sh
 
       - name: Generating directories
-        run: /scripts/demo.sh
+        run: scripts/demo.sh
 
       - name: Configuring paths
-        run: /scripts/editContent.sh
+        run: scripts/editContent.sh
