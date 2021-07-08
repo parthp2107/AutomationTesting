@@ -58,7 +58,7 @@
           "description": "Tags under this tag group or empty for tags at leaf level",
           "type" : "array",
           "items" : {
-            "$ref": "https://github.com/StreamlineData/catalog/blob/723672fc00e72ae4b261f6604db77ef0124d1bbc/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#L23"
+            "$ref": "#/definitions/tag"
           }
         }
       },
