@@ -1,7 +1,7 @@
 name: Schemas Script
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   test:
@@ -21,7 +21,7 @@ jobs:
         run: mkdir demoFolder
 
       - name: Install schema2md
-        run:  sudo npm install -g @adobe/jsonschema2md
+        run: sudo npm install -g @adobe/jsonschema2md
 
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
@@ -34,3 +34,10 @@ jobs:
 
       - name: Configuring paths
         run: sh ./scripts/editContent.sh
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
