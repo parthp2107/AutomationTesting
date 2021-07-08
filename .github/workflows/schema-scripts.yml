@@ -26,27 +26,11 @@ jobs:
       - name: Running header script
         run: scripts/header.sh
         with:
-          GITHUB_TOKEN: ${{ secrets.TESTING }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          name: surefire-reports
+          path: docs/SchemaMarkdown
 
       - name: Generating directories
         run: scripts/demo.sh
-        with:
-          GITHUB_TOKEN: ${{ secrets.TESTING }}
-          BRANCH: gh-pages
-          FOLDER: dist
 
       - name: Configuring paths
         run: scripts/editContent.sh
-        with:
-          GITHUB_TOKEN: ${{ secrets.TESTING }}
-          BRANCH: gh-pages
-          FOLDER: dist
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.TESTING }}
-          BRANCH: gh-pages
-          FOLDER: dist
