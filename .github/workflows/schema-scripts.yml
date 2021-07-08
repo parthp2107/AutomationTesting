@@ -18,28 +18,35 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install schema2md
-        run: sudo npm install -g @adobe/jsonschema2md
+        run: npm install @adobe/jsonschema2md
 
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: surefire-reports
-          path: docs/SchemaMarkdown
-
       - name: Running header script
         run: scripts/header.sh
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
         with:
-          name: surefire-reports
-          path: docs/SchemaMarkdown
+          GITHUB_TOKEN: ${{ secrets.TESTING }}
+          BRANCH: gh-pages
+          FOLDER: dist
 
       - name: Generating directories
         run: scripts/demo.sh
+        with:
+          GITHUB_TOKEN: ${{ secrets.TESTING }}
+          BRANCH: gh-pages
+          FOLDER: dist
 
       - name: Configuring paths
         run: scripts/editContent.sh
+        with:
+          GITHUB_TOKEN: ${{ secrets.TESTING }}
+          BRANCH: gh-pages
+          FOLDER: dist
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.TESTING }}
+          BRANCH: gh-pages
+          FOLDER: dist
