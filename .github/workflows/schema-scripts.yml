@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install schema2md
-        run: npm install @adobe/jsonschema2md
+        run:  sudo npm -g install @adobe/jsonschema2md
 
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
