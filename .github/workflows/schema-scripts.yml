@@ -1,4 +1,4 @@
-name: Schema Script
+name: Schemas Script
 on:
   push:
     branches: [master]
