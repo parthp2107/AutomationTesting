@@ -24,7 +24,7 @@ jobs:
           path: docs/SchemaMarkdown
 
       - name: Running header script
-        run: ./header.sh
+        run: scripts/header.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -33,7 +33,7 @@ jobs:
           path: docs/SchemaMarkdown
 
       - name: Generating directories
-        run: ./demo.sh
+        run: scripts/demo.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -42,7 +42,7 @@ jobs:
           path: docs/SchemaMarkdown
 
       - name: Configuring paths
-        run: ./editContent.sh
+        run: scripts/editContent.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
