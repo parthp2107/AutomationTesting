@@ -1,4 +1,4 @@
-echo "----------------------Changing file content----------------------"
+echo "----------------------Changing files content----------------------"
 
 path=docs/README.md
 sed -i -e 's#./bots.md#Entities/bots.md#g' \
