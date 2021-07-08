@@ -20,10 +20,10 @@ Database service entity that reference services such as MySQL, BigQuery, Redshif
 | :-------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                               | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                         |
 | [name](#name)                           | `string` | Required | cannot be null | [Database service entity](#Databaseservice-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name")               |
-| [serviceType](#servicetype)             | `string` | Required | cannot be null | [Database service entity](#Databaseservice-Properties-Servicetype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType") |
-| [description](#description)             | `string` | Optional | cannot be null | [Database service entity](#Databaseservice-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description") |
+| [serviceType](#servicetype)             | `string` | Required | cannot be null | [Database service entity](#databaseservice-properties-servicetype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType") |
+| [description](#description)             | `string` | Optional | cannot be null | [Database service entity](#databaseservice-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description") |
 | [href](#href)                           | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-href)                       |
-| [jdbc](#jdbc)                           | `object` | Required | cannot be null | [Common type](../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)           |
+| [jdbc](#jdbc)                           | `object` | Required | cannot be null | [Common type](../Types/Jdbc-Connection/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)           |
 | [ingestionSchedule](#ingestionschedule) | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-schedule)      |
 
 ## id
@@ -84,7 +84,7 @@ Type of database service such as MySQL, BigQuery, Snowflake, Redshift, Postgres.
 
 *   cannot be null
 
-*   defined in: [Database service entity](#Databaseservice-Properties-Servicetype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType")
+*   defined in: [Database service entity](#databaseservice-properties-servicetype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType")
 
 ### serviceType Type
 
@@ -116,7 +116,7 @@ Description of database service instance.
 
 *   cannot be null
 
-*   defined in: [Database service entity](#Databaseservice-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description")
+*   defined in: [Database service entity](#databaseservice-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description")
 
 ### description Type
 
@@ -160,7 +160,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Jdbc-Connection/jdbcconnection.md#Jdbcconnection-definitions-jdbcinfo)
+*   defined in: [Common type](../Types/Jdbc-Connection/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)
 
 ### jdbc Type
 

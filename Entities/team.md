@@ -19,12 +19,12 @@ Team entity
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
 | :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [id](#id)                   | `string`  | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                   |
-| [name](#name)               | `string`  | Required | cannot be null | [Team entity](#Team-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name")                    |
-| [displayName](#displayname) | `string`  | Optional | cannot be null | [Team entity](#Team-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName")      |
-| [description](#description) | `string`  | Optional | cannot be null | [Team entity](#Team-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description")      |
+| [name](#name)               | `string`  | Required | cannot be null | [Team entity](#team-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name")                    |
+| [displayName](#displayname) | `string`  | Optional | cannot be null | [Team entity](#team-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName")      |
+| [description](#description) | `string`  | Optional | cannot be null | [Team entity](#team-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description")      |
 | [href](#href)               | `string`  | Required | cannot be null | [Common type](../Types/common.md#common-definitions-href)                 |
-| [profile](#profile)         | `object`  | Optional | cannot be null | [Common type](../Types/Common/common-definitions-profile.md#Common-definitions-profile)           |
-| [deleted](#deleted)         | `boolean` | Optional | cannot be null | [Team entity](#Team-properties-deleted "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted")              |
+| [profile](#profile)         | `object`  | Optional | cannot be null | [Common type](../Types/Common/common-definitions-profile.md#common-definitions-profile)           |
+| [deleted](#deleted)         | `boolean` | Optional | cannot be null | [Team entity](#team-properties-deleted "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted")              |
 | [users](#users)             | `array`   | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist) |
 | [owns](#owns)               | `array`   | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist)  |
 
@@ -62,7 +62,7 @@ Unique name of the team typically the team ID from the identify provider. Exampl
 
 *   cannot be null
 
-*   defined in: [Team entity](#Team-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name")
+*   defined in: [Team entity](#team-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name")
 
 ### name Type
 
@@ -86,7 +86,7 @@ Name used for display purposes. Example 'Data Science team'
 
 *   cannot be null
 
-*   defined in: [Team entity](#Team-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName")
+*   defined in: [Team entity](#team-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName")
 
 ### displayName Type
 
@@ -104,7 +104,7 @@ Description of the team
 
 *   cannot be null
 
-*   defined in: [Team entity](#Team-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description")
+*   defined in: [Team entity](#team-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description")
 
 ### description Type
 
@@ -148,7 +148,7 @@ Team profile information
 
 *   cannot be null
 
-*   defined in: [Common type](../Types/Common/common-definitions-profile.md#Common-definitions-profile)
+*   defined in: [Common type](../Types/Common/common-definitions-profile.md#common-definitions-profile)
 
 ### profile Type
 
@@ -166,7 +166,7 @@ Team profile information
 
 *   cannot be null
 
-*   defined in: [Team entity](#Team-properties-deleted "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted")
+*   defined in: [Team entity](#team-properties-deleted "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted")
 
 ### deleted Type
 

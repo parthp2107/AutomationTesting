@@ -81,8 +81,8 @@ Reference this group by using
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [start](#start) | `integer` | Optional | cannot be null | [Common types](#Common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start") |
-| [end](#end)     | `integer` | Optional | cannot be null | [Common types](#Common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")     |
+| [start](#start) | `integer` | Optional | cannot be null | [Common types](#common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start") |
+| [end](#end)     | `integer` | Optional | cannot be null | [Common types](#common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")     |
 
 ### start
 
@@ -96,7 +96,7 @@ Start unixTimeMillis
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start")
+*   defined in: [Common types](#common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start")
 
 #### start Type
 
@@ -114,7 +114,7 @@ End unixTimeMillis
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")
+*   defined in: [Common types](#common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")
 
 #### end Type
 
@@ -163,8 +163,8 @@ Reference this group by using
 
 | Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                              |
 | :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [startDate](#startdate)             | `string` | Optional | cannot be null | [Common types](#Common-definitions-datetime "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate")             |
-| [repeatFrequency](#repeatfrequency) | `string` | Optional | cannot be null | [Common types](#Common-definitions-duration "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency") |
+| [startDate](#startdate)             | `string` | Optional | cannot be null | [Common types](#common-definitions-datetime "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate")             |
+| [repeatFrequency](#repeatfrequency) | `string` | Optional | cannot be null | [Common types](#common-definitions-duration "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency") |
 
 ### startDate
 
@@ -178,7 +178,7 @@ Date and time in ISO 8601 format. Example - '2018-11-13T20:20:39+00:00'
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-datetime "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate")
+*   defined in: [Common types](#common-definitions-datetime "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate")
 
 #### startDate Type
 
@@ -202,7 +202,7 @@ Duration in ISO 8601 format in UTC time. Example - 'P23DT23H'
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-duration "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency")
+*   defined in: [Common types](#common-definitions-duration "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency")
 
 #### repeatFrequency Type
 
@@ -218,11 +218,11 @@ Reference this group by using
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string` | Required | cannot be null | [Common types](#Common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id")                   |
-| [type](#type)               | `string` | Required | cannot be null | [Common types](#Common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")               |
-| [name](#name)               | `string` | Optional | cannot be null | [Common types](#Common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")               |
-| [description](#description) | `string` | Optional | cannot be null | [Common types](#Common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description") |
-| [href](#href)               | `string` | Optional | cannot be null | [Common types](#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/href")               |
+| [id](#id)                   | `string` | Required | cannot be null | [Common types](#common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id")                   |
+| [type](#type)               | `string` | Required | cannot be null | [Common types](#common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")               |
+| [name](#name)               | `string` | Optional | cannot be null | [Common types](#common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")               |
+| [description](#description) | `string` | Optional | cannot be null | [Common types](#common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description") |
+| [href](#href)               | `string` | Optional | cannot be null | [Common types](#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/href")               |
 
 ### id
 
@@ -236,7 +236,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id")
+*   defined in: [Common types](#common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id")
 
 #### id Type
 
@@ -258,7 +258,7 @@ Entity type/class name - Examples: database, table, metrics, redshift, mysql, bi
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")
+*   defined in: [Common types](#common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")
 
 #### type Type
 
@@ -276,7 +276,7 @@ Name of the entity instance
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")
+*   defined in: [Common types](#common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")
 
 #### name Type
 
@@ -294,7 +294,7 @@ Optional description of entity
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description")
+*   defined in: [Common types](#common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description")
 
 #### description Type
 
@@ -314,7 +314,7 @@ Link to the entity resource
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/href")
+*   defined in: [Common types](#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/href")
 
 #### href Type
 
@@ -345,8 +345,8 @@ Reference this group by using
 
 | Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                |
 | :-------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [count](#count)                   | `integer` | Required | cannot be null | [Common types](#Common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")                   |
-| [percentileRank](#percentilerank) | `number`  | Optional | cannot be null | [Common types](#Common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank") |
+| [count](#count)                   | `integer` | Required | cannot be null | [Common types](#common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")                   |
+| [percentileRank](#percentilerank) | `number`  | Optional | cannot be null | [Common types](#common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank") |
 
 ### count
 
@@ -360,7 +360,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")
+*   defined in: [Common types](#common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")
 
 #### count Type
 
@@ -382,7 +382,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank")
+*   defined in: [Common types](#common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank")
 
 #### percentileRank Type
 
@@ -404,10 +404,10 @@ Reference this group by using
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                |
 | :---------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dailyStats](#dailystats)     | `object` | Required | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")             |
-| [weeklyStats](#weeklystats)   | `object` | Optional | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")            |
-| [monthlyStats](#monthlystats) | `object` | Optional | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")           |
-| [date](#date)                 | `string` | Required | cannot be null | [Common types](#Common-definitions-usagedetails-properties-date "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date") |
+| [dailyStats](#dailystats)     | `object` | Required | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")             |
+| [weeklyStats](#weeklystats)   | `object` | Optional | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")            |
+| [monthlyStats](#monthlystats) | `object` | Optional | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")           |
+| [date](#date)                 | `string` | Required | cannot be null | [Common types](#common-definitions-usagedetails-properties-date "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date") |
 
 ### dailyStats
 
@@ -419,15 +419,15 @@ Reference this group by using
 
 *   is required
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")
 
 #### dailyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ### weeklyStats
 
@@ -439,15 +439,15 @@ Reference this group by using
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")
 
 #### weeklyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ### monthlyStats
 
@@ -459,15 +459,15 @@ Reference this group by using
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")
 
 #### monthlyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ### date
 
@@ -481,7 +481,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagedetails-properties-date "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date")
+*   defined in: [Common types](#common-definitions-usagedetails-properties-date "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date")
 
 #### date Type
 
@@ -501,7 +501,7 @@ Reference this group by using
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
 | :---------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [images](#images) | `object` | Optional | cannot be null | [Common types](#Common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images") |
+| [images](#images) | `object` | Optional | cannot be null | [Common types](#common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images") |
 
 ### images
 
@@ -513,15 +513,15 @@ Reference this group by using
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-imagelist))
+*   Type: `object` ([Details](#common-definitions-imagelist))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
+*   defined in: [Common types](#common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
 
 #### images Type
 
-`object` ([Details](#Common-definitions-imagelist))
+`object` ([Details](#common-definitions-imagelist))
 
 ## Definitions group imageList
 
@@ -533,13 +533,13 @@ Reference this group by using
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [image](#image)       | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")       |
-| [image24](#image24)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")   |
-| [image32](#image32)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")   |
-| [image48](#image48)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")   |
-| [image72](#image72)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")   |
-| [image192](#image192) | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192") |
-| [image512](#image512) | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512") |
+| [image](#image)       | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")       |
+| [image24](#image24)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")   |
+| [image32](#image32)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")   |
+| [image48](#image48)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")   |
+| [image72](#image72)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")   |
+| [image192](#image192) | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192") |
+| [image512](#image512) | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512") |
 
 ### image
 
@@ -553,7 +553,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")
 
 #### image Type
 
@@ -575,7 +575,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")
 
 #### image24 Type
 
@@ -597,7 +597,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")
 
 #### image32 Type
 
@@ -619,7 +619,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")
 
 #### image48 Type
 
@@ -641,7 +641,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")
 
 #### image72 Type
 
@@ -663,7 +663,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192")
 
 #### image192 Type
 
@@ -685,7 +685,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512")
 
 #### image512 Type
 
@@ -705,10 +705,10 @@ Reference this group by using
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [tagFQN](#tagfqn)       | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")       |
-| [labelType](#labeltype) | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType") |
-| [state](#state)         | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")         |
-| [href](#href-1)         | `string` | Optional | cannot be null | [Common types](#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")           |
+| [tagFQN](#tagfqn)       | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")       |
+| [labelType](#labeltype) | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType") |
+| [state](#state)         | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")         |
+| [href](#href-1)         | `string` | Optional | cannot be null | [Common types](#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")           |
 
 ### tagFQN
 
@@ -722,7 +722,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")
+*   defined in: [Common types](#common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")
 
 #### tagFQN Type
 
@@ -744,7 +744,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType")
+*   defined in: [Common types](#common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType")
 
 #### labelType Type
 
@@ -781,7 +781,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")
+*   defined in: [Common types](#common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")
 
 #### state Type
 
@@ -818,7 +818,7 @@ Link to the tag resource
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")
+*   defined in: [Common types](#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")
 
 #### href Type
 
@@ -920,9 +920,9 @@ Reference to Database that contains this table
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [id](#id)                   | `string` | Required | cannot be null | [Common types](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id")                                            |
-| [type](#type)               | `string` | Required | cannot be null | [Common types](#Common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")               |
-| [name](#name)               | `string` | Optional | cannot be null | [Common types](#Common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")               |
-| [description](#description) | `string` | Optional | cannot be null | [Common types](#Common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description") |
+| [type](#type)               | `string` | Required | cannot be null | [Common types](#common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")               |
+| [name](#name)               | `string` | Optional | cannot be null | [Common types](#common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")               |
+| [description](#description) | `string` | Optional | cannot be null | [Common types](#common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description") |
 | [href](#href)               | `string` | Optional | cannot be null | [Common types](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/href")                                          |
 
 ## id
@@ -959,7 +959,7 @@ Entity type/class name - Examples: database, table, metrics, redshift, mysql, bi
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")
+*   defined in: [Common types](#common-definitions-entityreference-properties-type "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type")
 
 ### type Type
 
@@ -977,7 +977,7 @@ Name of the entity instance
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")
+*   defined in: [Common types](#common-definitions-entityreference-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name")
 
 ### name Type
 
@@ -995,7 +995,7 @@ Optional description of entity
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description")
+*   defined in: [Common types](#common-definitions-entityreference-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description")
 
 ### description Type
 
@@ -1121,19 +1121,19 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 ## images Type
 
-`object` ([Details](#Common-definitions-imagelist))
+`object` ([Details](#common-definitions-imagelist))
 
 # images Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [image](#image)       | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")       |
-| [image24](#image24)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")   |
-| [image32](#image32)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")   |
-| [image48](#image48)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")   |
-| [image72](#image72)   | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")   |
-| [image192](#image192) | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192") |
-| [image512](#image512) | `string` | Optional | cannot be null | [Common types](#Common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512") |
+| [image](#image)       | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")       |
+| [image24](#image24)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")   |
+| [image32](#image32)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")   |
+| [image48](#image48)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")   |
+| [image72](#image72)   | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")   |
+| [image192](#image192) | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192") |
+| [image512](#image512) | `string` | Optional | cannot be null | [Common types](#common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512") |
 
 ## image
 
@@ -1147,7 +1147,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image")
 
 ### image Type
 
@@ -1169,7 +1169,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image24 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24")
 
 ### image24 Type
 
@@ -1191,7 +1191,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image32 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32")
 
 ### image32 Type
 
@@ -1213,7 +1213,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image48 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48")
 
 ### image48 Type
 
@@ -1235,7 +1235,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image72 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72")
 
 ### image72 Type
 
@@ -1257,7 +1257,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image192 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192")
 
 ### image192 Type
 
@@ -1279,7 +1279,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512")
+*   defined in: [Common types](#common-definitions-imagelist-properties-image512 "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512")
 
 ### image512 Type
 
@@ -1443,7 +1443,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
 | :---------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [images](#images) | `object` | Optional | cannot be null | [Common types](#Common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images") |
+| [images](#images) | `object` | Optional | cannot be null | [Common types](#common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images") |
 
 ## images
 
@@ -1455,15 +1455,15 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-imagelist))
+*   Type: `object` ([Details](#common-definitions-imagelist))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
+*   defined in: [Common types](#common-definitions-imagelist "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images")
 
 ### images Type
 
-`object` ([Details](#Common-definitions-imagelist))
+`object` ([Details](#common-definitions-imagelist))
 # common-definitions-schedule
 
 ```txt
@@ -1567,9 +1567,9 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [tagFQN](#tagfqn)       | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")       |
-| [labelType](#labeltype) | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType") |
-| [state](#state)         | `string` | Optional | cannot be null | [Common types](#Common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")         |
+| [tagFQN](#tagfqn)       | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")       |
+| [labelType](#labeltype) | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType") |
+| [state](#state)         | `string` | Optional | cannot be null | [Common types](#common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")         |
 | [href](#href)           | `string` | Optional | cannot be null | [Common types](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href")                               |
 
 ## tagFQN
@@ -1584,7 +1584,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")
+*   defined in: [Common types](#common-definitions-taglabel-properties-tagfqn "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN")
 
 ### tagFQN Type
 
@@ -1606,7 +1606,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType")
+*   defined in: [Common types](#common-definitions-taglabel-properties-labeltype "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType")
 
 ### labelType Type
 
@@ -1643,7 +1643,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")
+*   defined in: [Common types](#common-definitions-taglabel-properties-state "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state")
 
 ### state Type
 
@@ -1796,8 +1796,8 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
 | :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [start](#start) | `integer` | Optional | cannot be null | [Common types](#Common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start") |
-| [end](#end)     | `integer` | Optional | cannot be null | [Common types](#Common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")     |
+| [start](#start) | `integer` | Optional | cannot be null | [Common types](#common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start") |
+| [end](#end)     | `integer` | Optional | cannot be null | [Common types](#common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")     |
 
 ## start
 
@@ -1811,7 +1811,7 @@ Start unixTimeMillis
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start")
+*   defined in: [Common types](#common-definitions-timeinterval-properties-start "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start")
 
 ### start Type
 
@@ -1829,7 +1829,7 @@ End unixTimeMillis
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")
+*   defined in: [Common types](#common-definitions-timeinterval-properties-end "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end")
 
 ### end Type
 
@@ -1907,9 +1907,9 @@ Latest usage information for this table
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                      |
 | :---------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [dailyStats](#dailystats)     | `object` | Required | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")   |
-| [weeklyStats](#weeklystats)   | `object` | Optional | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")  |
-| [monthlyStats](#monthlystats) | `object` | Optional | cannot be null | [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats") |
+| [dailyStats](#dailystats)     | `object` | Required | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")   |
+| [weeklyStats](#weeklystats)   | `object` | Optional | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")  |
+| [monthlyStats](#monthlystats) | `object` | Optional | cannot be null | [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats") |
 | [date](#date)                 | `string` | Required | cannot be null | [Common types](common-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date")               |
 
 ## dailyStats
@@ -1922,15 +1922,15 @@ Latest usage information for this table
 
 *   is required
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/dailyStats")
 
 ### dailyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ## weeklyStats
 
@@ -1942,15 +1942,15 @@ Latest usage information for this table
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/weeklyStats")
 
 ### weeklyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ## monthlyStats
 
@@ -1962,15 +1962,15 @@ Latest usage information for this table
 
 *   is optional
 
-*   Type: `object` ([Details](#Common-definitions-usagestats))
+*   Type: `object` ([Details](#common-definitions-usagestats))
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")
+*   defined in: [Common types](#common-definitions-usagestats "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats")
 
 ### monthlyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 ## date
 
@@ -2028,14 +2028,14 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 ## monthlyStats Type
 
-`object` ([Details](#Common-definitions-usagestats))
+`object` ([Details](#common-definitions-usagestats))
 
 # monthlyStats Properties
 
 | Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                |
 | :-------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [count](#count)                   | `integer` | Required | cannot be null | [Common types](#Common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")                   |
-| [percentileRank](#percentilerank) | `number`  | Optional | cannot be null | [Common types](#Common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank") |
+| [count](#count)                   | `integer` | Required | cannot be null | [Common types](#common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")                   |
+| [percentileRank](#percentilerank) | `number`  | Optional | cannot be null | [Common types](#common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank") |
 
 ## count
 
@@ -2049,7 +2049,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")
+*   defined in: [Common types](#common-definitions-usagestats-properties-count "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count")
 
 ### count Type
 
@@ -2071,7 +2071,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 *   cannot be null
 
-*   defined in: [Common types](#Common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank")
+*   defined in: [Common types](#common-definitions-usagestats-properties-percentilerank "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank")
 
 ### percentileRank Type
 

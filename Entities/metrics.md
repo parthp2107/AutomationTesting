@@ -19,9 +19,9 @@ Entity that represents a Metrics
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                     |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                                 | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                               |
-| [name](#name)                             | `string` | Required | cannot be null | [Metrics entity](#Metrics-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Metrics entity](#Metrics-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName") |
-| [description](#description)               | `string` | Optional | cannot be null | [Metrics entity](#Metrics-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description")               |
+| [name](#name)                             | `string` | Required | cannot be null | [Metrics entity](#metrics-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name")                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Metrics entity](#metrics-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName") |
+| [description](#description)               | `string` | Optional | cannot be null | [Metrics entity](#metrics-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description")               |
 | [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                             |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                 |
 | [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)               |
@@ -61,7 +61,7 @@ Name that identifies the this metrics instance uniquely.
 
 *   cannot be null
 
-*   defined in: [Metrics entity](#Metrics-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name")
+*   defined in: [Metrics entity](#metrics-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name")
 
 ### name Type
 
@@ -85,7 +85,7 @@ Unique name that identifies a metric in the format 'ServiceName.MetricName'
 
 *   cannot be null
 
-*   defined in: [Metrics entity](#Metrics-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName")
+*   defined in: [Metrics entity](#metrics-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName")
 
 ### fullyQualifiedName Type
 
@@ -109,7 +109,7 @@ Description of metrics instance. What is has and how to use it
 
 *   cannot be null
 
-*   defined in: [Metrics entity](#Metrics-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description")
+*   defined in: [Metrics entity](#metrics-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description")
 
 ### description Type
 

@@ -20,10 +20,10 @@ JDBC connection information used for connecting to a database system
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
 | :------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [driverClass](#driverclass)     | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-properties-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/driverClass")     |
-| [connectionUrl](#connectionurl) | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-properties-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl") |
-| [userName](#username)           | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-properties-username "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/userName")           |
-| [password](#password)           | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-properties-password "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/password")           |
+| [driverClass](#driverclass)     | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-properties-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/driverClass")     |
+| [connectionUrl](#connectionurl) | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-properties-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl") |
+| [userName](#username)           | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-properties-username "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/userName")           |
+| [password](#password)           | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-properties-password "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/password")           |
 
 ## driverClass
 
@@ -39,7 +39,7 @@ JDBC connection information used for connecting to a database system
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-properties-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/driverClass")
+*   defined in: [JDBC connection](#jdbcconnection-properties-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/driverClass")
 
 ### driverClass Type
 
@@ -59,7 +59,7 @@ JDBC connection information used for connecting to a database system
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-properties-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl")
+*   defined in: [JDBC connection](#jdbcconnection-properties-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl")
 
 ### connectionUrl Type
 
@@ -81,7 +81,7 @@ Login user name
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-properties-username "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/userName")
+*   defined in: [JDBC connection](#jdbcconnection-properties-username "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/userName")
 
 ### userName Type
 
@@ -99,7 +99,7 @@ Login password
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-properties-password "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/password")
+*   defined in: [JDBC connection](#jdbcconnection-properties-password "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/password")
 
 ### password Type
 
@@ -139,8 +139,8 @@ Reference this group by using
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                             |
 | :-------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [driverClass](#driverclass-1)     | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-definitions-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/driverClass")     |
-| [connectionUrl](#connectionurl-1) | `string` | Required | cannot be null | [JDBC connection](#Jdbcconnection-definitions-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/connectionUrl") |
+| [driverClass](#driverclass-1)     | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-definitions-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/driverClass")     |
+| [connectionUrl](#connectionurl-1) | `string` | Required | cannot be null | [JDBC connection](#jdbcconnection-definitions-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/connectionUrl") |
 
 ### driverClass
 
@@ -156,7 +156,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-definitions-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/driverClass")
+*   defined in: [JDBC connection](#jdbcconnection-definitions-driverclass "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/driverClass")
 
 #### driverClass Type
 
@@ -184,7 +184,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [JDBC connection](#Jdbcconnection-definitions-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/connectionUrl")
+*   defined in: [JDBC connection](#jdbcconnection-definitions-connectionurl "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/connectionUrl")
 
 #### connectionUrl Type
 

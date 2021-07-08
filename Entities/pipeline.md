@@ -19,9 +19,9 @@ Entity that represents a Pipeline
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                                 | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                                |
-| [name](#name)                             | `string` | Required | cannot be null | [Pipeline entity](#Pipeline-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Pipeline entity](#Pipeline-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName") |
-| [description](#description)               | `string` | Optional | cannot be null | [Pipeline entity](#Pipeline-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")               |
+| [name](#name)                             | `string` | Required | cannot be null | [Pipeline entity](#pipeline-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Pipeline entity](#pipeline-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName") |
+| [description](#description)               | `string` | Optional | cannot be null | [Pipeline entity](#pipeline-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")               |
 | [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                              |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                  |
 | [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                |
@@ -60,7 +60,7 @@ Name that identifies the this pipeline instance uniquely.
 
 *   cannot be null
 
-*   defined in: [Pipeline entity](#Pipeline-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")
+*   defined in: [Pipeline entity](#pipeline-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name")
 
 ### name Type
 
@@ -84,7 +84,7 @@ Unique name that identifies a pipeline in the format 'ServiceName.PipelineName'
 
 *   cannot be null
 
-*   defined in: [Pipeline entity](#Pipeline-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName")
+*   defined in: [Pipeline entity](#pipeline-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName")
 
 ### fullyQualifiedName Type
 
@@ -108,7 +108,7 @@ Description of this pipeline.
 
 *   cannot be null
 
-*   defined in: [Pipeline entity](#Pipeline-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")
+*   defined in: [Pipeline entity](#pipeline-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description")
 
 ### description Type
 

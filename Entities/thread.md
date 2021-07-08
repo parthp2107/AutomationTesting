@@ -142,8 +142,8 @@ Reference this group by using
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                            |
 | :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [message](#message) | `string` | Required | cannot be null | [Feed entity](#Thread-Definitions-Post-Properties-Message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
-| [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](#Thread-Definitions-Post-Properties-PostsaS "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
+| [message](#message) | `string` | Required | cannot be null | [Feed entity](#thread-definitions-post-properties-message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
+| [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](#thread-definitions-post-properties-postts "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
 | [from](#from)       | `string` | Required | cannot be null | [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
 
 ### message
@@ -158,7 +158,7 @@ Message in the post
 
 *   cannot be null
 
-*   defined in: [Feed entity](#Thread-Definitions-Post-Properties-Message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message")
+*   defined in: [Feed entity](#thread-definitions-post-properties-message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message")
 
 #### message Type
 
@@ -176,7 +176,7 @@ Timestamp of the post
 
 *   cannot be null
 
-*   defined in: [Feed entity](#Thread-Definitions-Post-Properties-PostsaS "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")
+*   defined in: [Feed entity](#thread-definitions-post-properties-postts "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")
 
 #### postTs Type
 
@@ -242,8 +242,8 @@ Post within a feed
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                            |
 | :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [message](#message) | `string` | Required | cannot be null | [Feed entity](#Thread-Definitions-Post-Properties-Message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
-| [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](#Thread-Definitions-Post-Properties-PostsaS "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
+| [message](#message) | `string` | Required | cannot be null | [Feed entity](#thread-definitions-post-properties-message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message") |
+| [postTs](#postts)   | `string` | Optional | cannot be null | [Feed entity](#thread-definitions-post-properties-postts "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")   |
 | [from](#from)       | `string` | Required | cannot be null | [Feed entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")                       |
 
 ## message
@@ -258,7 +258,7 @@ Message in the post
 
 *   cannot be null
 
-*   defined in: [Feed entity](#Thread-Definitions-Post-Properties-Message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message")
+*   defined in: [Feed entity](#thread-definitions-post-properties-message "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message")
 
 ### message Type
 
@@ -276,7 +276,7 @@ Timestamp of the post
 
 *   cannot be null
 
-*   defined in: [Feed entity](#Thread-Definitions-Post-Properties-PostsaS "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")
+*   defined in: [Feed entity](#thread-definitions-post-properties-postts "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs")
 
 ### postTs Type
 

@@ -18,7 +18,7 @@ Type used for capturing the details of a collection
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
 | :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [collection](#collection) | `object` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection") |
+| [collection](#collection) | `object` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection") |
 
 ## collection
 
@@ -28,15 +28,15 @@ Collection Info
 
 *   is optional
 
-*   Type: `object` ([Details](#Collectiondescriptor-definitions-collectioninfo))
+*   Type: `object` ([Details](#collectiondescriptor-definitions-collectioninfo))
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection")
 
 ### collection Type
 
-`object` ([Details](#Collectiondescriptor-definitions-collectioninfo))
+`object` ([Details](#collectiondescriptor-definitions-collectioninfo))
 
 # Schema for collection descriptor Definitions
 
@@ -50,9 +50,9 @@ Reference this group by using
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                      |
 | :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
-| [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
-| [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
+| [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
+| [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
+| [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
 | [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-imagelist)                                                    |
 
 ### name
@@ -67,7 +67,7 @@ Unique name that identifies a collection
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")
 
 #### name Type
 
@@ -85,7 +85,7 @@ Description of collection
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation")
 
 #### documentation Type
 
@@ -103,7 +103,7 @@ URL of the API endpoint where given collections are available
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")
 
 #### href Type
 
@@ -161,15 +161,15 @@ Collection Info
 
 ## collection Type
 
-`object` ([Details](#Collectiondescriptor-definitions-collectioninfo))
+`object` ([Details](#collectiondescriptor-definitions-collectioninfo))
 
 # collection Properties
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                      |
 | :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
-| [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
-| [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
+| [name](#name)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")                   |
+| [documentation](#documentation) | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation") |
+| [href](#href)                   | `string` | Optional | cannot be null | [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")                   |
 | [images](#images)               | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-imagelist)                                                    |
 
 ## name
@@ -184,7 +184,7 @@ Unique name that identifies a collection
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name")
 
 ### name Type
 
@@ -202,7 +202,7 @@ Description of collection
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-documentation "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation")
 
 ### documentation Type
 
@@ -220,7 +220,7 @@ URL of the API endpoint where given collections are available
 
 *   cannot be null
 
-*   defined in: [Schema for collection descriptor](#Collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")
+*   defined in: [Schema for collection descriptor](#collectiondescriptor-definitions-collectioninfo-properties-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href")
 
 ### href Type
 

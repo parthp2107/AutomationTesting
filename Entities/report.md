@@ -19,9 +19,9 @@ Entity that represents a Report
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                                 | `string` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                              |
-| [name](#name)                             | `string` | Required | cannot be null | [Report entity](#Report-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Report entity](#Report-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName") |
-| [description](#description)               | `string` | Optional | cannot be null | [Report entity](#Report-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description")               |
+| [name](#name)                             | `string` | Required | cannot be null | [Report entity](#report-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name")                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Report entity](#report-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName") |
+| [description](#description)               | `string` | Optional | cannot be null | [Report entity](#report-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description")               |
 | [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                            |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                |
 | [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)              |
@@ -61,7 +61,7 @@ Name that identifies the this report instance uniquely.
 
 *   cannot be null
 
-*   defined in: [Report entity](#Report-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name")
+*   defined in: [Report entity](#report-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name")
 
 ### name Type
 
@@ -85,7 +85,7 @@ Unique name that identifies a report in the format 'ServiceName.ReportName'
 
 *   cannot be null
 
-*   defined in: [Report entity](#Report-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName")
+*   defined in: [Report entity](#report-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName")
 
 ### fullyQualifiedName Type
 
@@ -109,7 +109,7 @@ Description of this report instance.
 
 *   cannot be null
 
-*   defined in: [Report entity](#Report-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description")
+*   defined in: [Report entity](#report-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description")
 
 ### description Type
 

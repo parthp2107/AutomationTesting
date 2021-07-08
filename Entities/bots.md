@@ -19,9 +19,9 @@ Bot entity to capture the details of a bot
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                        |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [id](#id)                   | `string` | Optional | cannot be null | [Common Type](../Types/common.md#common-definitions-uuid)              |
-| [name](#name)               | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")               |
-| [displayName](#displayname) | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName") |
-| [description](#description) | `string` | Optional | cannot be null | [Bot entity](#Bots-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description") |
+| [name](#name)               | `string` | Optional | cannot be null | [Bot entity](#bots-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")               |
+| [displayName](#displayname) | `string` | Optional | cannot be null | [Bot entity](#bots-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName") |
+| [description](#description) | `string` | Optional | cannot be null | [Bot entity](#bots-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description") |
 | [href](#href)               | `string` | Optional | cannot be null | [Common Type](../Types/common.md#common-definitions-href)            |
 
 ## id
@@ -58,7 +58,7 @@ Optional name that identifies this entity. Same as id if name is not available
 
 *   cannot be null
 
-*   defined in: [Bot entity](#Bots-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")
+*   defined in: [Bot entity](#bots-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name")
 
 ### name Type
 
@@ -82,7 +82,7 @@ Name used for display purposes. Example 'FirstName LastName'
 
 *   cannot be null
 
-*   defined in: [Bot entity](#Bots-Properties-Displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName")
+*   defined in: [Bot entity](#bots-properties-displayname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName")
 
 ### displayName Type
 
@@ -100,7 +100,7 @@ Description of entity instance.
 
 *   cannot be null
 
-*   defined in: [Bot entity](#Bots-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description")
+*   defined in: [Bot entity](#bots-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description")
 
 ### description Type
 

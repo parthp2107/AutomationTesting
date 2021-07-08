@@ -19,9 +19,9 @@ Entity that represents a database
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                                 | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-uuid)                                |
-| [name](#name)                             | `string` | Required | cannot be null | [Database entity](#Database-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Database entity](#Database-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName") |
-| [description](#description)               | `string` | Optional | cannot be null | [Database entity](#Database-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")               |
+| [name](#name)                             | `string` | Required | cannot be null | [Database entity](#database-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Database entity](#database-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName") |
+| [description](#description)               | `string` | Optional | cannot be null | [Database entity](#database-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")               |
 | [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                              |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                  |
 | [service](#service)                       | `object` | Required | cannot be null | [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")                |
@@ -62,7 +62,7 @@ Name that identifies the database
 
 *   cannot be null
 
-*   defined in: [Database entity](#Database-Properties-Name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")
+*   defined in: [Database entity](#database-properties-name "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")
 
 ### name Type
 
@@ -94,7 +94,7 @@ Name that uniquely identifies a database in the format 'ServiceName.DatabaseName
 
 *   cannot be null
 
-*   defined in: [Database entity](#Database-Properties-Fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName")
+*   defined in: [Database entity](#database-properties-fullyqualifiedname "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName")
 
 ### fullyQualifiedName Type
 
@@ -112,7 +112,7 @@ Description of the database instance. What it has and how to use it.
 
 *   cannot be null
 
-*   defined in: [Database entity](#Database-Properties-Description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")
+*   defined in: [Database entity](#database-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")
 
 ### description Type
 
