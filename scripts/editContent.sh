@@ -276,3 +276,5 @@ sed -i -e 's+jdbcconnection-properties-driverclass.md+#jdbcconnection-properties
 
 echo "----------------------File content changed----------------------"
 
+rm -rf docs/SchemaMarkdown
+echo "----------------------jsonschema2md files deleted----------------------"
