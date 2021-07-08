@@ -105,24 +105,24 @@ cat jdbcconnection-definitions.md jdbcconnection-definitions-connectionurl.md jd
 
 
 echo "------------------Moving files------------------"
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/README.md docs
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/bots.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dashboard.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/database.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/databaseservice.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/thread.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/metrics.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/pipeline.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/report.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/table.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagcategory.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/team.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/user.md docs/Entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/categoryusage.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/classification.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/common.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityusage.md docs/Types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/jdbcconnection.md docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/bots.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dashboard.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/database.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/databaseservice.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/thread.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/metrics.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/pipeline.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/report.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/table.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagcategory.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/team.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/user.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/categoryusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/classification.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/common.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/jdbcconnection.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Types
 echo "------------------Files moved to respective folders------------------"
