@@ -1,3 +1,4 @@
+#!/bin/bash
 path=docs/SchemaMarkdown/bots-properties-description.md
 sed -i -e '1,1s/.*/# bots-properties-description/g' $path
 
