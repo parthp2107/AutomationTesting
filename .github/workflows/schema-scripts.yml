@@ -4,15 +4,21 @@ on:
     branches: [master]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  test:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node-version:
+          - 12.x
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Install schema2md
-        run: sudo npm install -g @adobe/jsonschema2md
+        run: npm install -g @adobe/jsonschema2md
 
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
@@ -35,17 +41,5 @@ jobs:
       - name: Generating directories
         run: scripts/demo.sh
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: surefire-reports
-          path: docs/SchemaMarkdown
-
       - name: Configuring paths
         run: scripts/editContent.sh
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: surefire-reports
-          path: docs/SchemaMarkdown
