@@ -173,7 +173,7 @@ Tags under this tag group or empty for tags at leaf level
 
 *   is optional
 
-*   Type: unknown\[]
+*   Type: `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
 
 *   cannot be null
 
@@ -181,4 +181,4 @@ Tags under this tag group or empty for tags at leaf level
 
 ### children Type
 
-unknown\[]
+`object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))

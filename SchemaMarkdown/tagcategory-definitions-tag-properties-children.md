@@ -12,4 +12,4 @@ Tags under this tag group or empty for tags at leaf level
 
 ## children Type
 
-unknown\[]
+`object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
