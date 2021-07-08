@@ -105,14 +105,14 @@ cat jdbcconnection-definitions.md jdbcconnection-definitions-connectionurl.md jd
 
 
 echo "------------------Moving files------------------"
-cp docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
-cp docs/SchemaMarkdown/bots.md docs/Entities
-cp docs/SchemaMarkdown/dashboard.md docs/Entities
-cp docs/SchemaMarkdown/database.md docs/Entities
-cp docs/SchemaMarkdown/databaseservice.md docs/Entities
-cp docs/SchemaMarkdown/thread.md docs/Entities
-cp docs/SchemaMarkdown/metrics.md docs/Entities
-cp docs/SchemaMarkdown/pipeline.md docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/bots.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dashboard.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/database.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/databaseservice.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/thread.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/metrics.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/pipeline.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/report.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/table.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagcategory.md /home/runner/work/AutomationTesting/AutomationTesting/docs/Entities
