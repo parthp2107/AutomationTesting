@@ -1,3 +1,4 @@
+#!/bin/bash
 filename="Entities"
 path=docs/$filename
 if [ ! -d $path ]

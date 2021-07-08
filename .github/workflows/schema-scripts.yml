@@ -17,11 +17,35 @@ jobs:
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: surefire-reports
+          path: docs/SchemaMarkdown
+
       - name: Running header script
-        run: scripts/header.sh
+        run: ./header.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: surefire-reports
+          path: docs/SchemaMarkdown
 
       - name: Generating directories
-        run: scripts/demo.sh
+        run: ./demo.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: surefire-reports
+          path: docs/SchemaMarkdown
 
       - name: Configuring paths
-        run: scripts/editContent.sh
+        run: ./editContent.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: surefire-reports
+          path: docs/SchemaMarkdown
