@@ -18,16 +18,16 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install schema2md
-        run:  sudo npm -g install @adobe/jsonschema2md
+        run:  sudo npm install -g @adobe/jsonschema2md
 
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
 
       - name: Running header script
-        run: scripts/header.sh
+        run: sh ./scripts/header.sh
 
       - name: Generating directories
-        run: scripts/demo.sh
+        run: sh ./scripts/demo.sh
 
       - name: Configuring paths
-        run: scripts/editContent.sh
+        run: sh ./scripts/editContent.sh
