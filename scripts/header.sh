@@ -7,7 +7,7 @@ sed -i -e '1,1s/.*/# bots-properties-displayname/g' $path
 
 path=docs/SchemaMarkdown/bots-properties-name.md
 sed -i -e '1,1s/.*/# bots-properties-name/g' $path
-
+echo "-------------------------Hello_________________________"
 path=docs/SchemaMarkdown/dashboard-properties-description.md
 sed -i -e '1,1s/.*/# dashboard-properties-description/g' $path
 
