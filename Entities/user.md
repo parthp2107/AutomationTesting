@@ -1,4 +1,3 @@
-# User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json
@@ -316,7 +315,6 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# Untitled string in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions/userName
@@ -337,7 +335,6 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Untitled undefined type in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions
@@ -352,7 +349,6 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# Untitled boolean in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated
@@ -367,7 +363,6 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## deactivated Type
 
 `boolean`
-# Untitled string in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName
@@ -382,7 +377,6 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
-# Untitled boolean in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin
@@ -397,7 +391,6 @@ When true indicates user is an adiministrator for the sytem with superuser privi
 ## isAdmin Type
 
 `boolean`
-# Untitled boolean in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot
@@ -412,7 +405,6 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## isBot Type
 
 `boolean`
-# Untitled string in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name
@@ -433,7 +425,6 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# Untitled string in User entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone
