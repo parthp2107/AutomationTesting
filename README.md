@@ -1,4 +1,3 @@
-# README
 
 ## Top-level Schemas
 
@@ -40,6 +39,6 @@
 
 *   [User entity](Entities/user.md "User entity that is part of an organization") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json`
 
-## Version Note
+## Other Schemas
 
 The schemas linked above follow the JSON Schema Spec version: `http://json-schema.org/draft-07/schema#`

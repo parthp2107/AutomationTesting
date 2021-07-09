@@ -1,4 +1,3 @@
-# Database service entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json
@@ -196,7 +195,6 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# databaseservice-definitions-databaseservicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions/databaseServiceType
@@ -225,7 +223,6 @@ Type of database service such as MySQL, BigQuery, Snowflake, Redshift, Postgres.
 | `"POSTGRES"`  |             |
 | `"MSSQL"`     |             |
 | `"HIVE"`      |             |
-# databaseservice-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions
@@ -240,7 +237,6 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# databaseservice-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description
@@ -255,7 +251,6 @@ Description of database service instance.
 ## description Type
 
 `string`
-# databaseservice-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name
@@ -276,7 +271,6 @@ Name that identifies the this entity instance uniquely. Same as id if when name 
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# databaseservice-properties-Servicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType
