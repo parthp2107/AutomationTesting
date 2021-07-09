@@ -1,3 +1,4 @@
+# collectiondescriptor
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json
@@ -131,6 +132,7 @@ URL of the API endpoint where given collections are available
 #### images Type
 
 `object` ([Details](common-definitions-imagelist.md))
+# collectiondescriptor-definitions-collectioninfo-properties-documentation
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/documentation
@@ -145,6 +147,7 @@ Description of collection
 ## documentation Type
 
 `string`
+# collectiondescriptor-definitions-collectioninfo-properties-href
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/href
@@ -163,6 +166,7 @@ URL of the API endpoint where given collections are available
 ## href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# collectiondescriptor-definitions-collectioninfo-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/name
@@ -177,6 +181,7 @@ Unique name that identifies a collection
 ## name Type
 
 `string`
+# collectiondescriptor-definitions-collectioninfo
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/properties/collection
@@ -278,6 +283,7 @@ URL of the API endpoint where given collections are available
 ### images Type
 
 `object` ([Details](common-definitions-imagelist.md))
+# collectiondescriptor-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions

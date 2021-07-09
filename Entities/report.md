@@ -1,3 +1,4 @@
+# report
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json
@@ -197,6 +198,7 @@ Latest usage information for this database
 ### usageSummary Type
 
 `object` ([Details](common-definitions-usagedetails.md))
+# report-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/description
@@ -211,6 +213,7 @@ Description of this report instance.
 ## description Type
 
 `string`
+# report-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/fullyQualifiedName
@@ -231,6 +234,7 @@ Unique name that identifies a report in the format 'ServiceName.ReportName'
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
+# report-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/name

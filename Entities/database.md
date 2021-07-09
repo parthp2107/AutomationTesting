@@ -1,3 +1,4 @@
+# database
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json
@@ -231,6 +232,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
+# database-definitions-databasename
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/definitions/databaseName
@@ -259,6 +261,7 @@ Name that identifies the database
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
+# database-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/definitions
@@ -273,6 +276,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# database-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description
@@ -287,6 +291,7 @@ Description of the database instance. What it has and how to use it.
 ## description Type
 
 `string`
+# database-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName
@@ -301,6 +306,7 @@ Name that uniquely identifies a database in the format 'ServiceName.DatabaseName
 ## fullyQualifiedName Type
 
 `string`
+# database-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name

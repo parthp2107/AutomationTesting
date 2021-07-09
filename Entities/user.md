@@ -1,3 +1,4 @@
+# user
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json
@@ -315,6 +316,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
+# user-definitions-username
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions/userName
@@ -335,6 +337,7 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
+# user-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions
@@ -349,6 +352,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# user-properties-deactivated
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated
@@ -363,6 +367,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## deactivated Type
 
 `boolean`
+# user-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName
@@ -377,6 +382,7 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
+# user-properties-isadmin
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin
@@ -391,6 +397,7 @@ When true indicates user is an adiministrator for the sytem with superuser privi
 ## isAdmin Type
 
 `boolean`
+# user-properties-isbot
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot
@@ -405,6 +412,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## isBot Type
 
 `boolean`
+# user-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name
@@ -425,6 +433,7 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
+# user-properties-timezone
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone

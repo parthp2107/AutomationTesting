@@ -1,3 +1,4 @@
+# tagcategory
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json
@@ -351,6 +352,7 @@ Tags under this tag group or empty for tags at leaf level
 #### children Type
 
 `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
+# tagcategory-definitions-tag-properties-associatedtags-items
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags/items
@@ -365,6 +367,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## items Type
 
 `string`
+# tagcategory-definitions-tag-properties-associatedtags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags
@@ -379,6 +382,7 @@ Fully qualified names of tags associated with this tag
 ## associatedTags Type
 
 `string[]`
+# tagcategory-definitions-tag-properties-children
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children
@@ -393,6 +397,7 @@ Tags under this tag group or empty for tags at leaf level
 ## children Type
 
 `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
+# tagcategory-definitions-tag-properties-deprecated
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/deprecated
@@ -407,6 +412,7 @@ If the tag is deprecated
 ## deprecated Type
 
 `boolean`
+# tagcategory-definitions-tag-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/description
@@ -421,6 +427,7 @@ Unique name of the tag category
 ## description Type
 
 `string`
+# tagcategory-definitions-tag-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/fullyQualifiedName
@@ -435,6 +442,7 @@ Unique name of the tag of format Category.PrimaryTag.SecondaryTag
 ## fullyQualifiedName Type
 
 `string`
+# tagcategory-definitions-tag-properties-usagecount
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/usageCount
@@ -449,6 +457,7 @@ Count of how many times this tag and children tags are used
 ## usageCount Type
 
 `integer`
+# tagcategory-definitions-tag-properties
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties
@@ -463,6 +472,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## properties Type
 
 unknown
+# tagcategory-definitions-tag
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children/items
@@ -646,6 +656,7 @@ Tags under this tag group or empty for tags at leaf level
 ### children Type
 
 `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
+# tagcategory-definitions-tagcategorytype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tagCategoryType
@@ -669,6 +680,7 @@ Type of tag category
 | :----------------- | :---------- |
 | `"DESCRIPTIVE"`    |             |
 | `"CLASSIFICATION"` |             |
+# tagcategory-definitions-tagname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/name
@@ -689,6 +701,7 @@ Name of the tag
 **maximum length**: the maximum number of characters for this string is: `25`
 
 **minimum length**: the minimum number of characters for this string is: `2`
+# tagcategory-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions
@@ -703,6 +716,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# tagcategory-properties-categorytype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/categoryType
@@ -726,6 +740,7 @@ Type of tag category
 | :----------------- | :---------- |
 | `"DESCRIPTIVE"`    |             |
 | `"CLASSIFICATION"` |             |
+# tagcategory-properties-children
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children
@@ -740,6 +755,7 @@ Tags under this category
 ## children Type
 
 unknown\[]
+# tagcategory-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/description
@@ -754,6 +770,7 @@ Description of the tag category
 ## description Type
 
 `string`
+# tagcategory-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/name
@@ -774,6 +791,7 @@ Name of the tag
 **maximum length**: the maximum number of characters for this string is: `25`
 
 **minimum length**: the minimum number of characters for this string is: `2`
+# tagcategory-properties-usagecount
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/usageCount
