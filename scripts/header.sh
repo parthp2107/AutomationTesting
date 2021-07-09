@@ -1,6 +1,6 @@
-file=/docs/SchemaMarkdown/*.md
+file=docs/SchemaMarkdown/*.md
 sed -i '1d' $file
-cd /docs/SchemanMarkdown/
+cd docs/SchemanMarkdown/
 for file in *.md
 do
   sed -i "1i\
