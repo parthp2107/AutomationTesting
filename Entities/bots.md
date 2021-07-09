@@ -1,3 +1,4 @@
+# Bot entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json
@@ -128,6 +129,7 @@ Link to the resource corresponding to this entity
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# Untitled string in Bot entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/description
@@ -142,6 +144,7 @@ Description of entity instance.
 ## description Type
 
 `string`
+# Untitled string in Bot entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/displayName
@@ -156,6 +159,7 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
+# Untitled string in Bot entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/name

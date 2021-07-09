@@ -1,3 +1,4 @@
+# Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json
@@ -144,6 +145,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
+# Untitled string in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation
@@ -158,6 +160,7 @@ Name of PII tag
 ## documentation Type
 
 `string`
+# Untitled string in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name
@@ -172,6 +175,7 @@ Name of PII tag
 ## name Type
 
 `string`
+# Untitled string in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType
@@ -195,6 +199,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
+# Untitled string in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType
@@ -219,6 +224,7 @@ PII tag type
 | `"NONE"`          |             |
 | `"NON_SENSITIVE"` |             |
 | `"SENSITIVE"`     |             |
+# Untitled object in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags/items
@@ -333,6 +339,7 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
+# Untitled undefined type in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions
@@ -347,6 +354,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# Untitled array in Data classification related types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags

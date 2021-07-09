@@ -1,3 +1,4 @@
+# Metrics entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json
@@ -197,6 +198,7 @@ Latest usage information for this database
 ### usageSummary Type
 
 `object` ([Details](common-definitions-usagedetails.md))
+# Untitled string in Metrics entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/description
@@ -211,6 +213,7 @@ Description of metrics instance. What is has and how to use it
 ## description Type
 
 `string`
+# Untitled string in Metrics entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/fullyQualifiedName
@@ -231,6 +234,7 @@ Unique name that identifies a metric in the format 'ServiceName.MetricName'
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
+# Untitled string in Metrics entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/name

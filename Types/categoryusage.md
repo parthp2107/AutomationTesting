@@ -1,3 +1,4 @@
+# Usage details for an entity class Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json
@@ -55,6 +56,7 @@ List usage details per day
 ### usage Type
 
 `object[]` ([Details](common-definitions-usagedetails.md))
+# Untitled string in Usage details for an entity class Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/entity
@@ -69,6 +71,7 @@ Name of the entity class for which usage is returned
 ## entity Type
 
 `string`
+# Untitled array in Usage details for an entity class Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/usage

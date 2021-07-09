@@ -1,3 +1,4 @@
+# Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json
@@ -206,6 +207,7 @@ Unique id used to identify an entity
 #### from Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
+# Untitled string in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/message
@@ -220,6 +222,7 @@ Message in the post
 ## message Type
 
 `string`
+# Untitled string in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/postTs
@@ -238,6 +241,7 @@ Timestamp of the post
 ## postTs Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+# Untitled object in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts/items
@@ -322,6 +326,7 @@ Unique id used to identify an entity
 ### from Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
+# Untitled undefined type in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions
@@ -336,6 +341,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# Untitled array in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/posts
@@ -350,6 +356,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## posts Type
 
 `object[]` ([Details](thread-definitions-post.md))
+# Untitled undefined type in Feed entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/threadTs

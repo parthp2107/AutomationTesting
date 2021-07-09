@@ -1,3 +1,4 @@
+# Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json
@@ -23,7 +24,7 @@ Entity that represents a database
 | [description](#description)               | `string` | Optional | cannot be null | [Database entity](#database-properties-description "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")               |
 | [href](#href)                             | `string` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-href)                              |
 | [owner](#owner)                           | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                  |
-| [service](#service)                       | `object` | Required | cannot be null | [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")                |
+| [service](#service)                       | `object` | Required | cannot be null | [Common type](../Types/common.md#common-definitions-entityreference)                |
 | [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-usagedetails)              |
 | [tables](#tables)                         | `array`  | Optional | cannot be null | [Common type](../Types/common.md#common-definitions-entityreferencelist)             |
 
@@ -175,7 +176,7 @@ Link to the database cluster/service where this database is hosted in
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")
+*   defined in: [Common type](../Types/common.md#common-definitions-entityreference)
 
 ### service Type
 
@@ -231,6 +232,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
+# Untitled string in Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/definitions/databaseName
@@ -259,6 +261,7 @@ Name that identifies the database
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
+# Untitled undefined type in Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/definitions
@@ -273,6 +276,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
+# Untitled string in Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description
@@ -287,6 +291,7 @@ Description of the database instance. What it has and how to use it.
 ## description Type
 
 `string`
+# Untitled string in Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName
@@ -301,6 +306,7 @@ Name that uniquely identifies a database in the format 'ServiceName.DatabaseName
 ## fullyQualifiedName Type
 
 `string`
+# Untitled string in Database entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name
