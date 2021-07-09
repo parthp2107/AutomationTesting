@@ -1,4 +1,4 @@
-# docs/SchemaMarkdown/table
+# Table entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json
@@ -887,7 +887,7 @@ Data for a multiple rows of the table
 #### rows Type
 
 `array[]`
-# docs/SchemaMarkdown/table-definitions-column-properties-description
+# table-definitions-column-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/description
@@ -902,7 +902,7 @@ Description of the column
 ## description Type
 
 `string`
-# docs/SchemaMarkdown/table-definitions-column-properties-ordinalposition
+# table-definitions-column-properties-Ordinalposition
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/ordinalPosition
@@ -917,7 +917,7 @@ Ordinal position of the column
 ## ordinalPosition Type
 
 `integer`
-# docs/SchemaMarkdown/table-definitions-column-properties-tags
+# table-definitions-column-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/tags
@@ -932,7 +932,7 @@ Tags associated with the column
 ## tags Type
 
 `object[]` ([Details](common-definitions-taglabel.md))
-# docs/SchemaMarkdown/table-definitions-column
+# table-definitions-column
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns/items
@@ -1164,7 +1164,7 @@ Ordinal position of the column
 ### ordinalPosition Type
 
 `integer`
-# docs/SchemaMarkdown/table-definitions-columnconstraint
+# table-definitions-columnconstraint
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnConstraint
@@ -1198,7 +1198,7 @@ The default value is:
 ```json
 "NULL"
 ```
-# docs/SchemaMarkdown/table-definitions-columndatatype
+# table-definitions-columndatatype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnDataType
@@ -1253,7 +1253,7 @@ Type for capturing a column in a table
 | `"GEOGRAPHY"`  |             |
 | `"ENUM"`       |             |
 | `"JSON"`       |             |
-# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith-items-properties-joincount
+# table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount
@@ -1268,7 +1268,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## joinCount Type
 
 `integer`
-# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith-items
+# table-definitions-columnjoins-properties-joinedwith-items.md
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items
@@ -1332,7 +1332,7 @@ Fully qualified name of the column that includes serviceName.databaseName.tableN
 ### joinCount Type
 
 `integer`
-# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith
+# table-definitions-columnjoins-properties-joinedwith
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith
@@ -1347,7 +1347,7 @@ Fully qualified names of the columns that this column is joined with
 ## joinedWith Type
 
 `object[]` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
-# docs/SchemaMarkdown/table-definitions-columnjoins
+# table-definitions-columnjoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins/items
@@ -1419,7 +1419,7 @@ Fully qualified names of the columns that this column is joined with
 ### joinedWith Type
 
 `object[]` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
-# docs/SchemaMarkdown/table-definitions-columnname
+# table-definitions-columnname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns/items
@@ -1448,7 +1448,7 @@ Local name (not fully qualified name) of the column
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# docs/SchemaMarkdown/table-definitions-fullyqualifiedcolumnname
+# table-definitions-fullyqualifiedcolumnname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName
@@ -1469,7 +1469,7 @@ Fully qualified name of the column that includes serviceName.databaseName.tableN
 **maximum length**: the maximum number of characters for this string is: `256`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-columns-items
+# table-definitions-tableconstraint-properties-columns-items
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns/items
@@ -1484,7 +1484,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## items Type
 
 `string`
-# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-columns
+# table-definitions-tableconstraint-properties-columns
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns
@@ -1499,7 +1499,7 @@ List of column names corresponding to the constraint
 ## columns Type
 
 `string[]`
-# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-constrainttype
+# table-definitions-tableconstraint-properties-constrainttype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/constraintType
@@ -1524,7 +1524,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 | `"UNIQUE"`      |             |
 | `"PRIMARY_KEY"` |             |
 | `"FOREIGN_KEY"` |             |
-# docs/SchemaMarkdown/table-definitions-tableconstraint
+# table-definitions-tableconstraint
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints/items
@@ -1592,7 +1592,7 @@ List of column names corresponding to the constraint
 ### columns Type
 
 `string[]`
-# docs/SchemaMarkdown/table-definitions-tabledata-properties-columns
+# table-definitions-tabledata-properties-columns
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns
@@ -1607,7 +1607,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## columns Type
 
 `string[]`
-# docs/SchemaMarkdown/table-definitions-tabledata-properties-rows-items
+# table-definitions-tabledata-properties-rows-items
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows/items
@@ -1622,7 +1622,7 @@ Data for a single row of the table
 ## items Type
 
 `array`
-# docs/SchemaMarkdown/table-definitions-tabledata-properties-rows
+# table-definitions-tabledata-properties-rows
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows
@@ -1637,7 +1637,7 @@ Data for a multiple rows of the table
 ## rows Type
 
 `array[]`
-# docs/SchemaMarkdown/table-definitions-tabledata
+# table-definitions-tabledata
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/sampleData
@@ -1695,7 +1695,7 @@ Data for a multiple rows of the table
 ### rows Type
 
 `array[]`
-# docs/SchemaMarkdown/table-definitions-tablejoins-properties-columnjoins
+# table-definitions-tablejoins-properties-columnjoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins
@@ -1710,7 +1710,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## columnJoins Type
 
 `object[]` ([Details](table-definitions-columnjoins.md))
-# docs/SchemaMarkdown/table-definitions-tablejoins-properties-daycount
+# table-definitions-tablejoins-properties-daycount
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/dayCount
@@ -1733,7 +1733,7 @@ The default value is:
 ```json
 1
 ```
-# docs/SchemaMarkdown/table-definitions-tablejoins
+# table-definitions-tablejoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/joins
@@ -1822,7 +1822,7 @@ The default value is:
 ### columnJoins Type
 
 `object[]` ([Details](table-definitions-columnjoins.md))
-# docs/SchemaMarkdown/table-definitions-tablename
+# table-definitions-tablename
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableName
@@ -1851,7 +1851,7 @@ Local name (not fully qualified name) of the table
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# docs/SchemaMarkdown/table-definitions-tabletype
+# table-definitions-tabletype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableType
@@ -1878,7 +1878,7 @@ Type for capturing a column in a table
 | `"VIEW"`              |             |
 | `"SECURE_VIEW"`       |             |
 | `"MATERIALIZED_VIEW"` |             |
-# docs/SchemaMarkdown/table-definitions
+# table-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions
@@ -1893,7 +1893,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## definitions Type
 
 unknown
-# docs/SchemaMarkdown/table-properties-columns
+# table-properties-columns
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns
@@ -1908,7 +1908,7 @@ Columns in the table
 ## columns Type
 
 `object[]` ([Details](table-definitions-column.md))
-# docs/SchemaMarkdown/table-properties-description
+# table-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description
@@ -1923,7 +1923,7 @@ Description of the table
 ## description Type
 
 `string`
-# docs/SchemaMarkdown/table-properties-fullyqualifiedname
+# table-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName
@@ -1938,7 +1938,7 @@ Fully qualified name of the table in the form serviceName.databaseName.tableName
 ## fullyQualifiedName Type
 
 `string`
-# docs/SchemaMarkdown/table-properties-name
+# table-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name
@@ -1967,7 +1967,7 @@ Local name (not fully qualified name) of the table
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# docs/SchemaMarkdown/table-properties-tableconstraints
+# table-properties-tableconstraints
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints
@@ -1982,7 +1982,7 @@ Table constraints
 ## tableConstraints Type
 
 `object[]` ([Details](table-definitions-tableconstraint.md))
-# docs/SchemaMarkdown/table-properties-tabletype
+# table-properties-tabletype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType
@@ -2009,7 +2009,7 @@ Type for capturing a column in a table
 | `"VIEW"`              |             |
 | `"SECURE_VIEW"`       |             |
 | `"MATERIALIZED_VIEW"` |             |
-# docs/SchemaMarkdown/table-properties-tags
+# table-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags

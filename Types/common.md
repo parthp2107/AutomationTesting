@@ -1,4 +1,4 @@
-# docs/SchemaMarkdown/common
+# Common types Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json
@@ -827,7 +827,7 @@ Link to the tag resource
 #### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-date
+# common-definitions-date
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate
@@ -846,7 +846,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ## startDate Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# docs/SchemaMarkdown/common-definitions-datetime
+# common-definitions-datetime
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate
@@ -865,7 +865,7 @@ Date and time in ISO 8601 format. Example - '2018-11-13T20:20:39+00:00'
 ## startDate Constraints
 
 **unknown format**: the value of this string must follow the format: `date-Time`
-# docs/SchemaMarkdown/common-definitions-duration
+# common-definitions-duration
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency
@@ -882,7 +882,7 @@ Duration in ISO 8601 format in UTC time. Example - 'P23DT23H'
 ## repeatFrequency Type
 
 `string`
-# docs/SchemaMarkdown/common-definitions-email
+# common-definitions-email
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/email
@@ -913,7 +913,7 @@ Email address of user or other entities
 [try pattern](https://regexr.com/?expression=%5E%5CS%2B%40%5CS%2B%5C.%5CS%2B%24 "try regular expression with regexr.com")
 
 **email**: the string must be an email address, according to [RFC 5322, section 3.4.1](https://tools.ietf.org/html/rfc5322 "check the specification")
-# docs/SchemaMarkdown/common-definitions-entityreference-properties-description
+# common-definitions-entityreference-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description
@@ -928,7 +928,7 @@ Optional description of entity
 ## description Type
 
 `string`
-# docs/SchemaMarkdown/common-definitions-entityreference-properties-name
+# common-definitions-entityreference-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name
@@ -943,7 +943,7 @@ Name of the entity instance
 ## name Type
 
 `string`
-# docs/SchemaMarkdown/common-definitions-entityreference-properties-type
+# common-definitions-entityreference-properties-type
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type
@@ -958,7 +958,7 @@ Entity type/class name - Examples: database, table, metrics, redshift, mysql, bi
 ## type Type
 
 `string`
-# docs/SchemaMarkdown/common-definitions-entityreference
+# common-definitions-entityreference
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database
@@ -1085,7 +1085,7 @@ Link to the entity resource
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-entityreferencelist
+# common-definitions-entityreferencelist
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers
@@ -1100,7 +1100,7 @@ Followers of this table
 ## followers Type
 
 `object[]` ([Details](common-definitions-entityreference.md))
-# docs/SchemaMarkdown/common-definitions-href
+# common-definitions-href
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href
@@ -1121,7 +1121,7 @@ Link to the tag resource
 ## href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image
+# common-definitions-imagelist-properties-image
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image
@@ -1140,7 +1140,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image192
+# common-definitions-imagelist-properties-image192
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192
@@ -1159,7 +1159,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image192 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image24
+# common-definitions-imagelist-properties-image24
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24
@@ -1178,7 +1178,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image24 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image32
+# common-definitions-imagelist-properties-image32
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32
@@ -1197,7 +1197,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image32 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image48
+# common-definitions-imagelist-properties-image48
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48
@@ -1216,7 +1216,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image48 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image512
+# common-definitions-imagelist-properties-image512
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512
@@ -1235,7 +1235,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image512 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist-properties-image72
+# common-definitions-imagelist-properties-image72
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72
@@ -1254,7 +1254,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## image72 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-imagelist
+# common-definitions-imagelist
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images
@@ -1437,7 +1437,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ### image512 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-profile
+# common-definitions-profile
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile
@@ -1480,7 +1480,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ### images Type
 
 `object` ([Details](#common-definitions-imagelist))
-# docs/SchemaMarkdown/common-definitions-schedule
+# common-definitions-schedule
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule
@@ -1544,7 +1544,7 @@ Duration in ISO 8601 format in UTC time. Example - 'P23DT23H'
 ### repeatFrequency Type
 
 `string`
-# docs/SchemaMarkdown/common-definitions-schema
+# common-definitions-schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schema
@@ -1563,7 +1563,7 @@ URL for the schema of an entity
 ## schema Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-taglabel-properties-labeltype
+# common-definitions-taglabel-properties-labeltype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType
@@ -1597,7 +1597,7 @@ The default value is:
 ```json
 "MANUAL"
 ```
-# docs/SchemaMarkdown/common-definitions-taglabel-properties-state
+# common-definitions-taglabel-properties-state
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state
@@ -1629,7 +1629,7 @@ The default value is:
 ```json
 "CONFIRMED"
 ```
-# docs/SchemaMarkdown/common-definitions-taglabel-properties-tagfqn
+# common-definitions-taglabel-properties-tagfqn
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN
@@ -1648,7 +1648,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## tagFQN Constraints
 
 **maximum length**: the maximum number of characters for this string is: `45`
-# docs/SchemaMarkdown/common-definitions-taglabel
+# common-definitions-taglabel
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags/items
@@ -1790,7 +1790,7 @@ Link to the tag resource
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# docs/SchemaMarkdown/common-definitions-timeinterval-properties-end
+# common-definitions-timeinterval-properties-end
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end
@@ -1805,7 +1805,7 @@ End unixTimeMillis
 ## end Type
 
 `integer`
-# docs/SchemaMarkdown/common-definitions-timeinterval-properties-start
+# common-definitions-timeinterval-properties-start
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start
@@ -1820,7 +1820,7 @@ Start unixTimeMillis
 ## start Type
 
 `integer`
-# docs/SchemaMarkdown/common-definitions-timeinterval
+# common-definitions-timeinterval
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval
@@ -1880,7 +1880,7 @@ End unixTimeMillis
 ### end Type
 
 `integer`
-# docs/SchemaMarkdown/common-definitions-timestamp
+# common-definitions-timestamp
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timestamp
@@ -1901,7 +1901,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## timestamp Constraints
 
 **unknown format**: the value of this string must follow the format: `utc-millisec`
-# docs/SchemaMarkdown/common-definitions-usagedetails-properties-date
+# common-definitions-usagedetails-properties-date
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date
@@ -1920,7 +1920,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ## date Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# docs/SchemaMarkdown/common-definitions-usagedetails
+# common-definitions-usagedetails
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary
@@ -2028,7 +2028,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ### date Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# docs/SchemaMarkdown/common-definitions-usagestats-properties-count
+# common-definitions-usagestats-properties-count
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count
@@ -2047,7 +2047,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## count Constraints
 
 **minimum**: the value of this number must greater than or equal to: `0`
-# docs/SchemaMarkdown/common-definitions-usagestats-properties-percentilerank
+# common-definitions-usagestats-properties-percentilerank
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank
@@ -2068,7 +2068,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 **maximum**: the value of this number must smaller than or equal to: `100`
 
 **minimum**: the value of this number must greater than or equal to: `0`
-# docs/SchemaMarkdown/common-definitions-usagestats
+# common-definitions-usagestats
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats
@@ -2138,7 +2138,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 **maximum**: the value of this number must smaller than or equal to: `100`
 
 **minimum**: the value of this number must greater than or equal to: `0`
-# docs/SchemaMarkdown/common-definitions-uuid
+# common-definitions-uuid
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id
@@ -2157,7 +2157,7 @@ Unique id used to identify an entity
 ## id Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
-# docs/SchemaMarkdown/common-definitions
+# common-definitions
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions

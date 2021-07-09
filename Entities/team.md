@@ -1,4 +1,4 @@
-# docs/SchemaMarkdown/team
+# Team entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json
@@ -207,7 +207,7 @@ Entities owned by the team
 ### owns Type
 
 `object[]` ([Details](common-definitions-entityreference.md))
-# docs/SchemaMarkdown/team-defintions-teamname
+# Untitled string in Team entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/defintions/teamName
@@ -228,7 +228,7 @@ Unique name of the team typically the team ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# docs/SchemaMarkdown/team-defintions
+# Untitled undefined type in Team entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/defintions
@@ -243,7 +243,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## defintions Type
 
 unknown
-# docs/SchemaMarkdown/team-properties-deleted
+# team-properties-deleted
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/deleted
@@ -258,7 +258,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## deleted Type
 
 `boolean`
-# docs/SchemaMarkdown/team-properties-description
+# team-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/description
@@ -273,7 +273,7 @@ Description of the team
 ## description Type
 
 `string`
-# docs/SchemaMarkdown/team-properties-displayname
+# team-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/displayName
@@ -288,7 +288,7 @@ Name used for display purposes. Example 'Data Science team'
 ## displayName Type
 
 `string`
-# docs/SchemaMarkdown/team-properties-name
+# team-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/name

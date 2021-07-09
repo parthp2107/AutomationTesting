@@ -1,4 +1,4 @@
-# docs/SchemaMarkdown/README
+# README
 
 ## Top-level Schemas
 

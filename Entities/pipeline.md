@@ -1,4 +1,4 @@
-# docs/SchemaMarkdown/pipeline
+# Pipeline entity Schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json
@@ -177,7 +177,7 @@ Link to service where this pipeline is hosted in
 ### service Type
 
 `object` ([Details](common-definitions-entityreference.md))
-# docs/SchemaMarkdown/pipeline-properties-description
+# pipeline-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/description
@@ -192,7 +192,7 @@ Description of this pipeline.
 ## description Type
 
 `string`
-# docs/SchemaMarkdown/pipeline-properties-fullyqualifiedname
+# pipeline-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/fullyQualifiedName
@@ -213,7 +213,7 @@ Unique name that identifies a pipeline in the format 'ServiceName.PipelineName'
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# docs/SchemaMarkdown/pipeline-properties-name
+# pipeline-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/name
