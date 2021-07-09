@@ -1,4 +1,4 @@
-# Table entity Schema
+# docs/SchemaMarkdown/table
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json
@@ -887,22 +887,52 @@ Data for a multiple rows of the table
 #### rows Type
 
 `array[]`
-# table-definitions
+# docs/SchemaMarkdown/table-definitions-column-properties-description
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/description
 ```
 
-
+Description of the column
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
-## definitions Type
+## description Type
 
-unknown
-# table-definitions-column
+`string`
+# docs/SchemaMarkdown/table-definitions-column-properties-ordinalposition
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/ordinalPosition
+```
+
+Ordinal position of the column
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## ordinalPosition Type
+
+`integer`
+# docs/SchemaMarkdown/table-definitions-column-properties-tags
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/tags
+```
+
+Tags associated with the column
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## tags Type
+
+`object[]` ([Details](common-definitions-taglabel.md))
+# docs/SchemaMarkdown/table-definitions-column
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns/items
@@ -1134,52 +1164,7 @@ Ordinal position of the column
 ### ordinalPosition Type
 
 `integer`
-# table-definitions-column-properties-description
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/description
-```
-
-Description of the column
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## description Type
-
-`string`
-# table-definitions-column-properties-Ordinalposition
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/ordinalPosition
-```
-
-Ordinal position of the column
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## ordinalPosition Type
-
-`integer`
-# table-definitions-column-properties-tags
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/tags
-```
-
-Tags associated with the column
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## tags Type
-
-`object[]` ([Details](common-definitions-taglabel.md))
-# table-definitions-columnconstraint
+# docs/SchemaMarkdown/table-definitions-columnconstraint
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnConstraint
@@ -1213,7 +1198,7 @@ The default value is:
 ```json
 "NULL"
 ```
-# table-definitions-columndatatype
+# docs/SchemaMarkdown/table-definitions-columndatatype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnDataType
@@ -1268,7 +1253,101 @@ Type for capturing a column in a table
 | `"GEOGRAPHY"`  |             |
 | `"ENUM"`       |             |
 | `"JSON"`       |             |
-# table-definitions-columnjoins
+# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith-items-properties-joincount
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## joinCount Type
+
+`integer`
+# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith-items
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## items Type
+
+`object` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
+
+# items Properties
+
+| Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                     |
+| :---------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [fullyQualifiedName](#fullyqualifiedname) | `string`  | Optional | cannot be null | [Table entity](table-definitions-fullyqualifiedcolumnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName")                            |
+| [joinCount](#joincount)                   | `integer` | Optional | cannot be null | [Table entity](table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount") |
+
+## fullyQualifiedName
+
+Fully qualified name of the column that includes serviceName.databaseName.tableName.columnName
+
+`fullyQualifiedName`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Table entity](table-definitions-fullyqualifiedcolumnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName")
+
+### fullyQualifiedName Type
+
+`string`
+
+### fullyQualifiedName Constraints
+
+**maximum length**: the maximum number of characters for this string is: `256`
+
+**minimum length**: the minimum number of characters for this string is: `1`
+
+## joinCount
+
+
+
+`joinCount`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Table entity](table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount")
+
+### joinCount Type
+
+`integer`
+# docs/SchemaMarkdown/table-definitions-columnjoins-properties-joinedwith
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith
+```
+
+Fully qualified names of the columns that this column is joined with
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## joinedWith Type
+
+`object[]` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
+# docs/SchemaMarkdown/table-definitions-columnjoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins/items
@@ -1340,101 +1419,7 @@ Fully qualified names of the columns that this column is joined with
 ### joinedWith Type
 
 `object[]` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
-# table-definitions-columnjoins-properties-joinedwith
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith
-```
-
-Fully qualified names of the columns that this column is joined with
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## joinedWith Type
-
-`object[]` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
-# table-definitions-columnjoins-properties-joinedwith-items.md
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## items Type
-
-`object` ([Details](table-definitions-columnjoins-properties-joinedwith-items.md))
-
-# items Properties
-
-| Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                     |
-| :---------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fullyQualifiedName](#fullyqualifiedname) | `string`  | Optional | cannot be null | [Table entity](table-definitions-fullyqualifiedcolumnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName")                            |
-| [joinCount](#joincount)                   | `integer` | Optional | cannot be null | [Table entity](table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount") |
-
-## fullyQualifiedName
-
-Fully qualified name of the column that includes serviceName.databaseName.tableName.columnName
-
-`fullyQualifiedName`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Table entity](table-definitions-fullyqualifiedcolumnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName")
-
-### fullyQualifiedName Type
-
-`string`
-
-### fullyQualifiedName Constraints
-
-**maximum length**: the maximum number of characters for this string is: `256`
-
-**minimum length**: the minimum number of characters for this string is: `1`
-
-## joinCount
-
-
-
-`joinCount`
-
-*   is optional
-
-*   Type: `integer`
-
-*   cannot be null
-
-*   defined in: [Table entity](table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount")
-
-### joinCount Type
-
-`integer`
-# table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/joinCount
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## joinCount Type
-
-`integer`
-# table-definitions-columnname
+# docs/SchemaMarkdown/table-definitions-columnname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns/items
@@ -1463,7 +1448,7 @@ Local name (not fully qualified name) of the column
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# table-definitions-fullyqualifiedcolumnname
+# docs/SchemaMarkdown/table-definitions-fullyqualifiedcolumnname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoins/properties/joinedWith/items/properties/fullyQualifiedName
@@ -1484,7 +1469,62 @@ Fully qualified name of the column that includes serviceName.databaseName.tableN
 **maximum length**: the maximum number of characters for this string is: `256`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# table-definitions-tableconstraint
+# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-columns-items
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns/items
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## items Type
+
+`string`
+# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-columns
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns
+```
+
+List of column names corresponding to the constraint
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## columns Type
+
+`string[]`
+# docs/SchemaMarkdown/table-definitions-tableconstraint-properties-constrainttype
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/constraintType
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## constraintType Type
+
+`string`
+
+## constraintType Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value           | Explanation |
+| :-------------- | :---------- |
+| `"UNIQUE"`      |             |
+| `"PRIMARY_KEY"` |             |
+| `"FOREIGN_KEY"` |             |
+# docs/SchemaMarkdown/table-definitions-tableconstraint
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints/items
@@ -1552,13 +1592,13 @@ List of column names corresponding to the constraint
 ### columns Type
 
 `string[]`
-# table-definitions-tableconstraint-properties-columns
+# docs/SchemaMarkdown/table-definitions-tabledata-properties-columns
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns
 ```
 
-List of column names corresponding to the constraint
+
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
@@ -1567,13 +1607,13 @@ List of column names corresponding to the constraint
 ## columns Type
 
 `string[]`
-# table-definitions-tableconstraint-properties-columns-items
+# docs/SchemaMarkdown/table-definitions-tabledata-properties-rows-items
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns/items
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows/items
 ```
 
-
+Data for a single row of the table
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
@@ -1581,33 +1621,23 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 
 ## items Type
 
-`string`
-# table-definitions-tableconstraint-properties-constrainttype
+`array`
+# docs/SchemaMarkdown/table-definitions-tabledata-properties-rows
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/constraintType
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows
 ```
 
-
+Data for a multiple rows of the table
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
-## constraintType Type
+## rows Type
 
-`string`
-
-## constraintType Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value           | Explanation |
-| :-------------- | :---------- |
-| `"UNIQUE"`      |             |
-| `"PRIMARY_KEY"` |             |
-| `"FOREIGN_KEY"` |             |
-# table-definitions-tabledata
+`array[]`
+# docs/SchemaMarkdown/table-definitions-tabledata
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/sampleData
@@ -1665,10 +1695,10 @@ Data for a multiple rows of the table
 ### rows Type
 
 `array[]`
-# table-definitions-tabledata-properties-columns
+# docs/SchemaMarkdown/table-definitions-tablejoins-properties-columnjoins
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins
 ```
 
 
@@ -1677,40 +1707,33 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
-## columns Type
+## columnJoins Type
 
-`string[]`
-# table-definitions-tabledata-properties-rows
+`object[]` ([Details](table-definitions-columnjoins.md))
+# docs/SchemaMarkdown/table-definitions-tablejoins-properties-daycount
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/dayCount
 ```
 
-Data for a multiple rows of the table
+
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
 
-## rows Type
+## dayCount Type
 
-`array[]`
-# table-definitions-tabledata-properties-rows-items
+`integer`
 
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows/items
+## dayCount Default Value
+
+The default value is:
+
+```json
+1
 ```
-
-Data for a single row of the table
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## items Type
-
-`array`
-# table-definitions-tablejoins
+# docs/SchemaMarkdown/table-definitions-tablejoins
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/joins
@@ -1799,45 +1822,7 @@ The default value is:
 ### columnJoins Type
 
 `object[]` ([Details](table-definitions-columnjoins.md))
-# table-definitions-tablejoins-properties-columnjoins
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/columnJoins
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## columnJoins Type
-
-`object[]` ([Details](table-definitions-columnjoins.md))
-# table-definitions-tablejoins-properties-daycount
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/dayCount
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
-
-## dayCount Type
-
-`integer`
-
-## dayCount Default Value
-
-The default value is:
-
-```json
-1
-```
-# table-definitions-tablename
+# docs/SchemaMarkdown/table-definitions-tablename
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableName
@@ -1866,7 +1851,7 @@ Local name (not fully qualified name) of the table
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# table-definitions-tabletype
+# docs/SchemaMarkdown/table-definitions-tabletype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableType
@@ -1893,7 +1878,22 @@ Type for capturing a column in a table
 | `"VIEW"`              |             |
 | `"SECURE_VIEW"`       |             |
 | `"MATERIALIZED_VIEW"` |             |
-# table-properties-columns
+# docs/SchemaMarkdown/table-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                             |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [table.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json "open original schema") |
+
+## definitions Type
+
+unknown
+# docs/SchemaMarkdown/table-properties-columns
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns
@@ -1908,7 +1908,7 @@ Columns in the table
 ## columns Type
 
 `object[]` ([Details](table-definitions-column.md))
-# table-properties-description
+# docs/SchemaMarkdown/table-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description
@@ -1923,7 +1923,7 @@ Description of the table
 ## description Type
 
 `string`
-# table-properties-fullyqualifiedname
+# docs/SchemaMarkdown/table-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName
@@ -1938,7 +1938,7 @@ Fully qualified name of the table in the form serviceName.databaseName.tableName
 ## fullyQualifiedName Type
 
 `string`
-# table-properties-name
+# docs/SchemaMarkdown/table-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name
@@ -1967,7 +1967,7 @@ Local name (not fully qualified name) of the table
 ```
 
 [try pattern](https://regexr.com/?expression=%5E%5B%5E.%5D\*%24 "try regular expression with regexr.com")
-# table-properties-tableconstraints
+# docs/SchemaMarkdown/table-properties-tableconstraints
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints
@@ -1982,7 +1982,7 @@ Table constraints
 ## tableConstraints Type
 
 `object[]` ([Details](table-definitions-tableconstraint.md))
-# table-properties-tabletype
+# docs/SchemaMarkdown/table-properties-tabletype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType
@@ -2009,7 +2009,7 @@ Type for capturing a column in a table
 | `"VIEW"`              |             |
 | `"SECURE_VIEW"`       |             |
 | `"MATERIALIZED_VIEW"` |             |
-# table-properties-tags
+# docs/SchemaMarkdown/table-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags

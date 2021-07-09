@@ -1,4 +1,4 @@
-# Dashboard entity Schema
+# docs/SchemaMarkdown/dashboard
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json
@@ -198,7 +198,7 @@ Latest usage information for this database
 ### usageSummary Type
 
 `object` ([Details](common-definitions-usagedetails.md))
-# dashboard-properties-description
+# docs/SchemaMarkdown/dashboard-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/description
@@ -213,7 +213,7 @@ Description of dashboard, what it is and how to use it.
 ## description Type
 
 `string`
-# dashboard-properties-fullyqualifiedname
+# docs/SchemaMarkdown/dashboard-properties-fullyqualifiedname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/fullyQualifiedName
@@ -234,7 +234,7 @@ Unique name that identifies a dashboard in the format 'ServiceName.DashboardName
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# dashboard-properties-name
+# docs/SchemaMarkdown/dashboard-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/name

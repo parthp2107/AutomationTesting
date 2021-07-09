@@ -1,4 +1,4 @@
-# Types related to tag category Schema
+# docs/SchemaMarkdown/tagcategory
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json
@@ -352,10 +352,10 @@ Tags under this tag group or empty for tags at leaf level
 #### children Type
 
 `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
-# tagcategory-definitions
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-associatedtags-items
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags/items
 ```
 
 
@@ -364,10 +364,115 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
 
-## definitions Type
+## items Type
+
+`string`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-associatedtags
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags
+```
+
+Fully qualified names of tags associated with this tag
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## associatedTags Type
+
+`string[]`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-children
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children
+```
+
+Tags under this tag group or empty for tags at leaf level
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## children Type
+
+`object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-deprecated
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/deprecated
+```
+
+If the tag is deprecated
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## deprecated Type
+
+`boolean`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-description
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/description
+```
+
+Unique name of the tag category
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## description Type
+
+`string`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-fullyqualifiedname
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/fullyQualifiedName
+```
+
+Unique name of the tag of format Category.PrimaryTag.SecondaryTag
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## fullyQualifiedName Type
+
+`string`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties-usagecount
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/usageCount
+```
+
+Count of how many times this tag and children tags are used
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## usageCount Type
+
+`integer`
+# docs/SchemaMarkdown/tagcategory-definitions-tag-properties
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## properties Type
 
 unknown
-# tagcategory-definitions-tag
+# docs/SchemaMarkdown/tagcategory-definitions-tag
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children/items
@@ -551,127 +656,7 @@ Tags under this tag group or empty for tags at leaf level
 ### children Type
 
 `object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
-# tagcategory-definitions-tag-properties
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## properties Type
-
-unknown
-# tagcategory-definitions-tag-properties-associatedtags
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags
-```
-
-Fully qualified names of tags associated with this tag
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## associatedTags Type
-
-`string[]`
-# tagcategory-definitions-tag-properties-associatedtags-items
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/associatedTags/items
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## items Type
-
-`string`
-# tagcategory-definitions-tag-properties-children
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children
-```
-
-Tags under this tag group or empty for tags at leaf level
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## children Type
-
-`object[]` ([Types related to tag category](tagcategory-definitions-tag-properties-children-types-related-to-tag-category.md))
-# tagcategory-definitions-tag-properties-deprecated
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/deprecated
-```
-
-If the tag is deprecated
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## deprecated Type
-
-`boolean`
-# tagcategory-definitions-tag-properties-description
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/description
-```
-
-Unique name of the tag category
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## description Type
-
-`string`
-# tagcategory-definitions-tag-properties-fullyqualifiedname
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/fullyQualifiedName
-```
-
-Unique name of the tag of format Category.PrimaryTag.SecondaryTag
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## fullyQualifiedName Type
-
-`string`
-# tagcategory-definitions-tag-properties-usagecount
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/usageCount
-```
-
-Count of how many times this tag and children tags are used
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
-
-## usageCount Type
-
-`integer`
-# tagcategory-definitions-tagcategorytype
+# docs/SchemaMarkdown/tagcategory-definitions-tagcategorytype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tagCategoryType
@@ -695,7 +680,7 @@ Type of tag category
 | :----------------- | :---------- |
 | `"DESCRIPTIVE"`    |             |
 | `"CLASSIFICATION"` |             |
-# tagcategory-definitions-tagname
+# docs/SchemaMarkdown/tagcategory-definitions-tagname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/name
@@ -716,7 +701,22 @@ Name of the tag
 **maximum length**: the maximum number of characters for this string is: `25`
 
 **minimum length**: the minimum number of characters for this string is: `2`
-# tagcategory-properties-categorytype
+# docs/SchemaMarkdown/tagcategory-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json "open original schema") |
+
+## definitions Type
+
+unknown
+# docs/SchemaMarkdown/tagcategory-properties-categorytype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/categoryType
@@ -740,7 +740,7 @@ Type of tag category
 | :----------------- | :---------- |
 | `"DESCRIPTIVE"`    |             |
 | `"CLASSIFICATION"` |             |
-# tagcategory-properties-children
+# docs/SchemaMarkdown/tagcategory-properties-children
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children
@@ -755,7 +755,7 @@ Tags under this category
 ## children Type
 
 unknown\[]
-# tagcategory-properties-description
+# docs/SchemaMarkdown/tagcategory-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/description
@@ -770,7 +770,7 @@ Description of the tag category
 ## description Type
 
 `string`
-# tagcategory-properties-name
+# docs/SchemaMarkdown/tagcategory-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/name
@@ -791,7 +791,7 @@ Name of the tag
 **maximum length**: the maximum number of characters for this string is: `25`
 
 **minimum length**: the minimum number of characters for this string is: `2`
-# tagcategory-properties-usagecount
+# docs/SchemaMarkdown/tagcategory-properties-usagecount
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/usageCount

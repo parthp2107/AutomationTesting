@@ -1,4 +1,4 @@
-# Database service entity Schema
+# docs/SchemaMarkdown/databaseservice
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json
@@ -196,22 +196,7 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# databaseservice-definitions
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [databaseService.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json "open original schema") |
-
-## definitions Type
-
-unknown
-# databaseservice-definitions-databaseservicetype
+# docs/SchemaMarkdown/databaseservice-definitions-databaseservicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions/databaseServiceType
@@ -240,7 +225,22 @@ Type of database service such as MySQL, BigQuery, Snowflake, Redshift, Postgres.
 | `"POSTGRES"`  |             |
 | `"MSSQL"`     |             |
 | `"HIVE"`      |             |
-# databaseservice-properties-description
+# docs/SchemaMarkdown/databaseservice-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [databaseService.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json "open original schema") |
+
+## definitions Type
+
+unknown
+# docs/SchemaMarkdown/databaseservice-properties-description
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/description
@@ -255,7 +255,7 @@ Description of database service instance.
 ## description Type
 
 `string`
-# databaseservice-properties-name
+# docs/SchemaMarkdown/databaseservice-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/name
@@ -276,7 +276,7 @@ Name that identifies the this entity instance uniquely. Same as id if when name 
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# databaseservice-properties-Servicetype
+# docs/SchemaMarkdown/databaseservice-properties-servicetype
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/serviceType

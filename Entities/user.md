@@ -1,4 +1,4 @@
-# User entity Schema
+# docs/SchemaMarkdown/user
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json
@@ -316,7 +316,43 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | :--- | :------- | :------- | :--------- |
-# user-properties-deactivated
+# docs/SchemaMarkdown/user-definitions-username
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions/userName
+```
+
+Unique name of the user typically the user ID from the identify provider. Example - uid from ldap.
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [user.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json "open original schema") |
+
+## userName Type
+
+`string`
+
+## userName Constraints
+
+**maximum length**: the maximum number of characters for this string is: `64`
+
+**minimum length**: the minimum number of characters for this string is: `1`
+# docs/SchemaMarkdown/user-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [user.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json "open original schema") |
+
+## definitions Type
+
+unknown
+# docs/SchemaMarkdown/user-properties-deactivated
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deactivated
@@ -331,7 +367,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## deactivated Type
 
 `boolean`
-# user-properties-displayname
+# docs/SchemaMarkdown/user-properties-displayname
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName
@@ -346,7 +382,7 @@ Name used for display purposes. Example 'FirstName LastName'
 ## displayName Type
 
 `string`
-# user-properties-isAdmin
+# docs/SchemaMarkdown/user-properties-isadmin
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isAdmin
@@ -361,7 +397,7 @@ When true indicates user is an adiministrator for the sytem with superuser privi
 ## isAdmin Type
 
 `boolean`
-# user-properties-isbot
+# docs/SchemaMarkdown/user-properties-isbot
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot
@@ -376,7 +412,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## isBot Type
 
 `boolean`
-# user-properties-name
+# docs/SchemaMarkdown/user-properties-name
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name
@@ -397,7 +433,7 @@ Unique name of the user typically the user ID from the identify provider. Exampl
 **maximum length**: the maximum number of characters for this string is: `64`
 
 **minimum length**: the minimum number of characters for this string is: `1`
-# user-properties-timezone
+# docs/SchemaMarkdown/user-properties-timezone
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone

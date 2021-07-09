@@ -1,4 +1,4 @@
-# JDBC connection Schema
+# docs/SchemaMarkdown/jdbcconnection
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json
@@ -193,22 +193,7 @@ The default value is:
 #### connectionUrl Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# jdbcconnection-definitions
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [jdbcConnection.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json "open original schema") |
-
-## definitions Type
-
-unknown
-# jdbcconnection-definitions-connectionurl
+# docs/SchemaMarkdown/jdbcconnection-definitions-connectionurl
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/connectionUrl
@@ -229,7 +214,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## connectionUrl Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# jdbcconnection-definitions-driverclass
+# docs/SchemaMarkdown/jdbcconnection-definitions-driverclass
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions/jdbcInfo/properties/driverClass
@@ -254,7 +239,7 @@ The default value is:
 ```json
 "com.amazon.redshift.jdbc42.Driver"
 ```
-# jdbcconnection-definitions-jdbcinfo
+# docs/SchemaMarkdown/jdbcconnection-definitions-jdbcinfo
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc
@@ -330,7 +315,22 @@ The default value is:
 ### connectionUrl Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# jdbcconnection-properties-connectionurl
+# docs/SchemaMarkdown/jdbcconnection-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [jdbcConnection.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json "open original schema") |
+
+## definitions Type
+
+unknown
+# docs/SchemaMarkdown/jdbcconnection-properties-connectionurl
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/connectionUrl
@@ -351,7 +351,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## connectionUrl Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# jdbcconnection-properties-driverclass
+# docs/SchemaMarkdown/jdbcconnection-properties-driverclass
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/driverClass
@@ -368,7 +368,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## driverClass Type
 
 `string`
-# jdbcconnection-properties-password
+# docs/SchemaMarkdown/jdbcconnection-properties-password
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/password
@@ -383,7 +383,7 @@ Login password
 ## password Type
 
 `string`
-# jdbcconnection-properties-username
+# docs/SchemaMarkdown/jdbcconnection-properties-username
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#/properties/userName

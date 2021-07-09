@@ -1,4 +1,4 @@
-# Common types Schema
+# docs/SchemaMarkdown/common
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json
@@ -827,22 +827,7 @@ Link to the tag resource
 #### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## definitions Type
-
-unknown
-# common-definitions-date
+# docs/SchemaMarkdown/common-definitions-date
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate
@@ -861,7 +846,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ## startDate Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# common-definitions-datetime
+# docs/SchemaMarkdown/common-definitions-datetime
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/startDate
@@ -880,7 +865,7 @@ Date and time in ISO 8601 format. Example - '2018-11-13T20:20:39+00:00'
 ## startDate Constraints
 
 **unknown format**: the value of this string must follow the format: `date-Time`
-# common-definitions-duration
+# docs/SchemaMarkdown/common-definitions-duration
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schedule/properties/repeatFrequency
@@ -897,7 +882,83 @@ Duration in ISO 8601 format in UTC time. Example - 'P23DT23H'
 ## repeatFrequency Type
 
 `string`
-# common-definitions-entityreference
+# docs/SchemaMarkdown/common-definitions-email
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/email
+```
+
+Email address of user or other entities
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [user.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json "open original schema") |
+
+## email Type
+
+`string`
+
+## email Constraints
+
+**maximum length**: the maximum number of characters for this string is: `127`
+
+**minimum length**: the minimum number of characters for this string is: `6`
+
+**pattern**: the string must match the following regular expression: 
+
+```regexp
+^\S+@\S+\.\S+$
+```
+
+[try pattern](https://regexr.com/?expression=%5E%5CS%2B%40%5CS%2B%5C.%5CS%2B%24 "try regular expression with regexr.com")
+
+**email**: the string must be an email address, according to [RFC 5322, section 3.4.1](https://tools.ietf.org/html/rfc5322 "check the specification")
+# docs/SchemaMarkdown/common-definitions-entityreference-properties-description
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description
+```
+
+Optional description of entity
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## description Type
+
+`string`
+# docs/SchemaMarkdown/common-definitions-entityreference-properties-name
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name
+```
+
+Name of the entity instance
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## name Type
+
+`string`
+# docs/SchemaMarkdown/common-definitions-entityreference-properties-type
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type
+```
+
+Entity type/class name - Examples: database, table, metrics, redshift, mysql, bigquery, snowflake...
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## type Type
+
+`string`
+# docs/SchemaMarkdown/common-definitions-entityreference
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database
@@ -1024,52 +1085,7 @@ Link to the entity resource
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-entityreference-properties-description
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/description
-```
-
-Optional description of entity
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## description Type
-
-`string`
-# common-definitions-entityreference-properties-name
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/name
-```
-
-Name of the entity instance
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## name Type
-
-`string`
-# common-definitions-entityreference-properties-type
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/type
-```
-
-Entity type/class name - Examples: database, table, metrics, redshift, mysql, bigquery, snowflake...
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## type Type
-
-`string`
-# common-definitions-entityreferencelist
+# docs/SchemaMarkdown/common-definitions-entityreferencelist
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers
@@ -1084,7 +1100,7 @@ Followers of this table
 ## followers Type
 
 `object[]` ([Details](common-definitions-entityreference.md))
-# common-definitions-href
+# docs/SchemaMarkdown/common-definitions-href
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/href
@@ -1105,7 +1121,140 @@ Link to the tag resource
 ## href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image Type
+
+`string`
+
+## image Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image192
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image192 Type
+
+`string`
+
+## image192 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image24
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image24 Type
+
+`string`
+
+## image24 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image32
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image32 Type
+
+`string`
+
+## image32 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image48
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image48 Type
+
+`string`
+
+## image48 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image512
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image512 Type
+
+`string`
+
+## image512 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist-properties-image72
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## image72 Type
+
+`string`
+
+## image72 Constraints
+
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
+# docs/SchemaMarkdown/common-definitions-imagelist
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/profile/properties/images
@@ -1288,140 +1437,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ### image512 Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image Type
-
-`string`
-
-## image Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image24
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image24
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image24 Type
-
-`string`
-
-## image24 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image32
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image32
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image32 Type
-
-`string`
-
-## image32 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image48
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image48
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image48 Type
-
-`string`
-
-## image48 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image72
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image72
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image72 Type
-
-`string`
-
-## image72 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image192
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image192
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image192 Type
-
-`string`
-
-## image192 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-imagelist-properties-image512
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/imageList/properties/image512
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## image512 Type
-
-`string`
-
-## image512 Constraints
-
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-profile
+# docs/SchemaMarkdown/common-definitions-profile
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile
@@ -1464,38 +1480,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ### images Type
 
 `object` ([Details](#common-definitions-imagelist))
-# common-definitions-email
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/email
-```
-
-Email address of user or other entities
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [user.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json "open original schema") |
-
-## email Type
-
-`string`
-
-## email Constraints
-
-**maximum length**: the maximum number of characters for this string is: `127`
-
-**minimum length**: the minimum number of characters for this string is: `6`
-
-**pattern**: the string must match the following regular expression: 
-
-```regexp
-^\S+@\S+\.\S+$
-```
-
-[try pattern](https://regexr.com/?expression=%5E%5CS%2B%40%5CS%2B%5C.%5CS%2B%24 "try regular expression with regexr.com")
-
-**email**: the string must be an email address, according to [RFC 5322, section 3.4.1](https://tools.ietf.org/html/rfc5322 "check the specification")
-# common-definitions-schedule
+# docs/SchemaMarkdown/common-definitions-schedule
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule
@@ -1559,7 +1544,7 @@ Duration in ISO 8601 format in UTC time. Example - 'P23DT23H'
 ### repeatFrequency Type
 
 `string`
-# common-definitions-schema
+# docs/SchemaMarkdown/common-definitions-schema
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/schema
@@ -1578,7 +1563,92 @@ URL for the schema of an entity
 ## schema Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-taglabel
+# docs/SchemaMarkdown/common-definitions-taglabel-properties-labeltype
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## labelType Type
+
+`string`
+
+## labelType Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"MANUAL"`     |             |
+| `"PROPAGATED"` |             |
+| `"AUTOMATED"`  |             |
+| `"DERIVED"`    |             |
+
+## labelType Default Value
+
+The default value is:
+
+```json
+"MANUAL"
+```
+# docs/SchemaMarkdown/common-definitions-taglabel-properties-state
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## state Type
+
+`string`
+
+## state Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value         | Explanation |
+| :------------ | :---------- |
+| `"SUGGESTED"` |             |
+| `"CONFIRMED"` |             |
+
+## state Default Value
+
+The default value is:
+
+```json
+"CONFIRMED"
+```
+# docs/SchemaMarkdown/common-definitions-taglabel-properties-tagfqn
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## tagFQN Type
+
+`string`
+
+## tagFQN Constraints
+
+**maximum length**: the maximum number of characters for this string is: `45`
+# docs/SchemaMarkdown/common-definitions-taglabel
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags/items
@@ -1720,92 +1790,37 @@ Link to the tag resource
 ### href Constraints
 
 **URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc3986 "check the specification")
-# common-definitions-taglabel-properties-labeltype
+# docs/SchemaMarkdown/common-definitions-timeinterval-properties-end
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/labelType
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end
 ```
 
-
+End unixTimeMillis
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
 
-## labelType Type
+## end Type
 
-`string`
-
-## labelType Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value          | Explanation |
-| :------------- | :---------- |
-| `"MANUAL"`     |             |
-| `"PROPAGATED"` |             |
-| `"AUTOMATED"`  |             |
-| `"DERIVED"`    |             |
-
-## labelType Default Value
-
-The default value is:
-
-```json
-"MANUAL"
-```
-# common-definitions-taglabel-properties-state
+`integer`
+# docs/SchemaMarkdown/common-definitions-timeinterval-properties-start
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/state
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start
 ```
 
-
+Start unixTimeMillis
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
 
-## state Type
+## start Type
 
-`string`
-
-## state Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value         | Explanation |
-| :------------ | :---------- |
-| `"SUGGESTED"` |             |
-| `"CONFIRMED"` |             |
-
-## state Default Value
-
-The default value is:
-
-```json
-"CONFIRMED"
-```
-# common-definitions-taglabel-properties-tagfqn
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/tagLabel/properties/tagFQN
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## tagFQN Type
-
-`string`
-
-## tagFQN Constraints
-
-**maximum length**: the maximum number of characters for this string is: `45`
-# common-definitions-timeinterval
+`integer`
+# docs/SchemaMarkdown/common-definitions-timeinterval
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval
@@ -1865,37 +1880,7 @@ End unixTimeMillis
 ### end Type
 
 `integer`
-# common-definitions-timeinterval-properties-end
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/end
-```
-
-End unixTimeMillis
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## end Type
-
-`integer`
-# common-definitions-timeinterval-properties-start
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timeInterval/properties/start
-```
-
-Start unixTimeMillis
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## start Type
-
-`integer`
-# common-definitions-timestamp
+# docs/SchemaMarkdown/common-definitions-timestamp
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/timestamp
@@ -1916,7 +1901,26 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 ## timestamp Constraints
 
 **unknown format**: the value of this string must follow the format: `utc-millisec`
-# common-definitions-usagedetails
+# docs/SchemaMarkdown/common-definitions-usagedetails-properties-date
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date
+```
+
+Date in ISO 8601 format in UTC time. Example - '2018-11-13'
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## date Type
+
+`string`
+
+## date Constraints
+
+**date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+# docs/SchemaMarkdown/common-definitions-usagedetails
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary
@@ -2024,26 +2028,47 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ### date Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# common-definitions-usagedetails-properties-date
+# docs/SchemaMarkdown/common-definitions-usagestats-properties-count
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/date
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count
 ```
 
-Date in ISO 8601 format in UTC time. Example - '2018-11-13'
+
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
 
-## date Type
+## count Type
 
-`string`
+`integer`
 
-## date Constraints
+## count Constraints
 
-**date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# common-definitions-usagestats
+**minimum**: the value of this number must greater than or equal to: `0`
+# docs/SchemaMarkdown/common-definitions-usagestats-properties-percentilerank
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## percentileRank Type
+
+`number`
+
+## percentileRank Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `100`
+
+**minimum**: the value of this number must greater than or equal to: `0`
+# docs/SchemaMarkdown/common-definitions-usagestats
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageDetails/properties/monthlyStats
@@ -2113,47 +2138,7 @@ https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/m
 **maximum**: the value of this number must smaller than or equal to: `100`
 
 **minimum**: the value of this number must greater than or equal to: `0`
-# common-definitions-usagestats-properties-count
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/count
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## count Type
-
-`integer`
-
-## count Constraints
-
-**minimum**: the value of this number must greater than or equal to: `0`
-# common-definitions-usagestats-properties-percentilerank
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/usageStats/properties/percentileRank
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
-
-## percentileRank Type
-
-`number`
-
-## percentileRank Constraints
-
-**maximum**: the value of this number must smaller than or equal to: `100`
-
-**minimum**: the value of this number must greater than or equal to: `0`
-# common-definitions-uuid
+# docs/SchemaMarkdown/common-definitions-uuid
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/entityReference/properties/id
@@ -2172,3 +2157,18 @@ Unique id used to identify an entity
 ## id Constraints
 
 **UUID**: the string must be a UUID, according to [RFC 4122](https://tools.ietf.org/html/rfc4122 "check the specification")
+# docs/SchemaMarkdown/common-definitions
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [common.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json "open original schema") |
+
+## definitions Type
+
+unknown

@@ -1,4 +1,4 @@
-# Daily count of some measurement Schema
+# docs/SchemaMarkdown/dailycount
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json
@@ -64,7 +64,7 @@ Date in ISO 8601 format in UTC time. Example - '2018-11-13'
 ### date Constraints
 
 **date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-# dailycount-properties-count
+# docs/SchemaMarkdown/dailycount-properties-count
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/count

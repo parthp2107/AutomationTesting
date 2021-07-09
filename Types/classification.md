@@ -1,4 +1,4 @@
-# Data classification related types Schema
+# docs/SchemaMarkdown/classification
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json
@@ -145,22 +145,86 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
-# classification-definitions
+# docs/SchemaMarkdown/classification-definitions-personaldata-properties-documentation
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation
 ```
 
-
+Name of PII tag
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
 
-## definitions Type
+## documentation Type
 
-unknown
-# classification-definitions-personaldata
+`string`
+# docs/SchemaMarkdown/classification-definitions-personaldata-properties-name
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name
+```
+
+Name of PII tag
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
+
+## name Type
+
+`string`
+# docs/SchemaMarkdown/classification-definitions-personaldata-properties-personaldatatype
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType
+```
+
+Personal data tag type
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
+
+## personalDataType Type
+
+`string`
+
+## personalDataType Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                | Explanation |
+| :------------------- | :---------- |
+| `"PERSONAL"`         |             |
+| `"SPECIAL_CATEGORY"` |             |
+# docs/SchemaMarkdown/classification-definitions-personaldata-properties-piitype
+
+```txt
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType
+```
+
+PII tag type
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
+
+## piiType Type
+
+`string`
+
+## piiType Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"NONE"`          |             |
+| `"NON_SENSITIVE"` |             |
+| `"SENSITIVE"`     |             |
+# docs/SchemaMarkdown/classification-definitions-personaldata
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags/items
@@ -275,86 +339,22 @@ Personal data tag type
 | :------------------- | :---------- |
 | `"PERSONAL"`         |             |
 | `"SPECIAL_CATEGORY"` |             |
-# classification-definitions-personaldata-properties-documentation
+# docs/SchemaMarkdown/classification-definitions
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions
 ```
 
-Name of PII tag
+
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
 
-## documentation Type
+## definitions Type
 
-`string`
-# classification-definitions-personaldata-properties-name
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name
-```
-
-Name of PII tag
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
-
-## name Type
-
-`string`
-# classification-definitions-personaldata-properties-personaldatatype
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType
-```
-
-Personal data tag type
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
-
-## personalDataType Type
-
-`string`
-
-## personalDataType Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value                | Explanation |
-| :------------------- | :---------- |
-| `"PERSONAL"`         |             |
-| `"SPECIAL_CATEGORY"` |             |
-# classification-definitions-personaldata-properties-piitype
-
-```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType
-```
-
-PII tag type
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [classification.json*](https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json "open original schema") |
-
-## piiType Type
-
-`string`
-
-## piiType Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value             | Explanation |
-| :---------------- | :---------- |
-| `"NONE"`          |             |
-| `"NON_SENSITIVE"` |             |
-| `"SENSITIVE"`     |             |
-# classification-properties-tags
+unknown
+# docs/SchemaMarkdown/classification-properties-tags
 
 ```txt
 https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags
