@@ -1,7 +1,7 @@
 name: Schemas Script
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   test:
@@ -27,7 +27,7 @@ jobs:
         run: sh ./scripts/header.sh
 
       - name: Generating directories
-        run: sh ./scripts/demo.sh
+        run: sh ./scripts/generateDirectories.sh
 
       - name: Configuring paths
         run: sh ./scripts/editContent.sh
