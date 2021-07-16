@@ -6,3 +6,4 @@ do
   sed -i "1i\
 # ${file%%.*}" "$file"
 done
+
