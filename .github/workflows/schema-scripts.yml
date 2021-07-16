@@ -20,6 +20,9 @@ jobs:
       - name: Install jsonschema2md
         run: sudo npm install -g @adobe/jsonschema2md
 
+      - name: Creating docs direcrtory
+        run: mkdir docs
+
       - name: Json schema to markdown
         run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
 
