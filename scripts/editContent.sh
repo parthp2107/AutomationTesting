@@ -278,5 +278,5 @@ echo "----------------------File content changed----------------------"
 
 rm -rf docs/docs/SchemaMarkdown
 rm -rf out
-rm -rf github-pages-deploy-action-temp-deployment-folder
+rm -rf ./github-pages-deploy-action-temp-deployment-folder
 echo "----------------------jsonschema2md files deleted----------------------"
