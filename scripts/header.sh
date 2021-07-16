@@ -1,6 +1,6 @@
-file=/home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/*.md
+file=/home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/*.md
 sed -i '1d' $file
-cd /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/
+cd /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/
 for file in *.md
 do
   sed -i "1i\

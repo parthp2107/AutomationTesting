@@ -24,7 +24,7 @@ jobs:
         run: mkdir docs
 
       - name: Json schema to markdown
-        run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
+        run: jsonschema2md -d schema -o docs/docs/SchemaMarkdown -e json
 
       - name: Running header script
         run: sh ./scripts/header.sh
