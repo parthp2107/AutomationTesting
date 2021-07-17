@@ -21,7 +21,7 @@ jobs:
         run: sudo npm install -g @adobe/jsonschema2md
 
       - name: Json schema to markdown
-        run: jsonschema2md -d schema -o docs/SchemaMarkdown -e json
+        run: jsonschema2md -d schema -o docs/docs/SchemaMarkdown -e json
 
       - name: Running header script
         run: sh ./scripts/header.sh
