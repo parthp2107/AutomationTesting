@@ -35,8 +35,9 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          BRANCH: master
-          FOLDER: ./
+          branch: master
+          folder: ./
+          clean: true
 
       - name: remove
         run: rm -rf ./github-pages-deploy-action-temp-deployment-folder
