@@ -53,18 +53,7 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalo
 -e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../types/common.md#common-definitions-taglabel)+gI' \
 -e 's+\[Details\](common-definitions-profile.md)+\[Details\](../types/common.md#common-definitions-profile)+gI' \
 -e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../types/common.md#common-definitions-imagelist)+gI' \
--e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../types/common.md#common-definitions-timeinterval)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
--e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../types/common.md#common-definitions-timeinterval)+gI' $path
 
 echo "----------------------Changing bots paths----------------------"
 path=docs/docs/Entities/bots.md
