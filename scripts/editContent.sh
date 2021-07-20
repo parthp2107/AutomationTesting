@@ -44,16 +44,16 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalo
 -e 's#../../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
 -e 's#../../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
 -e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
--e 's+\[Details\](common-definitions-entityreference.md)+\[Details\](../types/common.md#common-definitions-entityreference)+gI' \
--e 's+\[Details\](common-definitions-usagedetails.md)+\[Details\](../types/common.md#common-definitions-usagedetails)+gI' \
--e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
--e 's+\[Details\](common-definitions-schedule.md)+\[Details\](../types/common.md#common-definitions-schedule)+gI' \
--e 's+\[Details\](table-definitions-column.md)+\[Details\](../types/common.md#table-definitions-column)+gI' \
+-e 's+\[Details\](common-definitions-entityreference.md)+\[Details\](../Types/common.md#common-definitions-entityreference)+gI' \
+-e 's+\[Details\](common-definitions-usagedetails.md)+\[Details\](../Types/common.md#common-definitions-usagedetails)+gI' \
+-e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../Types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
+-e 's+\[Details\](common-definitions-schedule.md)+\[Details\](../Types/common.md#common-definitions-schedule)+gI' \
+-e 's+\[Details\](table-definitions-column.md)+\[Details\](../Types/common.md#table-definitions-column)+gI' \
 -e 's+\[Details\](table-definitions-tableconstraint.md)+\[Details\](#table-definitions-tableconstraint)+gI' \
--e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../types/common.md#common-definitions-taglabel)+gI' \
--e 's+\[Details\](common-definitions-profile.md)+\[Details\](../types/common.md#common-definitions-profile)+gI' \
--e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../types/common.md#common-definitions-imagelist)+gI' \
--e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../types/common.md#common-definitions-timeinterval)+gI' $path
+-e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../Types/common.md#common-definitions-taglabel)+gI' \
+-e 's+\[Details\](common-definitions-profile.md)+\[Details\](../Types/common.md#common-definitions-profile)+gI' \
+-e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../Types/common.md#common-definitions-imagelist)+gI' \
+-e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../Types/common.md#common-definitions-timeinterval)+gI' $path
 
 echo "----------------------Changing bots paths----------------------"
 path=docs/docs/Entities/bots.md
