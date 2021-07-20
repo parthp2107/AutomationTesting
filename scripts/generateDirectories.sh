@@ -103,7 +103,7 @@ cat jdbcconnection-* >> jdbcconnection.md
 
 
 echo "------------------Moving files------------------"
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs/docs
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/bots.md /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/Entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/dashboard.md /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/Entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/SchemaMarkdown/database.md /home/runner/work/AutomationTesting/AutomationTesting/docs/docs/Entities

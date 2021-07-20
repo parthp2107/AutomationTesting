@@ -43,7 +43,28 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalo
 -e 's#../../out/type/common.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#g' \
 -e 's#../../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
 -e 's#../../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
--e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' $path
+-e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
+-e 's+\[Details\](common-definitions-entityreference.md)+\[Details\](../types/common.md#common-definitions-entityreference)+gI' \
+-e 's+\[Details\](common-definitions-usagedetails.md)+\[Details\](../types/common.md#common-definitions-usagedetails)+gI' \
+-e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
+-e 's+\[Details\](common-definitions-schedule.md)+\[Details\](../types/common.md#common-definitions-schedule)+gI' \
+-e 's+\[Details\](table-definitions-column.md)+\[Details\](../types/common.md#table-definitions-column)+gI' \
+-e 's+\[Details\](table-definitions-tableconstraint.md)+\[Details\](#table-definitions-tableconstraint)+gI' \
+-e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../types/common.md#common-definitions-taglabel)+gI' \
+-e 's+\[Details\](common-definitions-profile.md)+\[Details\](../types/common.md#common-definitions-profile)+gI' \
+-e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../types/common.md#common-definitions-imagelist)+gI' \
+-e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../types/common.md#common-definitions-timeinterval)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
+-e 's+\[Details\]()+\[Details\](../types/common.md#)+gI' \
 
 echo "----------------------Changing bots paths----------------------"
 path=docs/docs/Entities/bots.md
@@ -80,7 +101,7 @@ echo "----------------------Changing databaseservice paths----------------------
 path=docs/docs/Entities/databaseservice.md
 sed -i -e 's+\[Database service entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Database service entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
--e 's+\[Database service entity\](jdbcconnection-definitions-jdbcinfo.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc")+\[Common type\](../Types/Jdbc-Connection/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
+-e 's+\[Database service entity\](jdbcconnection-definitions-jdbcinfo.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc")+\[Common type\](../Types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
 -e 's+\[Database service entity\](common-definitions-schedule.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule")+\[Common type\](../Types/common.md#common-definitions-schedule)+gI' \
 -e 's+databaseservice-properties-name.md+#Databaseservice-Properties-Name+gI' \
 -e 's+databaseservice-properties-servicetype.md+#databaseservice-properties-servicetype+gI' \
@@ -95,7 +116,8 @@ sed -i -e 's+\[Feed entity\](common-definitions-uuid.md "https://github.com/Stre
 -e 's+thread-properties-threadts.md+#Thread-Properties-Threads+gI' \
 -e 's+thread-properties-posts.md+#Thread-Properties-Posts+gI' \
 -e 's+thread-definitions-post-properties-message.md+#thread-definitions-post-properties-message+gI' \
--e 's+thread-definitions-post-properties-postts.md+#thread-definitions-post-properties-postts+gI' $path
+-e 's+thread-definitions-post-properties-postts.md+#thread-definitions-post-properties-postts+gI' \
+-e 's+thread-definitions-post.md+#thread-definitions-post+gI' $path
 
 echo "----------------------Changing metrics paths----------------------"
 path=docs/docs/Entities/metrics.md
@@ -159,7 +181,19 @@ sed -i -e 's+\[Table entity\](common-definitions-uuid.md "https://github.com/Str
 -e 's+table-definitions-columnjoins-properties-columnname.md+#table-definitions-columnname+gI' \
 -e 's+table-definitions-columnjoins-properties-joinedwith.md+#table-definitions-columnjoins-properties-joinedwith+gI' \
 -e 's+table-definitions-tabledata-properties-columns.md+#table-definitions-tabledata-properties-columns+gI' \
--e 's+table-definitions-tabledata-properties-rows.md+#table-definitions-tabledata-properties-rows+gI' $path
+-e 's+table-definitions-tabledata-properties-rows.md+#table-definitions-tabledata-properties-rows+gI' \
+-e 's+table-definitions-tableconstraint.md+#table-definitions-tableconstraint+gI' \
+-e 's+table-definitions-columnjoins-properties-joinedwith-items.md+#table-definitions-columnjoins-properties-joinedwith-items+gI' \
+-e 's+table-definitions-column.md+#table-definitions-column+gI' \
+-e 's+table-definitions-tableconstraint.md+#table-definitions-tableconstraint+gI' \
+-e 's+table-definitions-tablejoins-properties-daycount.md+#table-definitions-tablejoins-properties-daycount+gI' \
+-e 's+table-definitions-tablejoins-properties-columnjoins.md+#table-definitions-tablejoins-properties-columnjoins+gI' \
+-e 's+table-definitions-columnjoins.md+#table-definitions-columnjoins+gI' \
+-e 's+table-definitions-columnname.md+#table-definitions-columnname+gI' \
+-e 's+table-definitions-columndatatype.md+#table-definitions-columndatatype+gI' \
+-e 's+table-definitions-fullyqualifiedcolumnname.md+#table-definitions-fullyqualifiedcolumnname+gI' \
+-e 's+table-definitions-columnconstraint.md+#table-definitions-columnconstraint+gI' \
+-e 's+table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md+#table-definitions-columnjoins-properties-joinedwith-items-properties-joincount+gI' $path
 
 echo "----------------------Changing tagcategory paths----------------------"
 path=docs/docs/Entities/tagcategory.md
@@ -216,7 +250,8 @@ sed -i -e 's+classification-properties-tags.md+#classification-properties-tags+g
 -e 's+classification-definitions-personaldata-properties-name.md+#classification-definitions-personaldata-properties-name+gI' \
 -e 's+classification-definitions-personaldata-properties-documentation.md+#classification-definitions-personaldata-properties-documentation+gI' \
 -e 's+classification-definitions-personaldata-properties-piitype.md+#classification-definitions-personaldata-properties-piitype+gI' \
--e 's+classification-definitions-personaldata-properties-personaldatatype.md+#classification-definitions-personaldata-properties-personaldatatype+gI' $path
+-e 's+classification-definitions-personaldata-properties-personaldatatype.md+#classification-definitions-personaldata-properties-personaldatatype+gI' \
+-e 's+classification-definitions-personaldata.md+#classification-definitions-personaldata+gI' $path
 
 echo "----------------------Changing collectiondescriptor paths----------------------"
 path=docs/docs/Types/collectiondescriptor.md
@@ -272,7 +307,9 @@ sed -i -e 's+jdbcconnection-properties-driverclass.md+#jdbcconnection-properties
 -e 's+jdbcconnection-properties-username.md+#jdbcconnection-properties-username+gI' \
 -e 's+jdbcconnection-properties-password.md+#jdbcconnection-properties-password+gI' \
 -e 's+jdbcconnection-definitions-jdbcinfo-properties-driverclass.md+#jdbcconnection-definitions-driverclass+gI' \
--e 's+jdbcconnection-definitions-jdbcinfo-properties-connectionurl.md+#jdbcconnection-definitions-connectionurl+gI' $path
+-e 's+jdbcconnection-definitions-jdbcinfo-properties-connectionurl.md+#jdbcconnection-definitions-connectionurl+gI' \
+-e 's+jdbcconnection-definitions-connectionurl.md+#jdbcconnection-definitions-connectionurl+gI' \
+-e 's+jdbcconnection-definitions-driverclass.md+#jdbcconnection-definitions-driverclass+gI' $path
 
 echo "----------------------File content changed----------------------"
 
