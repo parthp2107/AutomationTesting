@@ -1,25 +1,25 @@
 echo "----------------------Changing file content----------------------"
 
 path=docs/docs/README.md
-sed -i -e 's#./bots.md#Entities/bots.md#g' \
--e 's#./common.md#Types/common.md#g' \
--e 's#./dailycount.md#Types/dailycount.md#g' \
--e 's#./dashboard.md#Entities/dashboard.md#g' \
--e 's#./classification.md#Types/classification.md#g' \
--e 's#./database.md#Entities/database.md#g' \
--e 's#./databaseservice.md#Entities/databaseservice.md#g' \
--e 's#./thread.md#Entities/thread.md#g' \
--e 's#./jdbcconnection.md#Types/jdbcconnection.md#g' \
--e 's#./metrics.md#Entities/metrics.md#g' \
--e 's#./pipeline.md#Entities/pipeline.md#g' \
--e 's#./report.md#Entities/report.md#g' \
--e 's#./collectiondescriptor.md#Types/collectiondescriptor.md#g' \
--e 's#./table.md#Entities/table.md#g' \
--e 's#./team.md#Entities/team.md#g' \
--e 's#./tagcategory.md#Entities/tagcategory.md#g' \
--e 's#./categoryusage.md#Types/categoryusage.md#g' \
--e 's#./entityusage.md#Types/entityusage.md#g' \
--e 's#./user.md#Entities/user.md#g' $path
+sed -i -e 's#./bots.md#entities/bots.md#g' \
+-e 's#./common.md#types/common.md#g' \
+-e 's#./dailycount.md#types/dailycount.md#g' \
+-e 's#./dashboard.md#entities/dashboard.md#g' \
+-e 's#./classification.md#types/classification.md#g' \
+-e 's#./database.md#entities/database.md#g' \
+-e 's#./databaseservice.md#entities/databaseservice.md#g' \
+-e 's#./thread.md#entities/thread.md#g' \
+-e 's#./jdbcconnection.md#types/jdbcconnection.md#g' \
+-e 's#./metrics.md#entities/metrics.md#g' \
+-e 's#./pipeline.md#entities/pipeline.md#g' \
+-e 's#./report.md#entities/report.md#g' \
+-e 's#./collectiondescriptor.md#types/collectiondescriptor.md#g' \
+-e 's#./table.md#entities/table.md#g' \
+-e 's#./team.md#entities/team.md#g' \
+-e 's#./tagcategory.md#entities/tagcategory.md#g' \
+-e 's#./categoryusage.md#types/categoryusage.md#g' \
+-e 's#./entityusage.md#types/entityusage.md#g' \
+-e 's#./user.md#entities/user.md#g' $path
 
 sed -i '43,306d' $path
 
@@ -44,19 +44,19 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalo
 -e 's#../../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
 -e 's#../../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
 -e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
--e 's+\[Details\](common-definitions-entityreference.md)+\[Details\](../Types/common.md#common-definitions-entityreference)+gI' \
--e 's+\[Details\](common-definitions-usagedetails.md)+\[Details\](../Types/common.md#common-definitions-usagedetails)+gI' \
--e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../Types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
--e 's+\[Details\](common-definitions-schedule.md)+\[Details\](../Types/common.md#common-definitions-schedule)+gI' \
--e 's+\[Details\](table-definitions-column.md)+\[Details\](../Types/common.md#table-definitions-column)+gI' \
+-e 's+\[Details\](common-definitions-entityreference.md)+\[Details\](../types/common.md#common-definitions-entityreference)+gI' \
+-e 's+\[Details\](common-definitions-usagedetails.md)+\[Details\](../types/common.md#common-definitions-usagedetails)+gI' \
+-e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
+-e 's+\[Details\](common-definitions-schedule.md)+\[Details\](../types/common.md#common-definitions-schedule)+gI' \
+-e 's+\[Details\](table-definitions-column.md)+\[Details\](../types/common.md#table-definitions-column)+gI' \
 -e 's+\[Details\](table-definitions-tableconstraint.md)+\[Details\](#table-definitions-tableconstraint)+gI' \
--e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../Types/common.md#common-definitions-taglabel)+gI' \
--e 's+\[Details\](common-definitions-profile.md)+\[Details\](../Types/common.md#common-definitions-profile)+gI' \
--e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../Types/common.md#common-definitions-imagelist)+gI' \
--e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../Types/common.md#common-definitions-timeinterval)+gI' $path
+-e 's+\[Details\](common-definitions-taglabel.md)+\[Details\](../types/common.md#common-definitions-taglabel)+gI' \
+-e 's+\[Details\](common-definitions-profile.md)+\[Details\](../types/common.md#common-definitions-profile)+gI' \
+-e 's+\[Details\](common-definitions-imagelist.md)+\[Details\](../types/common.md#common-definitions-imagelist)+gI' \
+-e 's+\[Details\](common-definitions-timeinterval.md)+\[Details\](../types/common.md#common-definitions-timeinterval)+gI' $path
 
 echo "----------------------Changing bots paths----------------------"
-path=docs/docs/Entities/bots.md
+path=docs/docs/entities/bots.md
 sed -i -e 's+\[Bot entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")+\[Common Type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Bot entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")+\[Common Type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+bots-properties-name.md+#bots-properties-name+gI' \
@@ -64,7 +64,7 @@ sed -i -e 's+\[Bot entity\](common-definitions-uuid.md "https://github.com/Strea
 -e 's+bots-properties-description.md+#bots-properties-description+gI' $path
 
 echo "----------------------Changing dashboard paths----------------------"
-path=docs/docs/Entities/dashboard.md
+path=docs/docs/entities/dashboard.md
 sed -i -e 's+\[Dashboard entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/id")+\[Common Type\](../Types/common.md#common-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/uuid")+gI' \
 -e 's+\[Dashboard entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/href")+\[Common Type\](../Types/common.md#common-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json#/definitions/href")+gI' \
 -e 's+\[Dashboard entity\](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/owner")+\[Common type\](../Types/common.md#common-definitions-entityreference)+gI' \
@@ -75,7 +75,7 @@ sed -i -e 's+\[Dashboard entity\](common-definitions-uuid.md "https://github.com
 -e 's+dashboard-properties-description.md+#dashboard-properties-description+gI' $path
 
 echo "----------------------Changing database paths----------------------"
-path=docs/docs/Entities/database.md
+path=docs/docs/entities/database.md
 sed -i -e 's+\[Database entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Database entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Database entity\](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/owner")+\[Common type\](../Types/common.md#common-definitions-entityreference)+gI' \
@@ -87,7 +87,7 @@ sed -i -e 's+\[Database entity\](common-definitions-uuid.md "https://github.com/
 -e 's+database-properties-description.md+#database-properties-description+gI' $path
 
 echo "----------------------Changing databaseservice paths----------------------"
-path=docs/docs/Entities/databaseservice.md
+path=docs/docs/entities/databaseservice.md
 sed -i -e 's+\[Database service entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Database service entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Database service entity\](jdbcconnection-definitions-jdbcinfo.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc")+\[Common type\](../Types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
@@ -97,7 +97,7 @@ sed -i -e 's+\[Database service entity\](common-definitions-uuid.md "https://git
 -e 's+databaseservice-properties-description.md+#databaseservice-properties-description+gI' $path
 
 echo "----------------------Changing thread paths----------------------"
-path=docs/docs/Entities/thread.md
+path=docs/docs/entities/thread.md
 sed -i -e 's+\[Feed entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Feed entity\]((common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Feed entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
@@ -109,7 +109,7 @@ sed -i -e 's+\[Feed entity\](common-definitions-uuid.md "https://github.com/Stre
 -e 's+thread-definitions-post.md+#thread-definitions-post+gI' $path
 
 echo "----------------------Changing metrics paths----------------------"
-path=docs/docs/Entities/metrics.md
+path=docs/docs/entities/metrics.md
 sed -i -e 's+\[Metrics entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Metrics entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Metrics entity\](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/owner")+\[Common type\](../Types/common.md#common-definitions-entityreference)+gI' \
@@ -120,7 +120,7 @@ sed -i -e 's+\[Metrics entity\](common-definitions-uuid.md "https://github.com/S
 -e 's+metrics-properties-description.md+#metrics-properties-description+gI' $path
 
 echo "----------------------Changing pipeline paths----------------------"
-path=docs/docs/Entities/pipeline.md
+path=docs/docs/entities/pipeline.md
 sed -i -e 's+\[Pipeline entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Pipeline entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Pipeline entity\](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/owner")+\[Common type\](../Types/common.md#common-definitions-entityreference)+gI' \
@@ -130,7 +130,7 @@ sed -i -e 's+\[Pipeline entity\](common-definitions-uuid.md "https://github.com/
 -e 's+pipeline-properties-description.md+#pipeline-properties-description+gI' $path
 
 echo "----------------------Changing report paths----------------------"
-path=docs/docs/Entities/report.md
+path=docs/docs/entities/report.md
 sed -i -e 's+\[Report entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Report entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Report entity\](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")+\[Common type\](../Types/common.md#common-definitions-entityreference)+gI' \
@@ -141,7 +141,7 @@ sed -i -e 's+\[Report entity\](common-definitions-uuid.md "https://github.com/St
 -e 's+report-properties-description.md+#report-properties-description+gI' $path
 
 echo "----------------------Changing table paths----------------------"
-path=docs/docs/Entities/table.md
+path=docs/docs/entities/table.md
 sed -i -e 's+\[Table entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Table entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Table entity\](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")+\[Common type\](../Types/common.md#common-definitions-usagedetails)+gI' \
@@ -185,7 +185,7 @@ sed -i -e 's+\[Table entity\](common-definitions-uuid.md "https://github.com/Str
 -e 's+table-definitions-columnjoins-properties-joinedwith-items-properties-joincount.md+#table-definitions-columnjoins-properties-joinedwith-items-properties-joincount+gI' $path
 
 echo "----------------------Changing tagcategory paths----------------------"
-path=docs/docs/Entities/tagcategory.md
+path=docs/docs/entities/tagcategory.md
 sed -i -e 's+\[Types related to tag category\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Types related to tag category\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+tagcategory-properties-name.md+#tagcategory-properties-name+gI' \
@@ -202,7 +202,7 @@ sed -i -e 's+\[Types related to tag category\](common-definitions-href.md "https
 -e 's+tagcategory-definitions-tag-properties-children.md+#tagcategory-definitions-tag-properties-children+gI' $path
 
 echo "----------------------Changing team paths----------------------"
-path=docs/docs/Entities/team.md
+path=docs/docs/entities/team.md
 sed -i -e 's+\[Team entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[Team entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[Team entity\](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")+\[Common type\](../Types/Common/common-definitions-profile.md#common-definitions-profile)+gI' \
@@ -214,7 +214,7 @@ sed -i -e 's+\[Team entity\](common-definitions-uuid.md "https://github.com/Stre
 -e 's+team-properties-deleted.md+#team-properties-deleted+gI' $path
 
 echo "----------------------Changing users paths----------------------"
-path=docs/docs/Entities/user.md
+path=docs/docs/entities/user.md
 sed -i -e 's+\[User entity\](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")+\[Common type\](../Types/common.md#common-definitions-uuid)+gI' \
 -e 's+\[User entity\](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")+\[Common type\](../Types/common.md#common-definitions-href)+gI' \
 -e 's+\[User entity\](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")+\[Common type\](../Types/Common/common-definitions-profile.md#common-definitions-profile)+gI' \
