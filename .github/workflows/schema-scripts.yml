@@ -38,4 +38,7 @@ jobs:
           branch: master
           folder: ./
 
-
+      - name: Remove File
+        run: rm -rf ./github-pages-deploy-action-temp-deployment-folder
+        with:
+          branch: master
