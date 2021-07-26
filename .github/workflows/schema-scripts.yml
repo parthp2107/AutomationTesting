@@ -39,4 +39,4 @@ jobs:
           folder: ./
 
       - name: Remove File
-        run: rm -rf /home/runner/work/AutomationTesting/AutomationTesting/github-pages-deploy-action-temp-deployment-folder -f
+        run: rm -rf /usr/bin/git/github-pages-deploy-action-temp-deployment-folder -f
