@@ -1,0 +1,48 @@
+{
+  "$id": "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dashboard entity",
+  "description": "Entity that represents a Dashboard",
+  "type": "object",
+
+  "properties" : {
+    "id": {
+      "description": "Unique identifier that identifies a dashboard instance",
+      "$ref": "../../type/common.json#/definitions/uuid"
+    },
+    "name": {
+      "description": "Name that identifies the this dashboard.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "fullyQualifiedName": {
+      "description": "Unique name that identifies a dashboard in the format 'ServiceName.DashboardName'",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "description": {
+      "description": "Description of dashboard, what it is and how to use it.",
+      "type": "string"
+    },
+    "href": {
+      "description": "Link to the resource corresponding to this entity",
+      "$ref": "../../type/common.json#/definitions/href"
+    },
+    "owner": {
+      "description": "Owner of this dashboard",
+      "$ref": "../../type/common.json#/definitions/entityReference"
+    },
+    "service" : {
+      "description": "Link to service where this dashboard is hosted in",
+      "$ref" : "../../type/common.json#/definitions/entityReference"
+    },
+    "usageSummary" : {
+      "description": "Latest usage information for this database",
+      "$ref": "../../type/common.json#/definitions/usageDetails",
+      "default": null
+    }
+  },
+  "required": ["id", "name", "service"]
+}
