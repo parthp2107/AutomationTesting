@@ -15,4 +15,4 @@ jobs:
 
     steps:
       - name: Remove File
-        uses: rm -rf ./github-pages-deploy-action-temp-deployment-folder
+        run: rm -rf ./github-pages-deploy-action-temp-deployment-folder
