@@ -14,8 +14,5 @@ jobs:
           - 12.x
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
       - name: Remove File
         uses: rm -rf ./github-pages-deploy-action-temp-deployment-folder
