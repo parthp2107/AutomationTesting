@@ -1,0 +1,21 @@
+name: Removing Excess Files
+on:
+  push:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node-version:
+          - 12.x
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Remove File
+        uses: rm -rf ./github-pages-deploy-action-temp-deployment-folder
