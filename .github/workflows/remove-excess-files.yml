@@ -15,4 +15,4 @@ jobs:
 
     steps:
       - name: Remove File
-        run: rm -rf ./github-pages-deploy-action-temp-deployment-folder
+        run: rm -rf /home/runner/work/AutomationTesting/AutomationTesting/github-pages-deploy-action-temp-deployment-folder
