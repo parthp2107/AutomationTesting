@@ -37,6 +37,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          email: username@domain.tld
-          build_dir: ./
+          build_dir: ./docs
           branch: master
