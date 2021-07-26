@@ -36,7 +36,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: master
-          folder: ./
-
-      - name: Remove File
-        run: rm -rf /usr/bin/git/github-pages-deploy-action-temp-deployment-folder -f
+          folder: ./docs
