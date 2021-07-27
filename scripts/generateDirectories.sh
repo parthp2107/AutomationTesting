@@ -30,8 +30,6 @@ fi
 sed -i d $path
 echo "# Entities
 
-Hello this is entities page
-
 {% page-ref page="\"bots.md\"" %}
 
 {% page-ref page="\"dashboard.md\"" %}
@@ -67,8 +65,6 @@ else
 fi
 sed -i d $path
 echo "# Types
-
-Hello this is types
 
 {% page-ref page="\"categoryusage.md\"" %}
 

@@ -39,3 +39,6 @@ jobs:
         with:
           build_dir: ./
           branch: master
+
+      - name: remove excess files
+        run: rm -rf .nojekyll
