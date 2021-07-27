@@ -28,7 +28,9 @@ else
     echo "File exists $filename"
 fi
 sed -i d $path
-echo "# entities
+echo "# Entities
+
+Hello this is entities page
 
 {% page-ref page="\"bots.md\"" %}
 
@@ -64,7 +66,9 @@ else
     echo "File exists $filename"
 fi
 sed -i d $path
-echo "# types
+echo "# Types
+
+Hello this is types
 
 {% page-ref page="\"categoryusage.md\"" %}
 
