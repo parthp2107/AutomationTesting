@@ -112,7 +112,7 @@ JSON schema supports many native types - `null, boolean, object, array, number` 
 {% page-ref page="\"categoryusage.md\"" %}
 {% page-ref page="\"classification.md\"" %}
 {% page-ref page="\"collectiondescriptor.md\"" %}
-{% page-ref page="\"common.md\"" %}
+{% page-ref page="\"basic.md\"" %}
 {% page-ref page="\"dailycount.md\"" %}
 {% page-ref page="\"entityusage.md\"" %}
 {% page-ref page="\"jdbcconnection.md\"" %}" >> $path
@@ -133,7 +133,7 @@ cat user-* >> user.md
 cat categoryusage-* >> categoryusage.md
 cat classification-* >> classification.md
 cat collectiondescriptor-* >> collectiondescriptor.md
-cat common-* >> common.md
+cat basic-* >> basic.md
 cat dailycount-* >> dailycount.md
 cat entityusage-* >> entityusage.md
 cat jdbcconnection-* >> jdbcconnection.md
@@ -156,7 +156,7 @@ cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/use
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/categoryusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/classification.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/common.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/basic.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/jdbcconnection.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
