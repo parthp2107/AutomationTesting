@@ -62,7 +62,6 @@ Following is an example of a JSON schema of the User entity with attributes id, 
 {
   "title": "User entity",
   "type": "object",
-
   "properties" : {
     "id": {
       "description": "Unique identifier for instance of a User",
