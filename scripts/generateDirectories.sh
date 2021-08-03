@@ -109,13 +109,16 @@ sed -i d $path
 echo "# Types
 JSON schema supports many native types - `null, boolean, object, array, number` and `string`. In addition, to develop clear and consistent vocabulary, domain-specific reusable types are defined ranging from simple types, such as `UUID`, `timestamp`, and `email` to more complex object types, such as `Tags, Ownership` and `Usage`.
 ## List of Schema Types
-{% page-ref page="\"categoryusage.md\"" %}
-{% page-ref page="\"classification.md\"" %}
-{% page-ref page="\"collectiondescriptor.md\"" %}
 {% page-ref page="\"basic.md\"" %}
+{% page-ref page="\"collectiondescriptor.md\"" %}
 {% page-ref page="\"dailycount.md\"" %}
+{% page-ref page="\"entityReference.md\"" %}
 {% page-ref page="\"entityusage.md\"" %}
-{% page-ref page="\"jdbcconnection.md\"" %}" >> $path
+{% page-ref page="\"jdbcconnection.md\"" %}
+{% page-ref page="\"profile.md\"" %}
+{% page-ref page="\"schedule.md\"" %}
+{% page-ref page="\"tagLabel.md\"" %}
+{% page-ref page="\"usageDetails.md\"" %}" >> $path
 
 cd docs/SchemaMarkdown
 cat bots-* >> bots.md
@@ -130,16 +133,17 @@ cat table-* >> table.md
 cat tagcategory-* >> tagcategory.md
 cat team-* >> team.md
 cat user-* >> user.md
+
 cat basic-* >> basic.md
 cat collectiondescriptor-* >> collectiondescriptor.md
 cat dailycount-* >> dailycount.md
-cat entityReference-* >> entityReference.md
+cat entityreference-* >> entityreference.md
 cat entityusage-* >> entityusage.md
 cat jdbcconnection-* >> jdbcconnection.md
 cat profile-* >> profile.md
 cat schedule-* >> schedule.md
-cat tagLabel-* >> tagLabel.md
-cat usageDetails-* >> usageDetails.md
+cat taglabel-* >> taglabel.md
+cat usagedetails-* >> usagedetails.md
 
 echo "------------------Moving files------------------"
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
@@ -159,11 +163,11 @@ cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/use
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/basic.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityReference.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityreference.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/jdbcconnection.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/profile.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/schedule.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagLabel.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/usageDetails.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/taglabel.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/usagedetails.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 echo "------------------Files moved to respective folders------------------"

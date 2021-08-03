@@ -225,28 +225,6 @@ sed -i -e 's+\[User entity\](basic-definitions-uuid.md "https://github.com/open-
 -e 's+user-properties-isbot.md+#user-properties-isbot+gI' \
 -e 's+user-properties-isadmin.md+#user-properties-isAdmin+gI' $path
 
-echo "----------------------Changing categoryusage paths----------------------"
-path=docs/types/categoryusage.md
-sed -i -e 's+categoryusage-properties-entity.md+#categoryusage-properties-entity+gI' \
--e 's+categoryusage-properties-usage.md+#categoryusage-properties-usage+gI' $path
-
-echo "----------------------Changing classification paths----------------------"
-path=docs/types/classification.md
-sed -i -e 's+classification-properties-tags.md+#classification-properties-tags+gI' \
--e 's+classification-definitions-personaldata-properties-name.md+#classification-definitions-personaldata-properties-name+gI' \
--e 's+classification-definitions-personaldata-properties-documentation.md+#classification-definitions-personaldata-properties-documentation+gI' \
--e 's+classification-definitions-personaldata-properties-piitype.md+#classification-definitions-personaldata-properties-piitype+gI' \
--e 's+classification-definitions-personaldata-properties-personaldatatype.md+#classification-definitions-personaldata-properties-personaldatatype+gI' \
--e 's+classification-definitions-personaldata.md+#classification-definitions-personaldata+gI' $path
-
-echo "----------------------Changing collectiondescriptor paths----------------------"
-path=docs/types/collectiondescriptor.md
-sed -i -e 's+\[Schema for collection descriptor\](basic-definitions-imagelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")+\[basic type\](../types/basic.md#basic-definitions-imagelist)+gI' \
--e 's+collectiondescriptor-definitions-collectioninfo.md+#collectiondescriptor-definitions-collectioninfo+gI' \
--e 's+collectiondescriptor-definitions-collectioninfo-properties-name.md+#collectiondescriptor-definitions-collectioninfo-properties-name+gI' \
--e 's+collectiondescriptor-definitions-collectioninfo-properties-documentation.md+#collectiondescriptor-definitions-collectioninfo-properties-documentation+gI' \
--e 's+collectiondescriptor-definitions-collectioninfo-properties-href.md+#collectiondescriptor-definitions-collectioninfo-properties-href+gI' $path
-
 echo "----------------------Changing basic paths----------------------"
 path=docs/types/basic.md
 sed -i -e 's+basic-definitions-timeinterval-properties-start.md+#basic-definitions-timeinterval-properties-start+gI' \
@@ -276,10 +254,23 @@ sed -i -e 's+basic-definitions-timeinterval-properties-start.md+#basic-definitio
 -e 's+basic-definitions-taglabel-properties-state.md+#basic-definitions-taglabel-properties-state+gI' \
 -e 's+basic-definitions-taglabel-properties-href.md+#basic-definitions-href+gI' $path
 
+echo "----------------------Changing collectiondescriptor paths----------------------"
+path=docs/types/collectiondescriptor.md
+sed -i -e 's+\[Schema for collection descriptor\](basic-definitions-imagelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")+\[basic type\](../types/basic.md#basic-definitions-imagelist)+gI' \
+-e 's+collectiondescriptor-definitions-collectioninfo.md+#collectiondescriptor-definitions-collectioninfo+gI' \
+-e 's+collectiondescriptor-definitions-collectioninfo-properties-name.md+#collectiondescriptor-definitions-collectioninfo-properties-name+gI' \
+-e 's+collectiondescriptor-definitions-collectioninfo-properties-documentation.md+#collectiondescriptor-definitions-collectioninfo-properties-documentation+gI' \
+-e 's+collectiondescriptor-definitions-collectioninfo-properties-href.md+#collectiondescriptor-definitions-collectioninfo-properties-href+gI' $path
+
 echo "----------------------Changing dailycount paths----------------------"
 path=docs/types/dailycount.md
 sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
 -e 's+dailycount-properties-count.md+#dailycount-properties-count+gI' $path
+
+echo "----------------------Changing entityreference paths----------------------"
+path=docs/types/entityreference.md
+sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
+
 
 echo "----------------------Changing entityusage paths----------------------"
 path=docs/types/entityusage.md
@@ -297,6 +288,15 @@ sed -i -e 's+jdbcconnection-properties-driverclass.md+#jdbcconnection-properties
 -e 's+jdbcconnection-definitions-connectionurl.md+#jdbcconnection-definitions-connectionurl+gI' \
 -e 's+jdbcconnection-definitions-driverclass.md+#jdbcconnection-definitions-driverclass+gI' $path
 echo "----------------------File content changed----------------------"
+
+
+
+
+
+
+
+
+
 
 rm -rf docs/SchemaMarkdown
 rm -rf out
