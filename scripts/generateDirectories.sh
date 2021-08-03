@@ -58,6 +58,29 @@ All relationships are captured using the `EntityReference` type.
 
 Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
 
+## Metadata system entities
+
+Metadata system has the following core entities:
+1. **Data Entities** - These entities represent data, such as databases, tables, and topics, and assets created using data, such as Dashboards, Reports, Metrics, and ML Features. It also includes entities such as Pipelines that are used for creating data assets.
+2. **Services** - Services represent platforms and services used for storing and processing data. It includes Online Data Stores, Data Warehouses, ETL tools, Dashboard services, etc.
+3. **Users & Teams** - These entities represent users within an organization and teams that they are organized under.
+4. **Activities** - These entities are related to feeds, posts, and notifications for collaboration between users.
+5. **Glossary and Tags** - Entities for defining business glossary that includes hierarchical tags.
+## List of Schema Entities
+{% page-ref page="\"bots.md\"" %}
+{% page-ref page="\"dashboard.md\"" %}
+{% page-ref page="\"database.md\"" %}
+{% page-ref page="\"databaseservice.md\"" %}
+{% page-ref page="\"thread.md\"" %}
+{% page-ref page="\"metrics.md\"" %}
+{% page-ref page="\"pipeline.md\"" %}
+{% page-ref page="\"report.md\"" %}
+{% page-ref page="\"table.md\"" %}
+{% page-ref page="\"tagcategory.md\"" %}
+{% page-ref page="\"team.md\"" %}
+{% page-ref page="\"user.md\"" %}" >> $path
+
+echo "
 ```javascript
 {
   "title": "User entity",
@@ -85,28 +108,7 @@ Following is an example of a JSON schema of the User entity with attributes id, 
   }
 }
 ```
-
-## Metadata system entities
-
-Metadata system has the following core entities:
-1. **Data Entities** - These entities represent data, such as databases, tables, and topics, and assets created using data, such as Dashboards, Reports, Metrics, and ML Features. It also includes entities such as Pipelines that are used for creating data assets.
-2. **Services** - Services represent platforms and services used for storing and processing data. It includes Online Data Stores, Data Warehouses, ETL tools, Dashboard services, etc.
-3. **Users & Teams** - These entities represent users within an organization and teams that they are organized under.
-4. **Activities** - These entities are related to feeds, posts, and notifications for collaboration between users.
-5. **Glossary and Tags** - Entities for defining business glossary that includes hierarchical tags.
-## List of Schema Entities
-{% page-ref page="\"bots.md\"" %}
-{% page-ref page="\"dashboard.md\"" %}
-{% page-ref page="\"database.md\"" %}
-{% page-ref page="\"databaseservice.md\"" %}
-{% page-ref page="\"thread.md\"" %}
-{% page-ref page="\"metrics.md\"" %}
-{% page-ref page="\"pipeline.md\"" %}
-{% page-ref page="\"report.md\"" %}
-{% page-ref page="\"table.md\"" %}
-{% page-ref page="\"tagcategory.md\"" %}
-{% page-ref page="\"team.md\"" %}
-{% page-ref page="\"user.md\"" %}" >> $path
+" >> $path
 
 filename="README.md"
 path=docs/types/$filename
