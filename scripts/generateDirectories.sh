@@ -130,14 +130,16 @@ cat table-* >> table.md
 cat tagcategory-* >> tagcategory.md
 cat team-* >> team.md
 cat user-* >> user.md
-cat categoryusage-* >> categoryusage.md
-cat classification-* >> classification.md
-cat collectiondescriptor-* >> collectiondescriptor.md
 cat basic-* >> basic.md
+cat collectiondescriptor-* >> collectiondescriptor.md
 cat dailycount-* >> dailycount.md
+cat entityReference-* >> entityReference.md
 cat entityusage-* >> entityusage.md
 cat jdbcconnection-* >> jdbcconnection.md
-
+cat profile-* >> profile.md
+cat schedule-* >> schedule.md
+cat tagLabel-* >> tagLabel.md
+cat usageDetails-* >> usageDetails.md
 
 echo "------------------Moving files------------------"
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/README.md /home/runner/work/AutomationTesting/AutomationTesting/docs
@@ -153,11 +155,15 @@ cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tab
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagcategory.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/team.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/user.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/categoryusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/classification.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
-cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/basic.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityReference.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/entityusage.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/jdbcconnection.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/profile.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/schedule.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagLabel.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
+cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/usageDetails.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 echo "------------------Files moved to respective folders------------------"
