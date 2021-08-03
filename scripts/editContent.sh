@@ -22,25 +22,25 @@ The schemas linked above follow the JSON Schema Spec version: `http://json-schem
 
 echo "----------------------Changing paths----------------------"
 path=docs/*/*.md
-sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
--e 's#../../out/entity/data/dashboard.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#g' \
--e 's#../../out/entity/data/database.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#g' \
--e 's#../../out/entity/services/databaseService.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#g' \
--e 's#../../out/entity/feed/thread.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#g' \
--e 's#../../out/entity/data/metrics.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#g' \
--e 's#../../out/entity/data/pipeline.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#g' \
--e 's#../../out/entity/data/report.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#g' \
--e 's#../../out/entity/data/table.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#g' \
--e 's#../../out/entity/tags/tagCategory.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#g' \
--e 's#../../out/entity/teams/team.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#g' \
--e 's#../../out/entity/teams/user.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#g' \
--e 's#../../out/type/categoryUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#g' \
--e 's#../../out/type/classification.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#g' \
--e 's#../../out/type/collectionDescriptor.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#g' \
--e 's#../../out/type/basic.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/basic.json#g' \
--e 's#../../out/type/dailyCount.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
--e 's#../../out/type/entityUsage.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
--e 's#../../out/type/jdbcConnection.json#https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
+sed -i -e 's#../../out/entity/bots.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#g' \
+-e 's#../../out/entity/data/dashboard.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#g' \
+-e 's#../../out/entity/data/database.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#g' \
+-e 's#../../out/entity/services/databaseService.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#g' \
+-e 's#../../out/entity/feed/thread.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#g' \
+-e 's#../../out/entity/data/metrics.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#g' \
+-e 's#../../out/entity/data/pipeline.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#g' \
+-e 's#../../out/entity/data/report.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#g' \
+-e 's#../../out/entity/data/table.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#g' \
+-e 's#../../out/entity/tags/tagCategory.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#g' \
+-e 's#../../out/entity/teams/team.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#g' \
+-e 's#../../out/entity/teams/user.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#g' \
+-e 's#../../out/type/categoryUsage.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#g' \
+-e 's#../../out/type/classification.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/classification.json#g' \
+-e 's#../../out/type/collectionDescriptor.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#g' \
+-e 's#../../out/type/basic.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/basic.json#g' \
+-e 's#../../out/type/dailyCount.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
+-e 's#../../out/type/entityUsage.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
+-e 's#../../out/type/jdbcConnection.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
 -e 's+\[Details\](basic-definitions-entityreference.md)+\[Details\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+\[Details\](basic-definitions-usagedetails.md)+\[Details\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
@@ -54,51 +54,51 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/StreamlineData/catalo
 
 echo "----------------------Changing bots paths----------------------"
 path=docs/entities/bots.md
-sed -i -e 's+\[Bot entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")+\[basic Type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Bot entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")+\[basic Type\](../types/basic.md#basic-definitions-href)+gI' \
+sed -i -e 's+\[Bot entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/id")+\[basic Type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Bot entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/bots.json#/properties/href")+\[basic Type\](../types/basic.md#basic-definitions-href)+gI' \
 -e 's+bots-properties-name.md+#bots-properties-name+gI' \
 -e 's+bots-properties-displayname.md+#bots-properties-displayname+gI' \
 -e 's+bots-properties-description.md+#bots-properties-description+gI' $path
 
 echo "----------------------Changing dashboard paths----------------------"
 path=docs/entities/dashboard.md
-sed -i -e 's+\[Dashboard entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/id")+\[basic Type\](../types/basic.md#basic-definitions-uuid "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/basic.json#/definitions/uuid")+gI' \
--e 's+\[Dashboard entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/href")+\[basic Type\](../types/basic.md#basic-definitions-href "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/basic.json#/definitions/href")+gI' \
--e 's+\[Dashboard entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Dashboard entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Dashboard Entity\](basic-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
+sed -i -e 's+\[Dashboard entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/id")+\[basic Type\](../types/basic.md#basic-definitions-uuid "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/basic.json#/definitions/uuid")+gI' \
+-e 's+\[Dashboard entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/href")+\[basic Type\](../types/basic.md#basic-definitions-href "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/basic.json#/definitions/href")+gI' \
+-e 's+\[Dashboard entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Dashboard entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Dashboard Entity\](basic-definitions-usagedetails.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/dashboard.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+dashboard-properties-name.md+#dashboard-properties-name+gI' \
 -e 's+dashboard-properties-fullyqualifiedname.md+#dashboard-properties-fullyqualifiedname+gI' \
 -e 's+dashboard-properties-description.md+#dashboard-properties-description+gI' $path
 
 echo "----------------------Changing database paths----------------------"
 path=docs/entities/database.md
-sed -i -e 's+\[Database entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Database entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Database entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Database entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Database entity\](basic-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
--e 's+\[Database entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/tables")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+sed -i -e 's+\[Database entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Database entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Database entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Database entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Database entity\](basic-definitions-usagedetails.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
+-e 's+\[Database entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/tables")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
 -e 's+database-properties-name.md+#database-properties-name+gI' \
 -e 's+database-properties-fullyqualifiedname.md+#database-properties-fullyqualifiedname+gI' \
 -e 's+database-properties-description.md+#database-properties-description+gI' $path
 
 echo "----------------------Changing databaseservice paths----------------------"
 path=docs/entities/databaseservice.md
-sed -i -e 's+\[Database service entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Database service entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Database service entity\](jdbcconnection-definitions-jdbcinfo.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc")+\[basic type\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
--e 's+\[Database service entity\](basic-definitions-schedule.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule")+\[basic type\](../types/basic.md#basic-definitions-schedule)+gI' \
+sed -i -e 's+\[Database service entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Database service entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Database service entity\](jdbcconnection-definitions-jdbcinfo.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/jdbc")+\[basic type\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
+-e 's+\[Database service entity\](basic-definitions-schedule.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/services/databaseService.json#/properties/ingestionSchedule")+\[basic type\](../types/basic.md#basic-definitions-schedule)+gI' \
 -e 's+databaseservice-properties-name.md+#Databaseservice-Properties-Name+gI' \
 -e 's+databaseservice-properties-servicetype.md+#databaseservice-properties-servicetype+gI' \
 -e 's+databaseservice-properties-description.md+#databaseservice-properties-description+gI' $path
 
 echo "----------------------Changing thread paths----------------------"
 path=docs/entities/thread.md
-sed -i -e 's+\[Feed entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Feed entity\]((basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Feed entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Feed entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+sed -i -e 's+\[Feed entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Feed entity\]((basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/definitions/post/properties/from")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Feed entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Feed entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/feed/thread.json#/properties/toEntity")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+thread-properties-threadts.md+#Thread-Properties-Threads+gI' \
 -e 's+thread-properties-posts.md+#Thread-Properties-Posts+gI' \
 -e 's+thread-definitions-post-properties-message.md+#thread-definitions-post-properties-message+gI' \
@@ -107,45 +107,45 @@ sed -i -e 's+\[Feed entity\](basic-definitions-uuid.md "https://github.com/Strea
 
 echo "----------------------Changing metrics paths----------------------"
 path=docs/entities/metrics.md
-sed -i -e 's+\[Metrics entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Metrics entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Metrics entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Metrics entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Metrics entity\](basic-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
+sed -i -e 's+\[Metrics entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Metrics entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Metrics entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Metrics entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Metrics entity\](basic-definitions-usagedetails.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/metrics.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+metrics-properties-name.md+#metrics-properties-name+gI' \
 -e 's+metrics-properties-fullyqualifiedname.md+#metrics-properties-fullyqualifiedname+gI' \
 -e 's+metrics-properties-description.md+#metrics-properties-description+gI' $path
 
 echo "----------------------Changing pipeline paths----------------------"
 path=docs/entities/pipeline.md
-sed -i -e 's+\[Pipeline entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Pipeline entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Pipeline entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Pipeline entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+sed -i -e 's+\[Pipeline entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Pipeline entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Pipeline entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Pipeline entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/pipeline.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+pipeline-properties-name.md+#pipeline-properties-name+gI' \
 -e 's+pipeline-properties-fullyqualifiedname.md+#pipeline-properties-fullyqualifiedname+gI' \
 -e 's+pipeline-properties-description.md+#pipeline-properties-description+gI' $path
 
 echo "----------------------Changing report paths----------------------"
 path=docs/entities/report.md
-sed -i -e 's+\[Report entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Report entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Report entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Report entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Report entity\](basic-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
+sed -i -e 's+\[Report entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Report entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Report entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Report entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/service")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Report entity\](basic-definitions-usagedetails.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/report.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+report-properties-name.md+#report-properties-name+gI' \
 -e 's+report-properties-fullyqualifiedname.md+#report-properties-fullyqualifiedname+gI' \
 -e 's+report-properties-description.md+#report-properties-description+gI' $path
 
 echo "----------------------Changing table paths----------------------"
 path=docs/entities/table.md
-sed -i -e 's+\[Table entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Table entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Table entity\](basic-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
--e 's+\[Table entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Table entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
--e 's+\[Table entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
--e 's+\[Table entity\](basic-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
+sed -i -e 's+\[Table entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Table entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Table entity\](basic-definitions-usagedetails.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")+\[basic type\](../types/basic.md#basic-definitions-usagedetails)+gI' \
+-e 's+\[Table entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Table entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+-e 's+\[Table entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+-e 's+\[Table entity\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableJoins/properties/startDate")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
 -e 's+table-properties-name.md+#table-properties-name+gI' \
 -e 's+table-properties-description.md+#table-properties-description+gI' \
 -e 's+table-properties-tabletype.md+#table-properties-tabletype+gI' \
@@ -183,8 +183,8 @@ sed -i -e 's+\[Table entity\](basic-definitions-uuid.md "https://github.com/Stre
 
 echo "----------------------Changing tagcategory paths----------------------"
 path=docs/entities/tagcategory.md
-sed -i -e 's+\[Types related to tag category\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Types related to tag category\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+sed -i -e 's+\[Types related to tag category\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Types related to tag category\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
 -e 's+tagcategory-properties-name.md+#tagcategory-properties-name+gI' \
 -e 's+tagcategory-properties-description.md+#tagcategory-properties-description+gI' \
 -e 's+tagcategory-properties-categorytype.md+#tagcategory-properties-categorytype+gI' \
@@ -200,11 +200,11 @@ sed -i -e 's+\[Types related to tag category\](basic-definitions-href.md "https:
 
 echo "----------------------Changing team paths----------------------"
 path=docs/entities/team.md
-sed -i -e 's+\[Team entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[Team entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[Team entity\](basic-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")+\[basic type\](../types/basic/basic-definitions-profile.md#basic-definitions-profile)+gI' \
--e 's+\[Team entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
--e 's+\[Team entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+sed -i -e 's+\[Team entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Team entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[Team entity\](basic-definitions-profile.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/profile")+\[basic type\](../types/basic/basic-definitions-profile.md#basic-definitions-profile)+gI' \
+-e 's+\[Team entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/users")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+-e 's+\[Team entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/team.json#/properties/owns")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
 -e 's+team-properties-name.md+#team-properties-name+gI' \
 -e 's+team-properties-displayname.md+#team-properties-displayname+gI' \
 -e 's+team-properties-description.md+#team-properties-description+gI' \
@@ -212,12 +212,12 @@ sed -i -e 's+\[Team entity\](basic-definitions-uuid.md "https://github.com/Strea
 
 echo "----------------------Changing users paths----------------------"
 path=docs/entities/user.md
-sed -i -e 's+\[User entity\](basic-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
--e 's+\[User entity\](basic-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
--e 's+\[User entity\](basic-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")+\[basic type\](../types/basic/basic-definitions-profile.md#basic-definitions-profile)+gI' \
--e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/teams")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
--e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/owns")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
--e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/follows")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+sed -i -e 's+\[User entity\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[User entity\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+\[User entity\](basic-definitions-profile.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")+\[basic type\](../types/basic/basic-definitions-profile.md#basic-definitions-profile)+gI' \
+-e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/teams")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+-e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/owns")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
+-e 's+\[User entity\](basic-definitions-entityreferencelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/follows")+\[basic type\](../types/basic.md#basic-definitions-entityreferencelist)+gI' \
 -e 's+user-properties-name.md+#user-properties-name+gI' \
 -e 's+user-properties-displayname.md+#user-properties-displayname+gI' \
 -e 's+user-properties-timezone.md+#user-properties-timezone+gI' \
@@ -241,7 +241,7 @@ sed -i -e 's+classification-properties-tags.md+#classification-properties-tags+g
 
 echo "----------------------Changing collectiondescriptor paths----------------------"
 path=docs/types/collectiondescriptor.md
-sed -i -e 's+\[Schema for collection descriptor\](basic-definitions-imagelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")+\[basic type\](../types/basic.md#basic-definitions-imagelist)+gI' \
+sed -i -e 's+\[Schema for collection descriptor\](basic-definitions-imagelist.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/collectionDescriptor.json#/definitions/collectionInfo/properties/images")+\[basic type\](../types/basic.md#basic-definitions-imagelist)+gI' \
 -e 's+collectiondescriptor-definitions-collectioninfo.md+#collectiondescriptor-definitions-collectioninfo+gI' \
 -e 's+collectiondescriptor-definitions-collectioninfo-properties-name.md+#collectiondescriptor-definitions-collectioninfo-properties-name+gI' \
 -e 's+collectiondescriptor-definitions-collectioninfo-properties-documentation.md+#collectiondescriptor-definitions-collectioninfo-properties-documentation+gI' \
@@ -278,12 +278,12 @@ sed -i -e 's+basic-definitions-timeinterval-properties-start.md+#basic-definitio
 
 echo "----------------------Changing dailycount paths----------------------"
 path=docs/types/dailycount.md
-sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
+sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
 -e 's+dailycount-properties-count.md+#dailycount-properties-count+gI' $path
 
 echo "----------------------Changing entityusage paths----------------------"
 path=docs/types/entityusage.md
-sed -i -e 's+\[Usage details of an entity\](basic-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#/properties/entity")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
+sed -i -e 's+\[Usage details of an entity\](basic-definitions-entityreference.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#/properties/entity")+\[basic type\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+entityusage-properties-usage.md+#entityusage-properties-usage+gI' $path
 
 echo "----------------------Changing jdbcconnection paths----------------------"
