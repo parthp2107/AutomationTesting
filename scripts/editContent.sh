@@ -45,7 +45,6 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/open-metadata/OpenMet
 -e 's#../../out/type/profile.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/profile.json#g' \
 -e 's#../../out/type/schedule.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/schedule.json#g' \
 -e 's#../../out/type/tagLabel.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/tagLabel.json#g' \
-
 -e 's+\[Details\](basic-definitions-entityreference.md)+\[Details\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+\[Details\](basic-definitions-usagedetails.md)+\[Details\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
