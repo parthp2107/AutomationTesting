@@ -330,7 +330,7 @@ echo "----------------------File content changed----------------------"
 
 echo "----------------------Changing jdbcconnection paths----------------------"
 path=docs/types/usagedetails.md
-sed -i -e 's+\[Type used to return usage details of an entity\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/usageDetails.json#/properties/date"")+\[Basic type\](../types/basic.md#basic-definitions-date)+gI' \
+sed -i -e 's+\[Type used to return usage details of an entity\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/usageDetails.json#/properties/date")+\[Basic type\](../types/basic.md#basic-definitions-date)+gI' \
 -e 's+usagedetails-definitions-usagestats.md+#usagedetails-definitions-usagestats+gI' \
 -e 's+usagedetails-definitions-usagestats-properties-count.md+#usagedetails-definitions-usagestats-properties-count+gI' \
 -e 's+usagedetails-definitions-usagestats-properties-percentilerank.md+#usagedetails-definitions-usagestats-properties-percentilerank+gI' $path
