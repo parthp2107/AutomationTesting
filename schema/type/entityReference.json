@@ -9,7 +9,7 @@
     "entityReferenceList": {
       "type": "array",
       "items": {
-        "$ref": "entityReference.json"
+        "$ref": "#"
       },
       "default": null
     }

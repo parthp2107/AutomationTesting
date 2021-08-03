@@ -41,6 +41,11 @@ sed -i -e 's#../../out/entity/bots.json#https://github.com/open-metadata/OpenMet
 -e 's#../../out/type/dailyCount.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#g' \
 -e 's#../../out/type/entityUsage.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/entityUsage.json#g' \
 -e 's#../../out/type/jdbcConnection.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/jdbcConnection.json#g' \
+-e 's#../../out/type/entityReference.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/entityReference.json#g' \
+-e 's#../../out/type/profile.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/profile.json#g' \
+-e 's#../../out/type/schedule.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/schedule.json#g' \
+-e 's#../../out/type/tagLabel.json#https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/tagLabel.json#g' \
+
 -e 's+\[Details\](basic-definitions-entityreference.md)+\[Details\](../types/basic.md#basic-definitions-entityreference)+gI' \
 -e 's+\[Details\](basic-definitions-usagedetails.md)+\[Details\](../types/basic.md#basic-definitions-usagedetails)+gI' \
 -e 's+\[Details\](jdbcconnection-definitions-jdbcinfo.md)+\[Details\](../types/jdbcconnection.md#jdbcconnection-definitions-jdbcinfo)+gI' \
@@ -269,8 +274,34 @@ sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "http
 
 echo "----------------------Changing entityreference paths----------------------"
 path=docs/types/entityreference.md
-sed -i -e 's+\[Daily count of some measurement\](basic-definitions-date.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/type/dailyCount.json#/properties/date")+\[basic type\](../types/basic.md#basic-definitions-date)+gI' \
+sed -i -e 's+\[Entity Reference\](basic-definitions-uuid.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")+\[basic type\](../types/basic.md#basic-definitions-uuid)+gI' \
+-e 's+\[Entity Reference\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+entityreference-properties-type.md+#entityreference-properties-type+gI' \
+-e 's+entityreference-properties-name.md+#entityreference-properties-name+gI' \
+-e 's+entityreference-properties-description.md+#entityreference-properties-description+gI' $path
 
+echo "----------------------Changing profile paths----------------------"
+path=docs/types/profile.md
+sed -i -e 's+profile-definitions-imagelist.md+#profile-definitions-imagelist+gI' \
+-e 's+profile-definitions-imagelist-properties-image.md+#profile-definitions-imagelist-properties-image+gI' \
+-e 's+profile-definitions-imagelist-properties-image24.md+#profile-definitions-imagelist-properties-image24+gI' \
+-e 's+profile-definitions-imagelist-properties-image32.md+#profile-definitions-imagelist-properties-image32+gI' \
+-e 's+profile-definitions-imagelist-properties-image48.md+#profile-definitions-imagelist-properties-image48+gI' \
+-e 's+profile-definitions-imagelist-properties-image72.md+#profile-definitions-imagelist-properties-image72+gI' \
+-e 's+profile-definitions-imagelist-properties-image192.md+#profile-definitions-imagelist-properties-image192+gI' \
+-e 's+profile-definitions-imagelist-properties-image512.md+#profile-definitions-imagelist-properties-image512+gI' $path
+
+echo "----------------------Changing schedule paths----------------------"
+path=docs/types/schedule.md
+sed -i -e 's+\[Type used for schedule with start time and repeat frequency\](basic-definitions-datetime.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/datetime")+\[basic type\](../types/basic.md#basic-definitions-datetime)+gI' \
+-e 's+\[Type used for schedule with start time and repeat frequency\](basic-definitions-duration.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/duration")+\[basic type\](../types/basic.md#basic-definitions-duration)+gI' $path
+
+echo "----------------------Changing taglabel paths----------------------"
+path=docs/types/taglabel.md
+sed -i -e 's+\[Tag Label\](basic-definitions-href.md "https://github.com/open-metadata/OpenMetadata/blob/schema-scripts/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")+\[basic type\](../types/basic.md#basic-definitions-href)+gI' \
+-e 's+taglabel-properties-tagfqn.md+#taglabel-properties-tagfqn+gI' \
+-e 's+taglabel-properties-labeltype.md+#taglabel-properties-labeltype+gI' \
+-e 's+taglabel-properties-state.md+#taglabel-properties-state+gI' $path
 
 echo "----------------------Changing entityusage paths----------------------"
 path=docs/types/entityusage.md
@@ -288,15 +319,6 @@ sed -i -e 's+jdbcconnection-properties-driverclass.md+#jdbcconnection-properties
 -e 's+jdbcconnection-definitions-connectionurl.md+#jdbcconnection-definitions-connectionurl+gI' \
 -e 's+jdbcconnection-definitions-driverclass.md+#jdbcconnection-definitions-driverclass+gI' $path
 echo "----------------------File content changed----------------------"
-
-
-
-
-
-
-
-
-
 
 rm -rf docs/SchemaMarkdown
 rm -rf out
