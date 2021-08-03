@@ -95,18 +95,31 @@ Metadata system has the following core entities:
 3. **Users & Teams** - These entities represent users within an organization and teams that they are organized under.
 4. **Activities** - These entities are related to feeds, posts, and notifications for collaboration between users.
 5. **Glossary and Tags** - Entities for defining business glossary that includes hierarchical tags.
+
 ## List of Schema Entities
+
 {% page-ref page="\"bots.md\"" %}
+
 {% page-ref page="\"dashboard.md\"" %}
+
 {% page-ref page="\"database.md\"" %}
+
 {% page-ref page="\"databaseservice.md\"" %}
+
 {% page-ref page="\"thread.md\"" %}
+
 {% page-ref page="\"metrics.md\"" %}
+
 {% page-ref page="\"pipeline.md\"" %}
+
 {% page-ref page="\"report.md\"" %}
+
 {% page-ref page="\"table.md\"" %}
+
 {% page-ref page="\"tagcategory.md\"" %}
+
 {% page-ref page="\"team.md\"" %}
+
 {% page-ref page="\"user.md\"" %}" >> $path
 
 filename="README.md"
