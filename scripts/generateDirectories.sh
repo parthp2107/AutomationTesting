@@ -58,7 +58,7 @@ All relationships are captured using the `EntityReference` type.
 
 Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
 
-```javascript
+```txt
 {
   "title": "User entity",
   "type": "object",
