@@ -86,7 +86,6 @@ Following is an example of a JSON schema of the User entity with attributes id, 
   }
 }
 ```
-
 ## Metadata system entities
 
 Metadata system has the following core entities:
@@ -184,7 +183,6 @@ cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tab
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/tagcategory.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/team.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/user.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
-
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/basic.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/collectiondescriptor.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dailycount.md /home/runner/work/AutomationTesting/AutomationTesting/docs/types
