@@ -29,9 +29,13 @@ else
 fi
 sed -i d $path
 echo "# Entities
+
 An Entity is a special type that has an identity and represents an object that is either real or conceptual. An entity can be related to another entity through relationships. An Entity has two types of **Fields** - **Attributes** and **Relationships**:
+
 ### **Attributes**
+
 **Attributes** represent an Entity’s data. Entities MUST include an attribute called **ID** that uniquely identifies an instance of an entity. It might optionally include a human-readable **fullyQualitifedName** attribute that uniquely identifies the entity. An attribute of an entity MUST not be another Entity and should be captured through a relationship. Entities typically SHOULD have the following common attributes:
+
 | Abstract | Extensible |
 | :--- | :--- |
 | **id** | Mandatory attribute of type `UUID` that identifies the entity instance |
@@ -41,17 +45,24 @@ An Entity is a special type that has an identity and represents an object that i
 | **description** | Description of the entity instance. Not all entities need a description. For example, a User entity might not need a description and just the name of the user might suffice. A `Database` entity needs `description` to provide details of what is stored in the database when to use it and other information on how to use it. |
 | **Owner** | Optional attribute used to capture the ownership information. Not all entities have ownership information \(for example `User, Team`, and `Organization`\). |
 | **href** | An attribute generated on the fly as part of API response to provide the URL link to the entity returned. |
+
 ### **Relationships**
+
 **Relationships** capture information about the association of an Entity with another Entity. Relationships can have cardinality - **One-to-one**, **One-to-many**, **Many-to-one**, and **Many-to-many**. Example of relationships:
+
 * One-to-one: A Table is owned by a User
 * One to Many: a Database contains multiple Tables.
 * Many-to-Many: A User belongs to multiple Teams. A team has multiple Users.
+
 All relationships are captured using the `EntityReference` type.
+
 Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
+
 ```javascript
 {
   "title": "User entity",
   "type": "object",
+
   "properties" : {
     "id": {
       "description": "Unique identifier for instance of a User",
@@ -75,7 +86,9 @@ Following is an example of a JSON schema of the User entity with attributes id, 
   }
 }
 ```
+
 ## Metadata system entities
+
 Metadata system has the following core entities:
 1. **Data Entities** - These entities represent data, such as databases, tables, and topics, and assets created using data, such as Dashboards, Reports, Metrics, and ML Features. It also includes entities such as Pipelines that are used for creating data assets.
 2. **Services** - Services represent platforms and services used for storing and processing data. It includes Online Data Stores, Data Warehouses, ETL tools, Dashboard services, etc.
