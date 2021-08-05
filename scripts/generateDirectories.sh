@@ -28,7 +28,7 @@ else
     echo "File exists $filename"
 fi
 sed -i d $path
-printf "# Entities
+echo "# Entities
 
 An Entity is a special type that has an identity and represents an object that is either real or conceptual. An entity can be related to another entity through relationships. An Entity has two types of **Fields** - **Attributes** and **Relationships**:
 
@@ -56,36 +56,7 @@ An Entity is a special type that has an identity and represents an object that i
 
 All relationships are captured using the EntityReference type.
 
-Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
-
-```javascript
-{
-  "title": "User entity",
-  "type": "object",
-
-  "properties" : {
-    "id": {
-      "description": "Unique identifier for instance of a User",
-      "$ref": "#/definitions/uuid"
-    },
-    "displayName": {
-      "description": "Name used for display purposes. Example 'John Smith'",
-      "type" : "string"
-    },
-    "email": {
-      "description": "User's Email",
-      "type": "string"
-    },
-   "teams" : {
-      "description": "Teams that this user belongs to",
-      "type": "array",
-      "items" :{
-        "$ref": "#/definitions/entityReference"
-      }
-   }
-  }
-}
-```
+Following is an example of a JSON schema of the User entity with attributes id, \'displayName\', and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
 
 ## Metadata system entities
 
