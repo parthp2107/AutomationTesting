@@ -60,14 +60,7 @@ Following is an example of a JSON schema of the User entity with attributes id, 
 
 ```javascript
 {
-  "title": "User entity",
-  "type": "object",
-
-  "properties" : {
-    "id": {
-      "description": "Unique identifier for instance of a User",
-      "$ref": "#/definitions/uuid"
-    },
+    # shellcheck disable=SC1083
     "displayName": {
       "description": "Name used for display purposes. Example 'John Smith'",
       "type" : "string"
