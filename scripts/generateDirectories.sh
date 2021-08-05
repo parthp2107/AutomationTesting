@@ -58,27 +58,25 @@ All relationships are captured using the EntityReference type.
 
 Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
 
-```javascript
 {
-    # shellcheck disable=SC1083
-    "displayName": {
-      "description": "Name used for display purposes. Example 'John Smith'",
-      "type" : "string"
+    displayName: {
+      description: Name used for display purposes. Example 'John Smith',
+      type : string
     },
-    "email": {
-      "description": "User's Email",
-      "type": "string"
+    email: {
+      description: User's Email,
+      type: string
     },
-   "teams" : {
-      "description": "Teams that this user belongs to",
-      "type": "array",
-      "items" :{
-        "$ref": "#/definitions/entityReference"
+   teams : {
+      description: Teams that this user belongs to,
+      type: array,
+      items :{
+        $ref: #/definitions/entityReference
       }
    }
   }
 }
-```
+
 ## Metadata system entities
 
 Metadata system has the following core entities:
