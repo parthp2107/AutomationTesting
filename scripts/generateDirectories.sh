@@ -28,7 +28,7 @@ else
     echo "File exists $filename"
 fi
 sed -i d $path
-echo "# Entities
+printf "# Entities
 
 An Entity is a special type that has an identity and represents an object that is either real or conceptual. An entity can be related to another entity through relationships. An Entity has two types of **Fields** - **Attributes** and **Relationships**:
 
@@ -120,7 +120,7 @@ Metadata system has the following core entities:
 
 {% page-ref page="\"team.md\"" %}
 
-{% page-ref page="\"user.md\"" %}" > $path
+{% page-ref page="\"user.md\"" %}" >> $path
 
 filename="README.md"
 path=docs/types/$filename
