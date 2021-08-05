@@ -120,7 +120,7 @@ Metadata system has the following core entities:
 
 {% page-ref page="\"team.md\"" %}
 
-{% page-ref page="\"user.md\"" %}" >> $path
+{% page-ref page="\"user.md\"" %}" > $path
 
 filename="README.md"
 path=docs/types/$filename
