@@ -27,7 +27,6 @@ then
 else
     echo "File exists $filename"
 fi
-sed -i d $path
 echo "# Entities
 
 An Entity is a special type that has an identity and represents an object that is either real or conceptual. An entity can be related to another entity through relationships. An Entity has two types of **Fields** - **Attributes** and **Relationships**:
@@ -56,16 +55,16 @@ An Entity is a special type that has an identity and represents an object that i
 
 All relationships are captured using the EntityReference type.
 
-Following is an example of a JSON schema of the User entity with attributes id, ```displayName```, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
+Following is an example of a JSON schema of the User entity with attributes id, displayName, and email. User entity has one-to-many relationships to another entity Team \(user is member of multiple teams\).
 
 ## Metadata system entities
 
 Metadata system has the following core entities:
-1. **Data Entities** - These entities represent data, such as databases, tables, and topics, and assets created using data, such as Dashboards, Reports, Metrics, and ML Features. It also includes entities such as Pipelines that are used for creating data assets.
-2. **Services** - Services represent platforms and services used for storing and processing data. It includes Online Data Stores, Data Warehouses, ETL tools, Dashboard services, etc.
-3. **Users & Teams** - These entities represent users within an organization and teams that they are organized under.
-4. **Activities** - These entities are related to feeds, posts, and notifications for collaboration between users.
-5. **Glossary and Tags** - Entities for defining business glossary that includes hierarchical tags.
+1. **Data Entities** - These entities represent data, such as databases, tables, and topics, and assets created using data, such as Dashboards, Reports, Metrics, and ML Features. It also includes entities such as Pipelines that are used for creating data assets. <br>
+2. **Services** - Services represent platforms and services used for storing and processing data. It includes Online Data Stores, Data Warehouses, ETL tools, Dashboard services, etc. <br>
+3. **Users & Teams** - These entities represent users within an organization and teams that they are organized under. <br>
+4. **Activities** - These entities are related to feeds, posts, and notifications for collaboration between users. <br>
+5. **Glossary and Tags** - Entities for defining business glossary that includes hierarchical tags. <br>
 
 ## List of Schema Entities
 
@@ -102,7 +101,6 @@ then
 else
     echo "File exists $filename"
 fi
-sed -i d $path
 echo "# Types
 JSON schema supports many native types - null, boolean, object, array, number and string. In addition, to develop clear and consistent vocabulary, domain-specific reusable types are defined ranging from simple types, such as UUID, timestamp, and email to more complex object types, such as Tags, Ownership and Usage.
 ## List of Schema Types
