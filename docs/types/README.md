@@ -7,6 +7,7 @@ JSON schema supports many native types - `null`, `boolean`, `object`, `array`, `
 {% page-ref page="collectiondescriptor.md" %}
 {% page-ref page="dailycount.md" %}
 {% page-ref page="entityreference.md" %}
+{% page-ref page="entityusage.md" %}
 {% page-ref page="jdbcconnection.md" %}
 {% page-ref page="profile.md" %}
 {% page-ref page="schedule.md" %}

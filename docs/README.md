@@ -17,9 +17,7 @@ OpenMetadata takes the **schema-first** approach to model metadata as a Single S
 3. [Data model code generator](https://github.com/koxudaxi/datamodel-code-generator) for generating python code from JSON schema
 
 ## Schemas
-
 {% page-ref page="\"entities\"" %}
-
 {% page-ref page="\"types\"" %}
 
 ## Version Note
