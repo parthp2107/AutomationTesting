@@ -23,7 +23,6 @@ cat taglabel-* >> taglabel.md
 cat usagedetails-* >> usagedetails.md
 
 echo "------------------Moving files------------------"
-echo "123"
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/bots.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/dashboard.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
 cp /home/runner/work/AutomationTesting/AutomationTesting/docs/SchemaMarkdown/database.md /home/runner/work/AutomationTesting/AutomationTesting/docs/entities
