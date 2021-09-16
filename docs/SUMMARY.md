@@ -73,7 +73,7 @@
       * [Salesforce](install/metadata-ingestion/connectors/dashboard-services/salesforce.md)
       * [Superset](install/metadata-ingestion/connectors/dashboard-services/superset.md)
       * [Tableau](install/metadata-ingestion/connectors/dashboard-services/tableau.md)
-    * [Database Services]
+    * [Database Services](install/metadata-ingestion/connectors/database-services/README.md)
       * [Athena](install/metadata-ingestion/connectors/database-services/athena.md)
       * [BigQuery](install/metadata-ingestion/connectors/database-services/bigquery.md)
       * [ElasticSearch](install/metadata-ingestion/connectors/database-services/elastic-search.md)
@@ -87,9 +87,8 @@
       * [Redshift Usage](install/metadata-ingestion/connectors/database-services/redshift-usage.md)
       * [Snowflake](install/metadata-ingestion/connectors/database-services/snowflake.md)
       * [Snowflake Usage](install/metadata-ingestion/connectors/database-services/snowflake-usage.md)
-    * [Messaging Services]
+    * [Messaging Services](install/metadata-ingestion/connectors/messaging-services/README.md)
       * [Kafka](install/metadata-ingestion/connectors/messaging-services/kafka.md)
-    
   * [Scheduler](install/metadata-ingestion/scheduler.md)
   * [Airflow](install/metadata-ingestion/airflow.md)
 
