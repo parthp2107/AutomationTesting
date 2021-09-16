@@ -2,7 +2,7 @@
 
 This schema defines the type used for capturing usage details of an entity.
 
-<b id="https/open-metadata.org/schema/type/entityusage.json">&#36;id: https://open-metadata.org/schema/type/entityUsage.json
+**$id: https://open-metadata.org/schema/type/entityUsage.json**
 
 Type: `object`
 

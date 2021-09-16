@@ -2,7 +2,7 @@
 
 Type used for cursor based pagination information in GET list responses.
 
-<b id="https/open-metadata.org/schema/type/paging.json">&#36;id: https://open-metadata.org/schema/type/paging.json
+**$id: https://open-metadata.org/schema/type/paging.json**
 
 Type: `object`
 

@@ -2,7 +2,7 @@
 
 This schema defines the Report entity. Reports are static information computed from data periodically that includes data in text, table, and visual form.
 
-<b id="https/open-metadata.org/schema/entity/data/report.json">&#36;id: https://open-metadata.org/schema/entity/data/report.json
+**$id: https://open-metadata.org/schema/entity/data/report.json**
 
 Type: `object`
 

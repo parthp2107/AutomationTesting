@@ -2,7 +2,7 @@
 
 This schema defines the Audit Log type to capture the audit trail of POST, PUT, and PATCH API operations.
 
-<b id="https/open-metadata.org/schema/type/auditlog.json">&#36;id: https://open-metadata.org/schema/type/auditLog.json
+**$id: https://open-metadata.org/schema/type/auditLog.json**
 
 Type: `object`
 

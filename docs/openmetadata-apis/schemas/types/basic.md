@@ -2,7 +2,7 @@
 
 This schema defines basic common types that are used by other schemas.
 
-<b id="https/open-metadata.org/schema/type/basic.json">&#36;id: https://open-metadata.org/schema/type/basic.json
+**$id: https://open-metadata.org/schema/type/basic.json**
 
 
 

@@ -2,7 +2,7 @@
 
 This schema defines the type used for JDBC connection information.
 
-<b id="https/open-metadata.org/schema/type/jdbcconnection.json">&#36;id: https://open-metadata.org/schema/type/jdbcConnection.json
+**$id: https://open-metadata.org/schema/type/jdbcConnection.json**
 
 Type: `object`
 
