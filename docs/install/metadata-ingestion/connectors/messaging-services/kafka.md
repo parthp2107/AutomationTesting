@@ -10,7 +10,7 @@ description: This guide will help install Kafka connector and run manually
 OpenMetadata is built using Java, DropWizard, Jetty, and MySQL.
 
 1. Python 3.7 or above
-   {% endhint %}
+{% endhint %}
 
 ### Install from PyPI or Source
 
