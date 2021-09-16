@@ -1,28 +1,21 @@
-# Schemas
+# Introduction
 
-## Schema Modeling
+Metadata enables you to unlock the value of data assets in the common use cases of data discovery and governance, but also in emerging use cases related to data quality, observability, and people collaboration. However, poorly organized and managed metadata leads to redundant efforts within organizations and other inefficiencies that are expensive in time and dollars.  
 
-OpenMetadata takes the **schema-first** approach to model metadata as a Single Source of Truth with clear vocabulary for the system. First, the Entities, Types, and relationships between the entities in the system are identified and schemas are defined for them. Code is then generated from these schemas for implementation. We use [JSON schema](https://json-schema.org/) as the Schema Definition Language as it offers several advantages:
 
-* Easy to describe the structure and semantics of metadata models with readable documentation that is both human and machine consumable.
-* Common types can be developed once and can be reused as building blocks in other schemas and become the basis of vocabulary development.
-* Models can include structural validation, such as required/optional fields, default values, allowed values, regex that not only serve as automated testing and validation but also as documentation of API contract.
-* A rich set of tools are available that supports JSON schema support for generating code and validation from JSON schema in various languages, reducing the manual boilerplate coding.
-* Supports rich formats to convert schema types into native standard types during code generation, such as URI, date, and time.
+### **OpenMetadata is an open standard with a centralized metadata store that unifies all your data assets end-to-end to enable data discovery, user collaboration, and tool interoperability.**
 
-## Reference
+![](.gitbook/assets/openmetadata-overview%20%281%29.png)
 
-1. [JSON schema](https://json-schema.org/) specification version [Draft-07 to 2019-099](https://json-schema.org/draft/2019-09/release-notes.html)
-2. [JSON schema 2 POJO](https://www.jsonschema2pojo.org/) tool used for Java code generation from JSON schema
-3. [Data model code generator](https://github.com/koxudaxi/datamodel-code-generator) for generating python code from JSON schema
+OpenMetadata includes the following:
 
-## Schemas
+* **Metadata schemas** - defines core abstractions and vocabulary for metadata with schemas for Types, Entities, and Relationships between entities. This is the foundation of the Open Metadata Standard.
+* **Metadata store** - stores a metadata graph that connects data assets and user and tool generated metadata.
+* **Metadata APIs** - for producing and consuming metadata built on schemas for User Interfaces and for Integrating tools, systems, and services.
+* **Ingestion framework** - a pluggable framework for integrating tools and ingesting metadata to the metadata store. The ingestion framework already supports well-known data warehouses - Google BigQuery, Snowflake, Amazon Redshift, and Apache Hive and databases - MySQL, Postgres, Oracle, and MSSQL.
+* **OpenMetadata User Interface** - a central place for users to discover and collaborate on all data.
 
-{% page-ref page="entities/" %}
+## License
 
-{% page-ref page="types/" %}
-
-## Version Note
-
-The schemas linked above follow the JSON Schema Spec version: [http://json-schema.org/draft-07/schema\#](http://json-schema.org/draft-07/schema#)
+OpenMetadata is released under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
