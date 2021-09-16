@@ -67,7 +67,7 @@
     * [Configure Ingestion](install/enable-security/auth0-sso/configure-security-ingestion.md)
 * [Metadata Ingestion](install/metadata-ingestion/README.md)
   * [Ingest Sample Data](install/metadata-ingestion/ingest-sample-data.md)
-  * [Connectors](install/metadata-ingestion/connectors/database-services/README.md)
+  * [Connectors](install/metadata-ingestion/connectors/README.md)
     * [Dashboard Services](install/metadata-ingestion/connectors/dashboard-services/README.md)
       * [Looker](install/metadata-ingestion/connectors/dashboard-services/looker.md)
       * [Salesforce](install/metadata-ingestion/connectors/dashboard-services/salesforce.md)
